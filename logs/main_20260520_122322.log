@@ -1,0 +1,6 @@
+2026-05-20 12:23:22,009 | main | INFO | Found 1 PDF(s) to process
+2026-05-20 12:23:22,010 | main | INFO | Processing: Resulats-2-KM.pdf
+2026-05-20 12:23:22,488 | main | DEBUG | Extracted 6 pages, 19 tables
+2026-05-20 12:23:22,492 | main | ERROR | Could not detect layout
+2026-05-20 12:23:22,493 | main | ERROR | Moved failed file to failed\Resulats-2-KM_1.pdf: Could not detect layout
+2026-05-20 12:23:22,493 | main | INFO | Pipeline complete. Exported 0 file(s).

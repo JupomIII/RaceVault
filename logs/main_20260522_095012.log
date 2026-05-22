@@ -1,0 +1,38 @@
+2026-05-22 09:50:12,204 | main | INFO | Found 9 PDF(s) to process
+2026-05-22 09:50:12,205 | main | INFO | Processing: Ess prov J3 2025.pdf
+2026-05-22 09:50:14,133 | main | DEBUG | Extracted 15 pages, 20 tables
+2026-05-22 09:50:14,249 | main | INFO | Successfully processed Ess prov J3 2025.pdf -> output\Ess prov J3 2025.json (confidence: 0.00)
+2026-05-22 09:50:14,252 | main | INFO | Moved parsed file to parsed\Ess prov J3 2025.pdf
+2026-05-22 09:50:14,252 | main | INFO | Processing: Jeux Canada J1 2025.pdf
+2026-05-22 09:50:14,684 | main | DEBUG | Extracted 3 pages, 4 tables
+2026-05-22 09:50:14,710 | main | INFO | Successfully processed Jeux Canada J1 2025.pdf -> output\Jeux Canada J1 2025.json (confidence: 0.00)
+2026-05-22 09:50:14,711 | main | INFO | Moved parsed file to parsed\Jeux Canada J1 2025.pdf
+2026-05-22 09:50:14,711 | main | INFO | Processing: Jeux Canada J2 2025.pdf
+2026-05-22 09:50:15,583 | main | DEBUG | Extracted 4 pages, 5 tables
+2026-05-22 09:50:15,607 | main | INFO | Successfully processed Jeux Canada J2 2025.pdf -> output\Jeux Canada J2 2025.json (confidence: 0.00)
+2026-05-22 09:50:15,608 | main | INFO | Moved parsed file to parsed\Jeux Canada J2 2025.pdf
+2026-05-22 09:50:15,609 | main | INFO | Processing: NTT1 J1 2025.pdf
+2026-05-22 09:50:18,193 | main | DEBUG | Extracted 12 pages, 28 tables
+2026-05-22 09:50:18,249 | main | INFO | Successfully processed NTT1 J1 2025.pdf -> output\NTT1 J1 2025.json (confidence: 0.00)
+2026-05-22 09:50:18,251 | main | INFO | Moved parsed file to parsed\NTT1 J1 2025.pdf
+2026-05-22 09:50:18,251 | main | INFO | Processing: NTT1 J2 2025.pdf
+2026-05-22 09:50:20,612 | main | DEBUG | Extracted 12 pages, 30 tables
+2026-05-22 09:50:20,647 | main | INFO | Successfully processed NTT1 J2 2025.pdf -> output\NTT1 J2 2025.json (confidence: 0.00)
+2026-05-22 09:50:20,647 | main | INFO | Moved parsed file to parsed\NTT1 J2 2025.pdf
+2026-05-22 09:50:20,647 | main | INFO | Processing: NTT2 J1 2025.pdf
+2026-05-22 09:50:27,556 | main | DEBUG | Extracted 26 pages, 108 tables
+2026-05-22 09:50:27,708 | main | INFO | Successfully processed NTT2 J1 2025.pdf -> output\NTT2 J1 2025.json (confidence: 0.00)
+2026-05-22 09:50:27,709 | main | INFO | Moved parsed file to parsed\NTT2 J1 2025.pdf
+2026-05-22 09:50:27,710 | main | INFO | Processing: NTT2 J2 2025.pdf
+2026-05-22 09:50:32,457 | main | DEBUG | Extracted 33 pages, 92 tables
+2026-05-22 09:50:32,570 | main | INFO | Successfully processed NTT2 J2 2025.pdf -> output\NTT2 J2 2025.json (confidence: 0.00)
+2026-05-22 09:50:32,571 | main | INFO | Moved parsed file to parsed\NTT2 J2 2025.pdf
+2026-05-22 09:50:32,571 | main | INFO | Processing: NTT2 J3 2025.pdf
+2026-05-22 09:50:34,191 | main | DEBUG | Extracted 12 pages, 27 tables
+2026-05-22 09:50:34,226 | main | INFO | Successfully processed NTT2 J3 2025.pdf -> output\NTT2 J3 2025.json (confidence: 0.00)
+2026-05-22 09:50:34,226 | main | INFO | Moved parsed file to parsed\NTT2 J3 2025.pdf
+2026-05-22 09:50:34,227 | main | INFO | Processing: Nationals 2025.pdf
+2026-05-22 09:50:57,847 | main | DEBUG | Extracted 97 pages, 396 tables
+2026-05-22 09:50:58,239 | main | INFO | Successfully processed Nationals 2025.pdf -> output\Nationals 2025.json (confidence: 0.00)
+2026-05-22 09:50:58,240 | main | INFO | Moved parsed file to parsed\Nationals 2025.pdf
+2026-05-22 09:50:58,240 | main | INFO | Pipeline complete. Exported 9 file(s).

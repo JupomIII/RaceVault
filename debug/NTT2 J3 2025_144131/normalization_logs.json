@@ -1,0 +1,3193 @@
+[
+  {
+    "raw": "Andrew BILLARD, Alix PLOMTEUX",
+    "normalized": "Alix PLOMTEUX Andrew BILLARD",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Andrew BILLARD, Alix PLOMTEUX",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Andrew BILLARD",
+        "Alix PLOMTEUX"
+      ],
+      "cleaned": "Alix PLOMTEUX Andrew BILLARD",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Connor FITZPATRICK, Zachary KRALIK",
+    "normalized": "Zachary KRALIK Connor FITZPATRICK",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Connor FITZPATRICK, Zachary KRALIK",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Connor FITZPATRICK",
+        "Zachary KRALIK"
+      ],
+      "cleaned": "Zachary KRALIK Connor FITZPATRICK",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Edgar C D\u00c9SY, Viktor HARDY",
+    "normalized": "Viktor HARDY Edgar C DESY",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Edgar C D\u00c9SY, Viktor HARDY",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Edgar C D\u00c9SY",
+        "Viktor HARDY"
+      ],
+      "cleaned": "Viktor HARDY Edgar C DESY",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Bret HIMMELMAN, Tyler LAIDLAW",
+    "normalized": "Tyler LAIDLAW Bret HIMMELMAN",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Bret HIMMELMAN, Tyler LAIDLAW",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Bret HIMMELMAN",
+        "Tyler LAIDLAW"
+      ],
+      "cleaned": "Tyler LAIDLAW Bret HIMMELMAN",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Elliot ARNAUTOVITCH, \u00c9mile BOUVIER",
+    "normalized": "Emile BOUVIER Elliot ARNAUTOVITCH",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Elliot ARNAUTOVITCH, \u00c9mile BOUVIER",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Elliot ARNAUTOVITCH",
+        "\u00c9mile BOUVIER"
+      ],
+      "cleaned": "Emile BOUVIER Elliot ARNAUTOVITCH",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Alexander SMITH, Jeffrey SUN",
+    "normalized": "Jeffrey SUN Alexander SMITH",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Alexander SMITH, Jeffrey SUN",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Alexander SMITH",
+        "Jeffrey SUN"
+      ],
+      "cleaned": "Jeffrey SUN Alexander SMITH",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Eric CHOUINARD, Alexander MACNEIL",
+    "normalized": "Alexander MACNEIL Eric CHOUINARD",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Eric CHOUINARD, Alexander MACNEIL",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Eric CHOUINARD",
+        "Alexander MACNEIL"
+      ],
+      "cleaned": "Alexander MACNEIL Eric CHOUINARD",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Isaac FINKELSTEIN, Cole NORMAN",
+    "normalized": "Cole NORMAN Isaac FINKELSTEIN",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Isaac FINKELSTEIN, Cole NORMAN",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Isaac FINKELSTEIN",
+        "Cole NORMAN"
+      ],
+      "cleaned": "Cole NORMAN Isaac FINKELSTEIN",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "\u00c9tienne GAMACHE, Ludovik RIOUX",
+    "normalized": "Ludovik RIOUX Etienne GAMACHE",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "\u00c9tienne GAMACHE, Ludovik RIOUX",
+      "comma_reversed": true,
+      "comma_parts": [
+        "\u00c9tienne GAMACHE",
+        "Ludovik RIOUX"
+      ],
+      "cleaned": "Ludovik RIOUX Etienne GAMACHE",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Konstantine ARMSTRONG, Najib BITAR",
+    "normalized": "Najib BITAR Konstantine ARMSTRONG",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Konstantine ARMSTRONG, Najib BITAR",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Konstantine ARMSTRONG",
+        "Najib BITAR"
+      ],
+      "cleaned": "Najib BITAR Konstantine ARMSTRONG",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Gabriel ARGANTE, Roenn HODGINS",
+    "normalized": "Roenn HODGINS Gabriel ARGANTE",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Gabriel ARGANTE, Roenn HODGINS",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Gabriel ARGANTE",
+        "Roenn HODGINS"
+      ],
+      "cleaned": "Roenn HODGINS Gabriel ARGANTE",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "David ACKERMAN, Wyatt DEEBLE",
+    "normalized": "Wyatt DEEBLE David ACKERMAN",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "David ACKERMAN, Wyatt DEEBLE",
+      "comma_reversed": true,
+      "comma_parts": [
+        "David ACKERMAN",
+        "Wyatt DEEBLE"
+      ],
+      "cleaned": "Wyatt DEEBLE David ACKERMAN",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Adam MARCOUX, \u00c9mile RAYMOND",
+    "normalized": "Emile RAYMOND Adam MARCOUX",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Adam MARCOUX, \u00c9mile RAYMOND",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Adam MARCOUX",
+        "\u00c9mile RAYMOND"
+      ],
+      "cleaned": "Emile RAYMOND Adam MARCOUX",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Maxim GORELOV, Logan GRIMSRUD",
+    "normalized": "Logan GRIMSRUD Maxim GORELOV",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Maxim GORELOV, Logan GRIMSRUD",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Maxim GORELOV",
+        "Logan GRIMSRUD"
+      ],
+      "cleaned": "Logan GRIMSRUD Maxim GORELOV",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Cohen CLUETT, Gabriel COLLINS",
+    "normalized": "Gabriel COLLINS Cohen CLUETT",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Cohen CLUETT, Gabriel COLLINS",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Cohen CLUETT",
+        "Gabriel COLLINS"
+      ],
+      "cleaned": "Gabriel COLLINS Cohen CLUETT",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Matthew BROWN, Alec MACAULAY",
+    "normalized": "Alec MACAULAY Matthew BROWN",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Matthew BROWN, Alec MACAULAY",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Matthew BROWN",
+        "Alec MACAULAY"
+      ],
+      "cleaned": "Alec MACAULAY Matthew BROWN",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Justin BOYKO, Cameron HALL",
+    "normalized": "Cameron HALL Justin BOYKO",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Justin BOYKO, Cameron HALL",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Justin BOYKO",
+        "Cameron HALL"
+      ],
+      "cleaned": "Cameron HALL Justin BOYKO",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Liam MACDONALD, Michael ZINCK",
+    "normalized": "Michael ZINCK Liam MACDONALD",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Liam MACDONALD, Michael ZINCK",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Liam MACDONALD",
+        "Michael ZINCK"
+      ],
+      "cleaned": "Michael ZINCK Liam MACDONALD",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Wesley BARTLETT, Shawn GE",
+    "normalized": "Shawn GE Wesley BARTLETT",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Wesley BARTLETT, Shawn GE",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Wesley BARTLETT",
+        "Shawn GE"
+      ],
+      "cleaned": "Shawn GE Wesley BARTLETT",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Aleksander SEREMAK, William WINTONIW",
+    "normalized": "William WINTONIW Aleksander SEREMAK",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Aleksander SEREMAK, William WINTONIW",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Aleksander SEREMAK",
+        "William WINTONIW"
+      ],
+      "cleaned": "William WINTONIW Aleksander SEREMAK",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Spencer MCLEOD, Josh SARGANT",
+    "normalized": "Josh SARGANT Spencer MCLEOD",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Spencer MCLEOD, Josh SARGANT",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Spencer MCLEOD",
+        "Josh SARGANT"
+      ],
+      "cleaned": "Josh SARGANT Spencer MCLEOD",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Emmett PATTERSON, Baer ROBERTSON",
+    "normalized": "Baer ROBERTSON Emmett PATTERSON",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Emmett PATTERSON, Baer ROBERTSON",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Emmett PATTERSON",
+        "Baer ROBERTSON"
+      ],
+      "cleaned": "Baer ROBERTSON Emmett PATTERSON",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Antoine GAMACHE, Noa PICH\u00c9",
+    "normalized": "Noa PICHE Antoine GAMACHE",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Antoine GAMACHE, Noa PICH\u00c9",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Antoine GAMACHE",
+        "Noa PICH\u00c9"
+      ],
+      "cleaned": "Noa PICHE Antoine GAMACHE",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Noah AL HASHEMI, Sean GLYNN",
+    "normalized": "Sean GLYNN Noah AL HASHEMI",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Noah AL HASHEMI, Sean GLYNN",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Noah AL HASHEMI",
+        "Sean GLYNN"
+      ],
+      "cleaned": "Sean GLYNN Noah AL HASHEMI",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Mathieu GILBERT, Nathan KON\u00c9",
+    "normalized": "Nathan KONE Mathieu GILBERT",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Mathieu GILBERT, Nathan KON\u00c9",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Mathieu GILBERT",
+        "Nathan KON\u00c9"
+      ],
+      "cleaned": "Nathan KONE Mathieu GILBERT",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Alex ERITH-ELLWOOD, Craig JOHNSON",
+    "normalized": "Craig JOHNSON Alex ERITH-ELLWOOD",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Alex ERITH-ELLWOOD, Craig JOHNSON",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Alex ERITH-ELLWOOD",
+        "Craig JOHNSON"
+      ],
+      "cleaned": "Craig JOHNSON Alex ERITH-ELLWOOD",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Ian GAUDET, Vincent JOURDENAIS",
+    "normalized": "Vincent JOURDENAIS Ian GAUDET",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Ian GAUDET, Vincent JOURDENAIS",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Ian GAUDET",
+        "Vincent JOURDENAIS"
+      ],
+      "cleaned": "Vincent JOURDENAIS Ian GAUDET",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Cormac ADAMS, Alexander HOFEREK",
+    "normalized": "Alexander HOFEREK Cormac ADAMS",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Cormac ADAMS, Alexander HOFEREK",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Cormac ADAMS",
+        "Alexander HOFEREK"
+      ],
+      "cleaned": "Alexander HOFEREK Cormac ADAMS",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Rapha\u00ebl C\u00d4T\u00c9, Nathan DAOUST",
+    "normalized": "Nathan DAOUST Raphael COTE",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Rapha\u00ebl C\u00d4T\u00c9, Nathan DAOUST",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Rapha\u00ebl C\u00d4T\u00c9",
+        "Nathan DAOUST"
+      ],
+      "cleaned": "Nathan DAOUST Raphael COTE",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Luke ENNS, Carter NAUGLER",
+    "normalized": "Carter NAUGLER Luke ENNS",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Luke ENNS, Carter NAUGLER",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Luke ENNS",
+        "Carter NAUGLER"
+      ],
+      "cleaned": "Carter NAUGLER Luke ENNS",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Cedric LIU, \u00c9mile PAQUETTE",
+    "normalized": "Emile PAQUETTE Cedric LIU",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Cedric LIU, \u00c9mile PAQUETTE",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Cedric LIU",
+        "\u00c9mile PAQUETTE"
+      ],
+      "cleaned": "Emile PAQUETTE Cedric LIU",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Cameron LOW, Lucas STEIN",
+    "normalized": "Lucas STEIN Cameron LOW",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Cameron LOW, Lucas STEIN",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Cameron LOW",
+        "Lucas STEIN"
+      ],
+      "cleaned": "Lucas STEIN Cameron LOW",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Victor GIRARD, Jonathan PIGEON",
+    "normalized": "Jonathan PIGEON Victor GIRARD",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Victor GIRARD, Jonathan PIGEON",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Victor GIRARD",
+        "Jonathan PIGEON"
+      ],
+      "cleaned": "Jonathan PIGEON Victor GIRARD",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Alex DOYON, Jacob L\u00c9VESQUE",
+    "normalized": "Jacob LEVESQUE Alex DOYON",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Alex DOYON, Jacob L\u00c9VESQUE",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Alex DOYON",
+        "Jacob L\u00c9VESQUE"
+      ],
+      "cleaned": "Jacob LEVESQUE Alex DOYON",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Gavin BURKE, Dax MORRIS",
+    "normalized": "Dax MORRIS Gavin BURKE",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Gavin BURKE, Dax MORRIS",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Gavin BURKE",
+        "Dax MORRIS"
+      ],
+      "cleaned": "Dax MORRIS Gavin BURKE",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Marcelo DE ANDRADE, Bo LOWERY",
+    "normalized": "Bo LOWERY Marcelo DE ANDRADE",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Marcelo DE ANDRADE, Bo LOWERY",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Marcelo DE ANDRADE",
+        "Bo LOWERY"
+      ],
+      "cleaned": "Bo LOWERY Marcelo DE ANDRADE",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Christos GIANNOU, luke MACKENZIE",
+    "normalized": "Luke Mackenzie Christos Giannou",
+    "confidence": 0.64,
+    "match_type": "normalized_case",
+    "metadata": {
+      "original": "Christos GIANNOU, luke MACKENZIE",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Christos GIANNOU",
+        "luke MACKENZIE"
+      ],
+      "cleaned": "luke MACKENZIE Christos GIANNOU",
+      "format_detected": "mixed_case"
+    }
+  },
+  {
+    "raw": "Mason LOWRY, Charlie ROGERS",
+    "normalized": "Charlie ROGERS Mason LOWRY",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Mason LOWRY, Charlie ROGERS",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Mason LOWRY",
+        "Charlie ROGERS"
+      ],
+      "cleaned": "Charlie ROGERS Mason LOWRY",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Jonathan HUNTINGTON, Ben ROBICHAUD",
+    "normalized": "Ben ROBICHAUD Jonathan HUNTINGTON",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Jonathan HUNTINGTON, Ben ROBICHAUD",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Jonathan HUNTINGTON",
+        "Ben ROBICHAUD"
+      ],
+      "cleaned": "Ben ROBICHAUD Jonathan HUNTINGTON",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Ethan OLSON-MESA, Breas ROSS",
+    "normalized": "Breas ROSS Ethan OLSON-MESA",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Ethan OLSON-MESA, Breas ROSS",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Ethan OLSON-MESA",
+        "Breas ROSS"
+      ],
+      "cleaned": "Breas ROSS Ethan OLSON-MESA",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Gavin GARNETT, Alex SHERIDAN",
+    "normalized": "Alex SHERIDAN Gavin GARNETT",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Gavin GARNETT, Alex SHERIDAN",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Gavin GARNETT",
+        "Alex SHERIDAN"
+      ],
+      "cleaned": "Alex SHERIDAN Gavin GARNETT",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Xavier HEBERT, Louis Enzo ROY",
+    "normalized": "Louis Enzo ROY Xavier HEBERT",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Xavier HEBERT, Louis Enzo ROY",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Xavier HEBERT",
+        "Louis Enzo ROY"
+      ],
+      "cleaned": "Louis Enzo ROY Xavier HEBERT",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Benjamin GAUDET, Julien POMERLEAU",
+    "normalized": "Julien POMERLEAU Benjamin GAUDET",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Benjamin GAUDET, Julien POMERLEAU",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Benjamin GAUDET",
+        "Julien POMERLEAU"
+      ],
+      "cleaned": "Julien POMERLEAU Benjamin GAUDET",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Max IVANOV, Reuben LOZADA",
+    "normalized": "Reuben LOZADA Max IVANOV",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Max IVANOV, Reuben LOZADA",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Max IVANOV",
+        "Reuben LOZADA"
+      ],
+      "cleaned": "Reuben LOZADA Max IVANOV",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Nicholas LAPIERRE, Leif MITCHELL",
+    "normalized": "Leif MITCHELL Nicholas LAPIERRE",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Nicholas LAPIERRE, Leif MITCHELL",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Nicholas LAPIERRE",
+        "Leif MITCHELL"
+      ],
+      "cleaned": "Leif MITCHELL Nicholas LAPIERRE",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Xavier BIRD, Lucas MANN",
+    "normalized": "Lucas MANN Xavier BIRD",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Xavier BIRD, Lucas MANN",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Xavier BIRD",
+        "Lucas MANN"
+      ],
+      "cleaned": "Lucas MANN Xavier BIRD",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Cody BARBRICK, Corbin COLVILLE",
+    "normalized": "Corbin COLVILLE Cody BARBRICK",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Cody BARBRICK, Corbin COLVILLE",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Cody BARBRICK",
+        "Corbin COLVILLE"
+      ],
+      "cleaned": "Corbin COLVILLE Cody BARBRICK",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Benjamin PELLETIER, Laurent ROULEAU",
+    "normalized": "Laurent ROULEAU Benjamin PELLETIER",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Benjamin PELLETIER, Laurent ROULEAU",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Benjamin PELLETIER",
+        "Laurent ROULEAU"
+      ],
+      "cleaned": "Laurent ROULEAU Benjamin PELLETIER",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "william TOWNSEND, Ben WALKER",
+    "normalized": "Ben Walker William Townsend",
+    "confidence": 0.64,
+    "match_type": "normalized_case",
+    "metadata": {
+      "original": "william TOWNSEND, Ben WALKER",
+      "comma_reversed": true,
+      "comma_parts": [
+        "william TOWNSEND",
+        "Ben WALKER"
+      ],
+      "cleaned": "Ben WALKER william TOWNSEND",
+      "format_detected": "mixed_case"
+    }
+  },
+  {
+    "raw": "Damian HICKEY, Harris HUNTER",
+    "normalized": "Harris HUNTER Damian HICKEY",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Damian HICKEY, Harris HUNTER",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Damian HICKEY",
+        "Harris HUNTER"
+      ],
+      "cleaned": "Harris HUNTER Damian HICKEY",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Fr\u00e9d\u00e9ric BRAIS, Dyllan REDWOOD-WHEELER",
+    "normalized": "Dyllan REDWOOD-WHEELER Frederic BRAIS",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Fr\u00e9d\u00e9ric BRAIS, Dyllan REDWOOD-WHEELER",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Fr\u00e9d\u00e9ric BRAIS",
+        "Dyllan REDWOOD-WHEELER"
+      ],
+      "cleaned": "Dyllan REDWOOD-WHEELER Frederic BRAIS",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Conrad HOOGERBOORD, Tate LEVY",
+    "normalized": "Tate LEVY Conrad HOOGERBOORD",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Conrad HOOGERBOORD, Tate LEVY",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Conrad HOOGERBOORD",
+        "Tate LEVY"
+      ],
+      "cleaned": "Tate LEVY Conrad HOOGERBOORD",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Michael CHABAN, Owen MACLEAN",
+    "normalized": "Owen MACLEAN Michael CHABAN",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Michael CHABAN, Owen MACLEAN",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Michael CHABAN",
+        "Owen MACLEAN"
+      ],
+      "cleaned": "Owen MACLEAN Michael CHABAN",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Oscar GRAVES, Riley TAYLOR",
+    "normalized": "Riley TAYLOR Oscar GRAVES",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Oscar GRAVES, Riley TAYLOR",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Oscar GRAVES",
+        "Riley TAYLOR"
+      ],
+      "cleaned": "Riley TAYLOR Oscar GRAVES",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Emrick LECLERC, Thomas SINOTTE",
+    "normalized": "Thomas SINOTTE Emrick LECLERC",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Emrick LECLERC, Thomas SINOTTE",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Emrick LECLERC",
+        "Thomas SINOTTE"
+      ],
+      "cleaned": "Thomas SINOTTE Emrick LECLERC",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Lukas GOAS, Douglas HUNTER",
+    "normalized": "Douglas HUNTER Lukas GOAS",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Lukas GOAS, Douglas HUNTER",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Lukas GOAS",
+        "Douglas HUNTER"
+      ],
+      "cleaned": "Douglas HUNTER Lukas GOAS",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Harry BROWN, Rylan CARRIGAN",
+    "normalized": "Rylan CARRIGAN Harry BROWN",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Harry BROWN, Rylan CARRIGAN",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Harry BROWN",
+        "Rylan CARRIGAN"
+      ],
+      "cleaned": "Rylan CARRIGAN Harry BROWN",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Jonothan BARRETT, Evan SUM",
+    "normalized": "Evan SUM Jonothan BARRETT",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Jonothan BARRETT, Evan SUM",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Jonothan BARRETT",
+        "Evan SUM"
+      ],
+      "cleaned": "Evan SUM Jonothan BARRETT",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "George FARNSWORTH, Alessandro PUCCI",
+    "normalized": "Alessandro PUCCI George FARNSWORTH",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "George FARNSWORTH, Alessandro PUCCI",
+      "comma_reversed": true,
+      "comma_parts": [
+        "George FARNSWORTH",
+        "Alessandro PUCCI"
+      ],
+      "cleaned": "Alessandro PUCCI George FARNSWORTH",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Katie VINCENT, Zoe WOJTYK",
+    "normalized": "Zoe WOJTYK Katie VINCENT",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Katie VINCENT, Zoe WOJTYK",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Katie VINCENT",
+        "Zoe WOJTYK"
+      ],
+      "cleaned": "Zoe WOJTYK Katie VINCENT",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Keisa BLEILER, Veronica SO",
+    "normalized": "Veronica SO Keisa BLEILER",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Keisa BLEILER, Veronica SO",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Keisa BLEILER",
+        "Veronica SO"
+      ],
+      "cleaned": "Veronica SO Keisa BLEILER",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Winter DENT, Alexandra SANGSTER",
+    "normalized": "Alexandra SANGSTER Winter DENT",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Winter DENT, Alexandra SANGSTER",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Winter DENT",
+        "Alexandra SANGSTER"
+      ],
+      "cleaned": "Alexandra SANGSTER Winter DENT",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Claire MOLLARD, Leia STEPHENSON",
+    "normalized": "Leia STEPHENSON Claire MOLLARD",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Claire MOLLARD, Leia STEPHENSON",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Claire MOLLARD",
+        "Leia STEPHENSON"
+      ],
+      "cleaned": "Leia STEPHENSON Claire MOLLARD",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "\u00c9loise GAMACHE, Flavie MARTIN",
+    "normalized": "Flavie MARTIN Eloise GAMACHE",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "\u00c9loise GAMACHE, Flavie MARTIN",
+      "comma_reversed": true,
+      "comma_parts": [
+        "\u00c9loise GAMACHE",
+        "Flavie MARTIN"
+      ],
+      "cleaned": "Flavie MARTIN Eloise GAMACHE",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Evelyn ROSS, Haley SEBESTA",
+    "normalized": "Haley SEBESTA Evelyn ROSS",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Evelyn ROSS, Haley SEBESTA",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Evelyn ROSS",
+        "Haley SEBESTA"
+      ],
+      "cleaned": "Haley SEBESTA Evelyn ROSS",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Grace THEUNISSEN, Victoria TRAN",
+    "normalized": "Victoria TRAN Grace THEUNISSEN",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Grace THEUNISSEN, Victoria TRAN",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Grace THEUNISSEN",
+        "Victoria TRAN"
+      ],
+      "cleaned": "Victoria TRAN Grace THEUNISSEN",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Amelie LALIBERTE, Megan THOMPSON",
+    "normalized": "Megan THOMPSON Amelie LALIBERTE",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Amelie LALIBERTE, Megan THOMPSON",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Amelie LALIBERTE",
+        "Megan THOMPSON"
+      ],
+      "cleaned": "Megan THOMPSON Amelie LALIBERTE",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Ella COZENS, Emmerson EISENER",
+    "normalized": "Emmerson EISENER Ella COZENS",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Ella COZENS, Emmerson EISENER",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Ella COZENS",
+        "Emmerson EISENER"
+      ],
+      "cleaned": "Emmerson EISENER Ella COZENS",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Katie COOPER, Elle MACKENZIE",
+    "normalized": "Elle MACKENZIE Katie COOPER",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Katie COOPER, Elle MACKENZIE",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Katie COOPER",
+        "Elle MACKENZIE"
+      ],
+      "cleaned": "Elle MACKENZIE Katie COOPER",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Abbie HAINES, Julia PRICE",
+    "normalized": "Julia PRICE Abbie HAINES",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Abbie HAINES, Julia PRICE",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Abbie HAINES",
+        "Julia PRICE"
+      ],
+      "cleaned": "Julia PRICE Abbie HAINES",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Megan MCFETERS, Marcy MEISNER",
+    "normalized": "Marcy MEISNER Megan MCFETERS",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Megan MCFETERS, Marcy MEISNER",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Megan MCFETERS",
+        "Marcy MEISNER"
+      ],
+      "cleaned": "Marcy MEISNER Megan MCFETERS",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Kai CHOE, Kiira SAARENOJA",
+    "normalized": "Kiira SAARENOJA Kai CHOE",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Kai CHOE, Kiira SAARENOJA",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Kai CHOE",
+        "Kiira SAARENOJA"
+      ],
+      "cleaned": "Kiira SAARENOJA Kai CHOE",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Ma\u00eblle GIRARD, Maya NO\u00cbL",
+    "normalized": "Maya NOEL Maelle GIRARD",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Ma\u00eblle GIRARD, Maya NO\u00cbL",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Ma\u00eblle GIRARD",
+        "Maya NO\u00cbL"
+      ],
+      "cleaned": "Maya NOEL Maelle GIRARD",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Madeleine BEAUREGARD, Isabel LOWRY",
+    "normalized": "Isabel LOWRY Madeleine BEAUREGARD",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Madeleine BEAUREGARD, Isabel LOWRY",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Madeleine BEAUREGARD",
+        "Isabel LOWRY"
+      ],
+      "cleaned": "Isabel LOWRY Madeleine BEAUREGARD",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Riley MELANSON, Michelle RUSSELL",
+    "normalized": "Michelle RUSSELL Riley MELANSON",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Riley MELANSON, Michelle RUSSELL",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Riley MELANSON",
+        "Michelle RUSSELL"
+      ],
+      "cleaned": "Michelle RUSSELL Riley MELANSON",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Chloe BRYER, Callie LOCH",
+    "normalized": "Callie LOCH Chloe BRYER",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Chloe BRYER, Callie LOCH",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Chloe BRYER",
+        "Callie LOCH"
+      ],
+      "cleaned": "Callie LOCH Chloe BRYER",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Julia DEMCHUK, Kristiane FREE",
+    "normalized": "Kristiane FREE Julia DEMCHUK",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Julia DEMCHUK, Kristiane FREE",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Julia DEMCHUK",
+        "Kristiane FREE"
+      ],
+      "cleaned": "Kristiane FREE Julia DEMCHUK",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Florence HAMEL, Alina TVERIE",
+    "normalized": "Alina TVERIE Florence HAMEL",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Florence HAMEL, Alina TVERIE",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Florence HAMEL",
+        "Alina TVERIE"
+      ],
+      "cleaned": "Alina TVERIE Florence HAMEL",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Calina BIDAL, Allie WANG",
+    "normalized": "Allie WANG Calina BIDAL",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Calina BIDAL, Allie WANG",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Calina BIDAL",
+        "Allie WANG"
+      ],
+      "cleaned": "Allie WANG Calina BIDAL",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Jonnie NEWMAN, Lauren RENTZ",
+    "normalized": "Lauren RENTZ Jonnie NEWMAN",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Jonnie NEWMAN, Lauren RENTZ",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Jonnie NEWMAN",
+        "Lauren RENTZ"
+      ],
+      "cleaned": "Lauren RENTZ Jonnie NEWMAN",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Sophie BOUVETTE, Samantha LANDRY",
+    "normalized": "Samantha LANDRY Sophie BOUVETTE",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Sophie BOUVETTE, Samantha LANDRY",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Sophie BOUVETTE",
+        "Samantha LANDRY"
+      ],
+      "cleaned": "Samantha LANDRY Sophie BOUVETTE",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Justine TREMBLAY, Maude VITTOZ",
+    "normalized": "Maude VITTOZ Justine TREMBLAY",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Justine TREMBLAY, Maude VITTOZ",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Justine TREMBLAY",
+        "Maude VITTOZ"
+      ],
+      "cleaned": "Maude VITTOZ Justine TREMBLAY",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Marin MACNEIL, Catherine NORMAN",
+    "normalized": "Catherine NORMAN Marin MACNEIL",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Marin MACNEIL, Catherine NORMAN",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Marin MACNEIL",
+        "Catherine NORMAN"
+      ],
+      "cleaned": "Catherine NORMAN Marin MACNEIL",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Malya GAGNON, Beatrice OGER",
+    "normalized": "Beatrice OGER Malya GAGNON",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Malya GAGNON, Beatrice OGER",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Malya GAGNON",
+        "Beatrice OGER"
+      ],
+      "cleaned": "Beatrice OGER Malya GAGNON",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Honour MCQUAY, Josie PATCHELL",
+    "normalized": "Josie PATCHELL Honour MCQUAY",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Honour MCQUAY, Josie PATCHELL",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Honour MCQUAY",
+        "Josie PATCHELL"
+      ],
+      "cleaned": "Josie PATCHELL Honour MCQUAY",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Flavie LANGLOIS, Margaux LOYER",
+    "normalized": "Margaux LOYER Flavie LANGLOIS",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Flavie LANGLOIS, Margaux LOYER",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Flavie LANGLOIS",
+        "Margaux LOYER"
+      ],
+      "cleaned": "Margaux LOYER Flavie LANGLOIS",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Charlie LECLERC, No\u00e9mie PERREAULT",
+    "normalized": "Noemie PERREAULT Charlie LECLERC",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Charlie LECLERC, No\u00e9mie PERREAULT",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Charlie LECLERC",
+        "No\u00e9mie PERREAULT"
+      ],
+      "cleaned": "Noemie PERREAULT Charlie LECLERC",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Isabel CHRISTIE, Brooklyn KEIZER",
+    "normalized": "Brooklyn KEIZER Isabel CHRISTIE",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Isabel CHRISTIE, Brooklyn KEIZER",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Isabel CHRISTIE",
+        "Brooklyn KEIZER"
+      ],
+      "cleaned": "Brooklyn KEIZER Isabel CHRISTIE",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Maea KNIGHTS, Kate OSBORNE",
+    "normalized": "Kate OSBORNE Maea KNIGHTS",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Maea KNIGHTS, Kate OSBORNE",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Maea KNIGHTS",
+        "Kate OSBORNE"
+      ],
+      "cleaned": "Kate OSBORNE Maea KNIGHTS",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Anna ARCHIBALD, Norah LEGGE",
+    "normalized": "Norah LEGGE Anna ARCHIBALD",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Anna ARCHIBALD, Norah LEGGE",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Anna ARCHIBALD",
+        "Norah LEGGE"
+      ],
+      "cleaned": "Norah LEGGE Anna ARCHIBALD",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Gaelle BOUSQUET, Emilee VATERS",
+    "normalized": "Emilee VATERS Gaelle BOUSQUET",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Gaelle BOUSQUET, Emilee VATERS",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Gaelle BOUSQUET",
+        "Emilee VATERS"
+      ],
+      "cleaned": "Emilee VATERS Gaelle BOUSQUET",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Elizabeth FANOK, Cassie KENNY",
+    "normalized": "Cassie KENNY Elizabeth FANOK",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Elizabeth FANOK, Cassie KENNY",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Elizabeth FANOK",
+        "Cassie KENNY"
+      ],
+      "cleaned": "Cassie KENNY Elizabeth FANOK",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Marie CHAMBERLAND, Anais LAPOINTE",
+    "normalized": "Anais LAPOINTE Marie CHAMBERLAND",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Marie CHAMBERLAND, Anais LAPOINTE",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Marie CHAMBERLAND",
+        "Anais LAPOINTE"
+      ],
+      "cleaned": "Anais LAPOINTE Marie CHAMBERLAND",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Matilda BOWERS, Sofia MARTELI",
+    "normalized": "Sofia MARTELI Matilda BOWERS",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Matilda BOWERS, Sofia MARTELI",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Matilda BOWERS",
+        "Sofia MARTELI"
+      ],
+      "cleaned": "Sofia MARTELI Matilda BOWERS",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Abbie BEGBIE, Zoe HATFIELD",
+    "normalized": "Zoe HATFIELD Abbie BEGBIE",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Abbie BEGBIE, Zoe HATFIELD",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Abbie BEGBIE",
+        "Zoe HATFIELD"
+      ],
+      "cleaned": "Zoe HATFIELD Abbie BEGBIE",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Rachel JOU, Lilliana SATO",
+    "normalized": "Lilliana SATO Rachel JOU",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Rachel JOU, Lilliana SATO",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Rachel JOU",
+        "Lilliana SATO"
+      ],
+      "cleaned": "Lilliana SATO Rachel JOU",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Lyla BOYCHUK, Katie GAUDET",
+    "normalized": "Katie GAUDET Lyla BOYCHUK",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Lyla BOYCHUK, Katie GAUDET",
+      "comma_reversed": true,
+      "comma_parts": [
+        "Lyla BOYCHUK",
+        "Katie GAUDET"
+      ],
+      "cleaned": "Katie GAUDET Lyla BOYCHUK",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Peter BRADLEY",
+    "normalized": "Peter BRADLEY",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Peter BRADLEY",
+      "cleaned": "Peter BRADLEY",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Nikita CIUDIN",
+    "normalized": "Nikita CIUDIN",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Nikita CIUDIN",
+      "cleaned": "Nikita CIUDIN",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Elliot ARNAUTOVITCH",
+    "normalized": "Elliot ARNAUTOVITCH",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Elliot ARNAUTOVITCH",
+      "cleaned": "Elliot ARNAUTOVITCH",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Duncan GILES",
+    "normalized": "Duncan GILES",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Duncan GILES",
+      "cleaned": "Duncan GILES",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Wesley BARTLETT",
+    "normalized": "Wesley BARTLETT",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Wesley BARTLETT",
+      "cleaned": "Wesley BARTLETT",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Matthew BROWN",
+    "normalized": "Matthew BROWN",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Matthew BROWN",
+      "cleaned": "Matthew BROWN",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Alexander MACNEIL",
+    "normalized": "Alexander MACNEIL",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Alexander MACNEIL",
+      "cleaned": "Alexander MACNEIL",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Alex ERITH-ELLWOOD",
+    "normalized": "Alex ERITH-ELLWOOD",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Alex ERITH-ELLWOOD",
+      "cleaned": "Alex ERITH-ELLWOOD",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "J\u00e9r\u00e9my LANTZ",
+    "normalized": "Jeremy LANTZ",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "J\u00e9r\u00e9my LANTZ",
+      "cleaned": "Jeremy LANTZ",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Tate LEVY",
+    "normalized": "Tate LEVY",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Tate LEVY",
+      "cleaned": "Tate LEVY",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Owen MACLEAN",
+    "normalized": "Owen MACLEAN",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Owen MACLEAN",
+      "cleaned": "Owen MACLEAN",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Carson COREY",
+    "normalized": "Carson COREY",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Carson COREY",
+      "cleaned": "Carson COREY",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Rapha\u00ebl C\u00d4T\u00c9",
+    "normalized": "Raphael COTE",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Rapha\u00ebl C\u00d4T\u00c9",
+      "cleaned": "Raphael COTE",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Nehal DHILLON",
+    "normalized": "Nehal DHILLON",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Nehal DHILLON",
+      "cleaned": "Nehal DHILLON",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Ryan NARODITSKY",
+    "normalized": "Ryan NARODITSKY",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Ryan NARODITSKY",
+      "cleaned": "Ryan NARODITSKY",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Luke ENNS",
+    "normalized": "Luke ENNS",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Luke ENNS",
+      "cleaned": "Luke ENNS",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "\u00c9lizabeth DESROSIERS-MCARTHUR",
+    "normalized": "Elizabeth DESROSIERS-MCARTHUR",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "\u00c9lizabeth DESROSIERS-MCARTHUR",
+      "cleaned": "Elizabeth DESROSIERS-MCARTHUR",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Ruby MUHL",
+    "normalized": "Ruby MUHL",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Ruby MUHL",
+      "cleaned": "Ruby MUHL",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Isabel LOWRY",
+    "normalized": "Isabel LOWRY",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Isabel LOWRY",
+      "cleaned": "Isabel LOWRY",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Amelie LALIBERTE",
+    "normalized": "Amelie LALIBERTE",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Amelie LALIBERTE",
+      "cleaned": "Amelie LALIBERTE",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Charlotte D\u00c9SY",
+    "normalized": "Charlotte DESY",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Charlotte D\u00c9SY",
+      "cleaned": "Charlotte DESY",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Alexia GAGNON",
+    "normalized": "Alexia GAGNON",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Alexia GAGNON",
+      "cleaned": "Alexia GAGNON",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "L\u00e9anne CASTONGUAY",
+    "normalized": "Leanne CASTONGUAY",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "L\u00e9anne CASTONGUAY",
+      "cleaned": "Leanne CASTONGUAY",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Veronica SO",
+    "normalized": "Veronica SO",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Veronica SO",
+      "cleaned": "Veronica SO",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Kate OSBORNE",
+    "normalized": "Kate OSBORNE",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Kate OSBORNE",
+      "cleaned": "Kate OSBORNE",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Anna ARCHIBALD",
+    "normalized": "Anna ARCHIBALD",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Anna ARCHIBALD",
+      "cleaned": "Anna ARCHIBALD",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Brianna SMITH",
+    "normalized": "Brianna SMITH",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Brianna SMITH",
+      "cleaned": "Brianna SMITH",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Alina TVERIE",
+    "normalized": "Alina TVERIE",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Alina TVERIE",
+      "cleaned": "Alina TVERIE",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Florence HAMEL",
+    "normalized": "Florence HAMEL",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Florence HAMEL",
+      "cleaned": "Florence HAMEL",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Ariane LOISEL",
+    "normalized": "Ariane LOISEL",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Ariane LOISEL",
+      "cleaned": "Ariane LOISEL",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Victoria TRAN",
+    "normalized": "Victoria TRAN",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Victoria TRAN",
+      "cleaned": "Victoria TRAN",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Alexandra SANGSTER",
+    "normalized": "Alexandra SANGSTER",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Alexandra SANGSTER",
+      "cleaned": "Alexandra SANGSTER",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Kai CHOE",
+    "normalized": "Kai CHOE",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Kai CHOE",
+      "cleaned": "Kai CHOE",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Maya NO\u00cbL",
+    "normalized": "Maya NOEL",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Maya NO\u00cbL",
+      "cleaned": "Maya NOEL",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Kiira SAARENOJA",
+    "normalized": "Kiira SAARENOJA",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Kiira SAARENOJA",
+      "cleaned": "Kiira SAARENOJA",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Esme BONING",
+    "normalized": "Esme BONING",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Esme BONING",
+      "cleaned": "Esme BONING",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Nora-Maelie TURCOTTE",
+    "normalized": "Nora-Maelie Turcotte",
+    "confidence": 0.722,
+    "match_type": "reversed_uppercase",
+    "metadata": {
+      "original": "Nora-Maelie TURCOTTE",
+      "cleaned": "Nora-Maelie TURCOTTE",
+      "format_detected": "uppercase"
+    }
+  },
+  {
+    "raw": "Haley SEBESTA",
+    "normalized": "Haley SEBESTA",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Haley SEBESTA",
+      "cleaned": "Haley SEBESTA",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Mathieu ST-PIERRE",
+    "normalized": "Mathieu ST-PIERRE",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Mathieu ST-PIERRE",
+      "cleaned": "Mathieu ST-PIERRE",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Hassan Timitope OLASUPO",
+    "normalized": "Hassan Timitope OLASUPO",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Hassan Timitope OLASUPO",
+      "cleaned": "Hassan Timitope OLASUPO",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Lyne TREMBLAY",
+    "normalized": "Lyne TREMBLAY",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Lyne TREMBLAY",
+      "cleaned": "Lyne TREMBLAY",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Kevin TOBIN",
+    "normalized": "Kevin TOBIN",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Kevin TOBIN",
+      "cleaned": "Kevin TOBIN",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Stone SHEARER",
+    "normalized": "Stone SHEARER",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Stone SHEARER",
+      "cleaned": "Stone SHEARER",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Matthew BROTHERWOOD",
+    "normalized": "Matthew BROTHERWOOD",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Matthew BROTHERWOOD",
+      "cleaned": "Matthew BROTHERWOOD",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "J\u00e9r\u00e9my LANTZ",
+    "normalized": "Jeremy LANTZ",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "J\u00e9r\u00e9my LANTZ",
+      "cleaned": "Jeremy LANTZ",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Nathan DAOUST",
+    "normalized": "Nathan DAOUST",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Nathan DAOUST",
+      "cleaned": "Nathan DAOUST",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Rapha\u00ebl C\u00d4T\u00c9",
+    "normalized": "Raphael COTE",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Rapha\u00ebl C\u00d4T\u00c9",
+      "cleaned": "Raphael COTE",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Cedric LIU",
+    "normalized": "Cedric LIU",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Cedric LIU",
+      "cleaned": "Cedric LIU",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Arthur MOREAU",
+    "normalized": "Arthur MOREAU",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Arthur MOREAU",
+      "cleaned": "Arthur MOREAU",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "\u00c9mile PAQUETTE",
+    "normalized": "Emile PAQUETTE",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "\u00c9mile PAQUETTE",
+      "cleaned": "Emile PAQUETTE",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Marko RADOVIC",
+    "normalized": "Marko RADOVIC",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Marko RADOVIC",
+      "cleaned": "Marko RADOVIC",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Leo CARMICHAEL",
+    "normalized": "Leo CARMICHAEL",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Leo CARMICHAEL",
+      "cleaned": "Leo CARMICHAEL",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Vladimir DEMISHKEVICH",
+    "normalized": "Vladimir DEMISHKEVICH",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Vladimir DEMISHKEVICH",
+      "cleaned": "Vladimir DEMISHKEVICH",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Mathieu GILBERT",
+    "normalized": "Mathieu GILBERT",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Mathieu GILBERT",
+      "cleaned": "Mathieu GILBERT",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Ryan NARODITSKY",
+    "normalized": "Ryan NARODITSKY",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Ryan NARODITSKY",
+      "cleaned": "Ryan NARODITSKY",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Allie WANG",
+    "normalized": "Allie WANG",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Allie WANG",
+      "cleaned": "Allie WANG",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Ariane LOISEL",
+    "normalized": "Ariane LOISEL",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Ariane LOISEL",
+      "cleaned": "Ariane LOISEL",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Calina BIDAL",
+    "normalized": "Calina BIDAL",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Calina BIDAL",
+      "cleaned": "Calina BIDAL",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Jonnie NEWMAN",
+    "normalized": "Jonnie NEWMAN",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Jonnie NEWMAN",
+      "cleaned": "Jonnie NEWMAN",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Lauren RENTZ",
+    "normalized": "Lauren RENTZ",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Lauren RENTZ",
+      "cleaned": "Lauren RENTZ",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Kristiane FREE",
+    "normalized": "Kristiane FREE",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Kristiane FREE",
+      "cleaned": "Kristiane FREE",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Peter BRADLEY",
+    "normalized": "Peter BRADLEY",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Peter BRADLEY",
+      "cleaned": "Peter BRADLEY",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Nikita CIUDIN",
+    "normalized": "Nikita CIUDIN",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Nikita CIUDIN",
+      "cleaned": "Nikita CIUDIN",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Bret HIMMELMAN",
+    "normalized": "Bret HIMMELMAN",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Bret HIMMELMAN",
+      "cleaned": "Bret HIMMELMAN",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Konrad MORAWSKI",
+    "normalized": "Konrad MORAWSKI",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Konrad MORAWSKI",
+      "cleaned": "Konrad MORAWSKI",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Lucas WILLIAMS",
+    "normalized": "Lucas WILLIAMS",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Lucas WILLIAMS",
+      "cleaned": "Lucas WILLIAMS",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Elizabeth FANOK",
+    "normalized": "Elizabeth FANOK",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Elizabeth FANOK",
+      "cleaned": "Elizabeth FANOK",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Katie GAUDET",
+    "normalized": "Katie GAUDET",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Katie GAUDET",
+      "cleaned": "Katie GAUDET",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Senika VELISEK",
+    "normalized": "Senika VELISEK",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Senika VELISEK",
+      "cleaned": "Senika VELISEK",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Abbie BEGBIE",
+    "normalized": "Abbie BEGBIE",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Abbie BEGBIE",
+      "cleaned": "Abbie BEGBIE",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Lilliana SATO",
+    "normalized": "Lilliana SATO",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Lilliana SATO",
+      "cleaned": "Lilliana SATO",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Matilda BOWERS",
+    "normalized": "Matilda BOWERS",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Matilda BOWERS",
+      "cleaned": "Matilda BOWERS",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Zoe HATFIELD",
+    "normalized": "Zoe HATFIELD",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Zoe HATFIELD",
+      "cleaned": "Zoe HATFIELD",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Rachel JOU",
+    "normalized": "Rachel JOU",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Rachel JOU",
+      "cleaned": "Rachel JOU",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Marin MACNEIL",
+    "normalized": "Marin MACNEIL",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Marin MACNEIL",
+      "cleaned": "Marin MACNEIL",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Justine TREMBLAY",
+    "normalized": "Justine TREMBLAY",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Justine TREMBLAY",
+      "cleaned": "Justine TREMBLAY",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Catherine NORMAN",
+    "normalized": "Catherine NORMAN",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Catherine NORMAN",
+      "cleaned": "Catherine NORMAN",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Josie PATCHELL",
+    "normalized": "Josie PATCHELL",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Josie PATCHELL",
+      "cleaned": "Josie PATCHELL",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Malya GAGNON",
+    "normalized": "Malya GAGNON",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Malya GAGNON",
+      "cleaned": "Malya GAGNON",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Ellena KOZUSKANICH",
+    "normalized": "Ellena KOZUSKANICH",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Ellena KOZUSKANICH",
+      "cleaned": "Ellena KOZUSKANICH",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Honour MCQUAY",
+    "normalized": "Honour MCQUAY",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Honour MCQUAY",
+      "cleaned": "Honour MCQUAY",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Payton CLUETT",
+    "normalized": "Payton CLUETT",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Payton CLUETT",
+      "cleaned": "Payton CLUETT",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Maude VITTOZ",
+    "normalized": "Maude VITTOZ",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Maude VITTOZ",
+      "cleaned": "Maude VITTOZ",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "No\u00e9mie PERREAULT",
+    "normalized": "Noemie PERREAULT",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "No\u00e9mie PERREAULT",
+      "cleaned": "Noemie PERREAULT",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Charlie LECLERC",
+    "normalized": "Charlie LECLERC",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Charlie LECLERC",
+      "cleaned": "Charlie LECLERC",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Abby NDEGWA",
+    "normalized": "Abby NDEGWA",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Abby NDEGWA",
+      "cleaned": "Abby NDEGWA",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Alison NGUYEN",
+    "normalized": "Alison NGUYEN",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Alison NGUYEN",
+      "cleaned": "Alison NGUYEN",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Abigail PIPPARD",
+    "normalized": "Abigail PIPPARD",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Abigail PIPPARD",
+      "cleaned": "Abigail PIPPARD",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Megan CHAMPAGNE",
+    "normalized": "Megan CHAMPAGNE",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Megan CHAMPAGNE",
+      "cleaned": "Megan CHAMPAGNE",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Amalia JORDAN",
+    "normalized": "Amalia JORDAN",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Amalia JORDAN",
+      "cleaned": "Amalia JORDAN",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Beatrice OGER",
+    "normalized": "Beatrice OGER",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Beatrice OGER",
+      "cleaned": "Beatrice OGER",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Cameron HALL",
+    "normalized": "Cameron HALL",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Cameron HALL",
+      "cleaned": "Cameron HALL",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Justin BOYKO",
+    "normalized": "Justin BOYKO",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Justin BOYKO",
+      "cleaned": "Justin BOYKO",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Matthew MACDONALD",
+    "normalized": "Matthew MACDONALD",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Matthew MACDONALD",
+      "cleaned": "Matthew MACDONALD",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Nolen MITCHELL",
+    "normalized": "Nolen MITCHELL",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Nolen MITCHELL",
+      "cleaned": "Nolen MITCHELL",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "William WINTONIW",
+    "normalized": "William WINTONIW",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "William WINTONIW",
+      "cleaned": "William WINTONIW",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Adam SCHLOSSER",
+    "normalized": "Adam SCHLOSSER",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Adam SCHLOSSER",
+      "cleaned": "Adam SCHLOSSER",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Aleksander SEREMAK",
+    "normalized": "Aleksander SEREMAK",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Aleksander SEREMAK",
+      "cleaned": "Aleksander SEREMAK",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Roenn HODGINS",
+    "normalized": "Roenn HODGINS",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Roenn HODGINS",
+      "cleaned": "Roenn HODGINS",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Nate NEULS",
+    "normalized": "Nate NEULS",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Nate NEULS",
+      "cleaned": "Nate NEULS",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Wyatt DEEBLE",
+    "normalized": "Wyatt DEEBLE",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Wyatt DEEBLE",
+      "cleaned": "Wyatt DEEBLE",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "David ACKERMAN",
+    "normalized": "David ACKERMAN",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "David ACKERMAN",
+      "cleaned": "David ACKERMAN",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Hunter MACK",
+    "normalized": "Hunter MACK",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Hunter MACK",
+      "cleaned": "Hunter MACK",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Adam MARCOUX",
+    "normalized": "Adam MARCOUX",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Adam MARCOUX",
+      "cleaned": "Adam MARCOUX",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Diego PADRON-CORBEIL",
+    "normalized": "Diego PADRON-CORBEIL",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Diego PADRON-CORBEIL",
+      "cleaned": "Diego PADRON-CORBEIL",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Cohen CLUETT",
+    "normalized": "Cohen CLUETT",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Cohen CLUETT",
+      "cleaned": "Cohen CLUETT",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Gabriel COLLINS",
+    "normalized": "Gabriel COLLINS",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Gabriel COLLINS",
+      "cleaned": "Gabriel COLLINS",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Logan GRIMSRUD",
+    "normalized": "Logan GRIMSRUD",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Logan GRIMSRUD",
+      "cleaned": "Logan GRIMSRUD",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Harris HUNTER",
+    "normalized": "Harris HUNTER",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Harris HUNTER",
+      "cleaned": "Harris HUNTER",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Reuben LOZADA",
+    "normalized": "Reuben LOZADA",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Reuben LOZADA",
+      "cleaned": "Reuben LOZADA",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Nicholas LAPIERRE",
+    "normalized": "Nicholas LAPIERRE",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Nicholas LAPIERRE",
+      "cleaned": "Nicholas LAPIERRE",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Leif MITCHELL",
+    "normalized": "Leif MITCHELL",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Leif MITCHELL",
+      "cleaned": "Leif MITCHELL",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Louis Enzo ROY",
+    "normalized": "Louis Enzo ROY",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Louis Enzo ROY",
+      "cleaned": "Louis Enzo ROY",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Gavin BURKE",
+    "normalized": "Gavin BURKE",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Gavin BURKE",
+      "cleaned": "Gavin BURKE",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Xavier HEBERT",
+    "normalized": "Xavier HEBERT",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Xavier HEBERT",
+      "cleaned": "Xavier HEBERT",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Harry BROWN",
+    "normalized": "Harry BROWN",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Harry BROWN",
+      "cleaned": "Harry BROWN",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Emrick LECLERC",
+    "normalized": "Emrick LECLERC",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Emrick LECLERC",
+      "cleaned": "Emrick LECLERC",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Max IVANOV",
+    "normalized": "Max IVANOV",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Max IVANOV",
+      "cleaned": "Max IVANOV",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Evan CUMMINGS",
+    "normalized": "Evan CUMMINGS",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Evan CUMMINGS",
+      "cleaned": "Evan CUMMINGS",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Marcelo DE ANDRADE",
+    "normalized": "Marcelo DE ANDRADE",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Marcelo DE ANDRADE",
+      "cleaned": "Marcelo DE ANDRADE",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Bo LOWERY",
+    "normalized": "Bo LOWERY",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Bo LOWERY",
+      "cleaned": "Bo LOWERY",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Rylan CARRIGAN",
+    "normalized": "Rylan CARRIGAN",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Rylan CARRIGAN",
+      "cleaned": "Rylan CARRIGAN",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Corbin COLVILLE",
+    "normalized": "Corbin COLVILLE",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Corbin COLVILLE",
+      "cleaned": "Corbin COLVILLE",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Cody BARBRICK",
+    "normalized": "Cody BARBRICK",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Cody BARBRICK",
+      "cleaned": "Cody BARBRICK",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Victor GIRARD",
+    "normalized": "Victor GIRARD",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Victor GIRARD",
+      "cleaned": "Victor GIRARD",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Benjamin GAUDET",
+    "normalized": "Benjamin GAUDET",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Benjamin GAUDET",
+      "cleaned": "Benjamin GAUDET",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Jacob L\u00c9VESQUE",
+    "normalized": "Jacob LEVESQUE",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Jacob L\u00c9VESQUE",
+      "cleaned": "Jacob LEVESQUE",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Julien POMERLEAU",
+    "normalized": "Julien POMERLEAU",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Julien POMERLEAU",
+      "cleaned": "Julien POMERLEAU",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Douglas HUNTER",
+    "normalized": "Douglas HUNTER",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Douglas HUNTER",
+      "cleaned": "Douglas HUNTER",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "George FARNSWORTH",
+    "normalized": "George FARNSWORTH",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "George FARNSWORTH",
+      "cleaned": "George FARNSWORTH",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Ben ROBICHAUD",
+    "normalized": "Ben ROBICHAUD",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Ben ROBICHAUD",
+      "cleaned": "Ben ROBICHAUD",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Christos GIANNOU",
+    "normalized": "Christos GIANNOU",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Christos GIANNOU",
+      "cleaned": "Christos GIANNOU",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Samuel EDGERTON",
+    "normalized": "Samuel EDGERTON",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Samuel EDGERTON",
+      "cleaned": "Samuel EDGERTON",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Alexander HOLIC",
+    "normalized": "Alexander HOLIC",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Alexander HOLIC",
+      "cleaned": "Alexander HOLIC",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Charlie ROGERS",
+    "normalized": "Charlie ROGERS",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Charlie ROGERS",
+      "cleaned": "Charlie ROGERS",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Sebastien SARATEANU",
+    "normalized": "Sebastien SARATEANU",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Sebastien SARATEANU",
+      "cleaned": "Sebastien SARATEANU",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Zakari SAUV\u00c9",
+    "normalized": "Zakari SAUVE",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Zakari SAUV\u00c9",
+      "cleaned": "Zakari SAUVE",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Alex DOYON",
+    "normalized": "Alex DOYON",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Alex DOYON",
+      "cleaned": "Alex DOYON",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Evan SUM",
+    "normalized": "Evan SUM",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Evan SUM",
+      "cleaned": "Evan SUM",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Lucas MANN",
+    "normalized": "Lucas MANN",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Lucas MANN",
+      "cleaned": "Lucas MANN",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "gabriel BEATON",
+    "normalized": "Gabriel Beaton",
+    "confidence": 0.64,
+    "match_type": "normalized_case",
+    "metadata": {
+      "original": "gabriel BEATON",
+      "cleaned": "gabriel BEATON",
+      "format_detected": "mixed_case"
+    }
+  },
+  {
+    "raw": "Gavin GARNETT",
+    "normalized": "Gavin GARNETT",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Gavin GARNETT",
+      "cleaned": "Gavin GARNETT",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Hayden DILL",
+    "normalized": "Hayden DILL",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Hayden DILL",
+      "cleaned": "Hayden DILL",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Breas ROSS",
+    "normalized": "Breas ROSS",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Breas ROSS",
+      "cleaned": "Breas ROSS",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Ethan OLSON-MESA",
+    "normalized": "Ethan OLSON-MESA",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Ethan OLSON-MESA",
+      "cleaned": "Ethan OLSON-MESA",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "R\u00e9mi LOISEL",
+    "normalized": "Remi LOISEL",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "R\u00e9mi LOISEL",
+      "cleaned": "Remi LOISEL",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Xavier BIRD",
+    "normalized": "Xavier BIRD",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Xavier BIRD",
+      "cleaned": "Xavier BIRD",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Laurent ROULEAU",
+    "normalized": "Laurent ROULEAU",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Laurent ROULEAU",
+      "cleaned": "Laurent ROULEAU",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "anakin PYE",
+    "normalized": "Anakin Pye",
+    "confidence": 0.64,
+    "match_type": "normalized_case",
+    "metadata": {
+      "original": "anakin PYE",
+      "cleaned": "anakin PYE",
+      "format_detected": "mixed_case"
+    }
+  }
+]

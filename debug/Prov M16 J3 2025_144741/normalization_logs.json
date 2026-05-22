@@ -1,0 +1,3060 @@
+[
+  {
+    "raw": "Victor Girard/Jonathan Pigeon",
+    "normalized": "Victor GirardJonathan Pigeon",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Victor Girard/Jonathan Pigeon",
+      "cleaned": "Victor GirardJonathan Pigeon",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Alex Doyon/Edouard Rousseau",
+    "normalized": "Alex DoyonEdouard Rousseau",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Alex Doyon/Edouard Rousseau",
+      "cleaned": "Alex DoyonEdouard Rousseau",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Ilia Priadko/Benjamin Dube",
+    "normalized": "Ilia PriadkoBenjamin Dube",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Ilia Priadko/Benjamin Dube",
+      "cleaned": "Ilia PriadkoBenjamin Dube",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Edouard Patry/Pierre-Olivier Albert",
+    "normalized": "Edouard PatryPierre-Olivier Albert",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Edouard Patry/Pierre-Olivier Albert",
+      "cleaned": "Edouard PatryPierre-Olivier Albert",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Jacob Klevinas/Leo Brabant",
+    "normalized": "Jacob KlevinasLeo Brabant",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Jacob Klevinas/Leo Brabant",
+      "cleaned": "Jacob KlevinasLeo Brabant",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Albert Baillargeon/Jordan Dionne-Williams",
+    "normalized": "Albert BaillargeonJordan Dionne-Williams",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Albert Baillargeon/Jordan Dionne-Williams",
+      "cleaned": "Albert BaillargeonJordan Dionne-Williams",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Lionel Kabal-Baker/Patrick Forystek",
+    "normalized": "Lionel Kabal-BakerPatrick Forystek",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Lionel Kabal-Baker/Patrick Forystek",
+      "cleaned": "Lionel Kabal-BakerPatrick Forystek",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Frederik Belanger/Charles Hebert",
+    "normalized": "Frederik BelangerCharles Hebert",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Frederik Belanger/Charles Hebert",
+      "cleaned": "Frederik BelangerCharles Hebert",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Alexandre Mercier/Francois Gauthier",
+    "normalized": "Alexandre MercierFrancois Gauthier",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Alexandre Mercier/Francois Gauthier",
+      "cleaned": "Alexandre MercierFrancois Gauthier",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Maxendre Daunais/Mathis Landry -",
+    "normalized": "Maxendre DaunaisMathis Landry -",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Maxendre Daunais/Mathis Landry -",
+      "cleaned": "Maxendre DaunaisMathis Landry -",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Andrew Emond/Edouard Dionne Guay",
+    "normalized": "Andrew EmondEdouard Dionne Guay",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Andrew Emond/Edouard Dionne Guay",
+      "cleaned": "Andrew EmondEdouard Dionne Guay",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Jacob Cote/Alexandre Morin",
+    "normalized": "Jacob CoteAlexandre Morin",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Jacob Cote/Alexandre Morin",
+      "cleaned": "Jacob CoteAlexandre Morin",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Billy Liu/Emile Dubuc",
+    "normalized": "Billy LiuEmile Dubuc",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Billy Liu/Emile Dubuc",
+      "cleaned": "Billy LiuEmile Dubuc",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Yanik Gravel/Zaic Gagnon",
+    "normalized": "Yanik GravelZaic Gagnon",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Yanik Gravel/Zaic Gagnon",
+      "cleaned": "Yanik GravelZaic Gagnon",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Laurent Pomerleau/Eloic Theberge",
+    "normalized": "Laurent PomerleauEloic Theberge",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Laurent Pomerleau/Eloic Theberge",
+      "cleaned": "Laurent PomerleauEloic Theberge",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Lennox Lemay/Zacharia Mansour",
+    "normalized": "Lennox LemayZacharia Mansour",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Lennox Lemay/Zacharia Mansour",
+      "cleaned": "Lennox LemayZacharia Mansour",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Ryuto Sato Kerwin/Zachary Verret",
+    "normalized": "Ryuto Sato KerwinZachary Verret",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Ryuto Sato Kerwin/Zachary Verret",
+      "cleaned": "Ryuto Sato KerwinZachary Verret",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Lukas Manning/Julian Slavin",
+    "normalized": "Lukas ManningJulian Slavin",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Lukas Manning/Julian Slavin",
+      "cleaned": "Lukas ManningJulian Slavin",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Kevin Sun/Zhile Xu",
+    "normalized": "Kevin SunZhile Xu",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Kevin Sun/Zhile Xu",
+      "cleaned": "Kevin SunZhile Xu",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Samuel Farinas-Davis/Angus Yim -",
+    "normalized": "Samuel Farinas-DavisAngus Yim -",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Samuel Farinas-Davis/Angus Yim -",
+      "cleaned": "Samuel Farinas-DavisAngus Yim -",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Justine Tremblay/Maude Vittoz",
+    "normalized": "Justine TremblayMaude Vittoz",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Justine Tremblay/Maude Vittoz",
+      "cleaned": "Justine TremblayMaude Vittoz",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Melyna Cassista/Maelle Leclerc",
+    "normalized": "Melyna CassistaMaelle Leclerc",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Melyna Cassista/Maelle Leclerc",
+      "cleaned": "Melyna CassistaMaelle Leclerc",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Camille Pelletier/Florence Bourdeau",
+    "normalized": "Camille PelletierFlorence Bourdeau",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Camille Pelletier/Florence Bourdeau",
+      "cleaned": "Camille PelletierFlorence Bourdeau",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Lara Valerio/Noemie Brunette",
+    "normalized": "Lara ValerioNoemie Brunette",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Lara Valerio/Noemie Brunette",
+      "cleaned": "Lara ValerioNoemie Brunette",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Clarence Dennie-Vaudreuil/Delphine Baux",
+    "normalized": "Clarence Dennie-VaudreuilDelphine Baux",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Clarence Dennie-Vaudreuil/Delphine Baux",
+      "cleaned": "Clarence Dennie-VaudreuilDelphine Baux",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Alae El Janati/Raphaelle Gaudet",
+    "normalized": "Alae El JanatiRaphaelle Gaudet",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Alae El Janati/Raphaelle Gaudet",
+      "cleaned": "Alae El JanatiRaphaelle Gaudet",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Camille Lacouline/Geraldine Frenette",
+    "normalized": "Camille LacoulineGeraldine Frenette",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Camille Lacouline/Geraldine Frenette",
+      "cleaned": "Camille LacoulineGeraldine Frenette",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Olivia Hopwood-Jones/Wenli Deng -",
+    "normalized": "Olivia Hopwood-JonesWenli Deng -",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Olivia Hopwood-Jones/Wenli Deng -",
+      "cleaned": "Olivia Hopwood-JonesWenli Deng -",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Charlie Leclerc/Noemie Perreault",
+    "normalized": "Charlie LeclercNoemie Perreault",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Charlie Leclerc/Noemie Perreault",
+      "cleaned": "Charlie LeclercNoemie Perreault",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Maite Leger/Lily Jobin",
+    "normalized": "Maite LegerLily Jobin",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Maite Leger/Lily Jobin",
+      "cleaned": "Maite LegerLily Jobin",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Eloise Hebert/Sarah-Jeanne Boucher",
+    "normalized": "Eloise HebertSarah-Jeanne Boucher",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Eloise Hebert/Sarah-Jeanne Boucher",
+      "cleaned": "Eloise HebertSarah-Jeanne Boucher",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Gaelle Doucet/Maelie Boulay",
+    "normalized": "Gaelle DoucetMaelie Boulay",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Gaelle Doucet/Maelie Boulay",
+      "cleaned": "Gaelle DoucetMaelie Boulay",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Leanne Richard/Marilou Lessard",
+    "normalized": "Leanne RichardMarilou Lessard",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Leanne Richard/Marilou Lessard",
+      "cleaned": "Leanne RichardMarilou Lessard",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Billie Angel/Leanne Dionne Guay",
+    "normalized": "Billie AngelLeanne Dionne Guay",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Billie Angel/Leanne Dionne Guay",
+      "cleaned": "Billie AngelLeanne Dionne Guay",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Nicole Philippart/Patricia Punga",
+    "normalized": "Nicole PhilippartPatricia Punga",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Nicole Philippart/Patricia Punga",
+      "cleaned": "Nicole PhilippartPatricia Punga",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Ophelie Legrand/Sasha Proulx",
+    "normalized": "Ophelie LegrandSasha Proulx",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Ophelie Legrand/Sasha Proulx",
+      "cleaned": "Ophelie LegrandSasha Proulx",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Maya Noel/Maelle Girard",
+    "normalized": "Maya NoelMaelle Girard",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Maya Noel/Maelle Girard",
+      "cleaned": "Maya NoelMaelle Girard",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Olive Archambault/Florence Stewart-Mueller",
+    "normalized": "Olive ArchambaultFlorence Stewart-Mueller",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Olive Archambault/Florence Stewart-Mueller",
+      "cleaned": "Olive ArchambaultFlorence Stewart-Mueller",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Abigail Harrington/Olivia Desrosiers-Mc Arthur",
+    "normalized": "Abigail HarringtonOlivia Desrosiers-Mc Arthur",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Abigail Harrington/Olivia Desrosiers-Mc Arthur",
+      "cleaned": "Abigail HarringtonOlivia Desrosiers-Mc Arthur",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Delphine Baux/Jasmine Sayegh",
+    "normalized": "Delphine BauxJasmine Sayegh",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Delphine Baux/Jasmine Sayegh",
+      "cleaned": "Delphine BauxJasmine Sayegh",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Claudine Courteau-Godmaire/Samuel Moreau",
+    "normalized": "Claudine Courteau-GodmaireSamuel Moreau",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Claudine Courteau-Godmaire/Samuel Moreau",
+      "cleaned": "Claudine Courteau-GodmaireSamuel Moreau",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Coralie Timmons/Maelie Levesque",
+    "normalized": "Coralie TimmonsMaelie Levesque",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Coralie Timmons/Maelie Levesque",
+      "cleaned": "Coralie TimmonsMaelie Levesque",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Sarah Creamer/Raphaelle Dupuis-Demers",
+    "normalized": "Sarah CreamerRaphaelle Dupuis-Demers",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Sarah Creamer/Raphaelle Dupuis-Demers",
+      "cleaned": "Sarah CreamerRaphaelle Dupuis-Demers",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Adeline Dubuc/Zulima Nava-Quintin -",
+    "normalized": "Adeline DubucZulima Nava-Quintin -",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Adeline Dubuc/Zulima Nava-Quintin -",
+      "cleaned": "Adeline DubucZulima Nava-Quintin -",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Victor Girard/Jonathan Pigeon",
+    "normalized": "Victor GirardJonathan Pigeon",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Victor Girard/Jonathan Pigeon",
+      "cleaned": "Victor GirardJonathan Pigeon",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Andrew Emond/Edouard Dionne Guay",
+    "normalized": "Andrew EmondEdouard Dionne Guay",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Andrew Emond/Edouard Dionne Guay",
+      "cleaned": "Andrew EmondEdouard Dionne Guay",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Alex Doyon/Edouard Rousseau",
+    "normalized": "Alex DoyonEdouard Rousseau",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Alex Doyon/Edouard Rousseau",
+      "cleaned": "Alex DoyonEdouard Rousseau",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Jacob Cote/Alexandre Morin",
+    "normalized": "Jacob CoteAlexandre Morin",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Jacob Cote/Alexandre Morin",
+      "cleaned": "Jacob CoteAlexandre Morin",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Billy Liu/Emile Dubuc",
+    "normalized": "Billy LiuEmile Dubuc",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Billy Liu/Emile Dubuc",
+      "cleaned": "Billy LiuEmile Dubuc",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Eloic Theberge/Laurent Pomerleau",
+    "normalized": "Eloic ThebergeLaurent Pomerleau",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Eloic Theberge/Laurent Pomerleau",
+      "cleaned": "Eloic ThebergeLaurent Pomerleau",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Ilia Priadko/Benjamin Dube",
+    "normalized": "Ilia PriadkoBenjamin Dube",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Ilia Priadko/Benjamin Dube",
+      "cleaned": "Ilia PriadkoBenjamin Dube",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Edouard Patry/Vincent Brisson",
+    "normalized": "Edouard PatryVincent Brisson",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Edouard Patry/Vincent Brisson",
+      "cleaned": "Edouard PatryVincent Brisson",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Yanik Gravel/Albert Baillargeon -",
+    "normalized": "Yanik GravelAlbert Baillargeon -",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Yanik Gravel/Albert Baillargeon -",
+      "cleaned": "Yanik GravelAlbert Baillargeon -",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Jordan Dionne-Williams/Camil Baillargeon -",
+    "normalized": "Jordan Dionne-WilliamsCamil Baillargeon -",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Jordan Dionne-Williams/Camil Baillargeon -",
+      "cleaned": "Jordan Dionne-WilliamsCamil Baillargeon -",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Elliot Arnautovitch/Emile Bouvier",
+    "normalized": "Elliot ArnautovitchEmile Bouvier",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Elliot Arnautovitch/Emile Bouvier",
+      "cleaned": "Elliot ArnautovitchEmile Bouvier",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Philippe Richer-Simard/Ludovik Rioux",
+    "normalized": "Philippe Richer-SimardLudovik Rioux",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Philippe Richer-Simard/Ludovik Rioux",
+      "cleaned": "Philippe Richer-SimardLudovik Rioux",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Chase Racine/Samuel Raiche",
+    "normalized": "Chase RacineSamuel Raiche",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Chase Racine/Samuel Raiche",
+      "cleaned": "Chase RacineSamuel Raiche",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Maxime Compte/Timothy Gagnon",
+    "normalized": "Maxime CompteTimothy Gagnon",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Maxime Compte/Timothy Gagnon",
+      "cleaned": "Maxime CompteTimothy Gagnon",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Catherine Lariviere-Gauthier",
+    "normalized": "Catherine Lariviere-Gauthier",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Catherine Lariviere-Gauthier",
+      "cleaned": "Catherine Lariviere-Gauthier",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Nadia Drapeau",
+    "normalized": "Nadia Drapeau",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Nadia Drapeau",
+      "cleaned": "Nadia Drapeau",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Martine Ruel -",
+    "normalized": "Martine Ruel -",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Martine Ruel -",
+      "cleaned": "Martine Ruel -",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Lyne Massicotte -",
+    "normalized": "Lyne Massicotte -",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Lyne Massicotte -",
+      "cleaned": "Lyne Massicotte -",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Guillaume Lavallee Guay",
+    "normalized": "Guillaume Lavallee Guay",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Guillaume Lavallee Guay",
+      "cleaned": "Guillaume Lavallee Guay",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Michael Thomas",
+    "normalized": "Michael Thomas",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Michael Thomas",
+      "cleaned": "Michael Thomas",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Michel Archambault",
+    "normalized": "Michel Archambault",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Michel Archambault",
+      "cleaned": "Michel Archambault",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Anton Pryadko",
+    "normalized": "Anton Pryadko",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Anton Pryadko",
+      "cleaned": "Anton Pryadko",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Francis Moreau",
+    "normalized": "Francis Moreau",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Francis Moreau",
+      "cleaned": "Francis Moreau",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Robert Turcotte",
+    "normalized": "Robert Turcotte",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Robert Turcotte",
+      "cleaned": "Robert Turcotte",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Richer Yves",
+    "normalized": "Richer Yves",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Richer Yves",
+      "cleaned": "Richer Yves",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Matthew Brotherwood -",
+    "normalized": "Matthew Brotherwood -",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Matthew Brotherwood -",
+      "cleaned": "Matthew Brotherwood -",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Frederick Boisvert -",
+    "normalized": "Frederick Boisvert -",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Frederick Boisvert -",
+      "cleaned": "Frederick Boisvert -",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Alina Tverie/Florence Hamel",
+    "normalized": "Alina TverieFlorence Hamel",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Alina Tverie/Florence Hamel",
+      "cleaned": "Alina TverieFlorence Hamel",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Allie Wang/Calina Bidal",
+    "normalized": "Allie WangCalina Bidal",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Allie Wang/Calina Bidal",
+      "cleaned": "Allie WangCalina Bidal",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Anais Lapointe/Mathilde Patry",
+    "normalized": "Anais LapointeMathilde Patry",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Anais Lapointe/Mathilde Patry",
+      "cleaned": "Anais LapointeMathilde Patry",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Anna-Mariya Izmaylova/Daphnee Champagne",
+    "normalized": "Anna-Mariya IzmaylovaDaphnee Champagne",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Anna-Mariya Izmaylova/Daphnee Champagne",
+      "cleaned": "Anna-Mariya IzmaylovaDaphnee Champagne",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Ariane Loisel/Clara Blanchette",
+    "normalized": "Ariane LoiselClara Blanchette",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Ariane Loisel/Clara Blanchette",
+      "cleaned": "Ariane LoiselClara Blanchette",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Clara Meuleau/Claudine Courteau-Godmaire",
+    "normalized": "Clara MeuleauClaudine Courteau-Godmaire",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Clara Meuleau/Claudine Courteau-Godmaire",
+      "cleaned": "Clara MeuleauClaudine Courteau-Godmaire",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Kaiya Leah Schade/Wenli Deng",
+    "normalized": "Kaiya Leah SchadeWenli Deng",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Kaiya Leah Schade/Wenli Deng",
+      "cleaned": "Kaiya Leah SchadeWenli Deng",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Samuel Jacobs/Theandre Legrand",
+    "normalized": "Samuel JacobsTheandre Legrand",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Samuel Jacobs/Theandre Legrand",
+      "cleaned": "Samuel JacobsTheandre Legrand",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Cedric Bourgeois/Edouard Pellerin",
+    "normalized": "Cedric BourgeoisEdouard Pellerin",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Cedric Bourgeois/Edouard Pellerin",
+      "cleaned": "Cedric BourgeoisEdouard Pellerin",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Zaic Gagnon/Felix Vadnais",
+    "normalized": "Zaic GagnonFelix Vadnais",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Zaic Gagnon/Felix Vadnais",
+      "cleaned": "Zaic GagnonFelix Vadnais",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Noah Seguin/Sasha Roux",
+    "normalized": "Noah SeguinSasha Roux",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Noah Seguin/Sasha Roux",
+      "cleaned": "Noah SeguinSasha Roux",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Ryuto Sato Kerwin/Zachary Verret",
+    "normalized": "Ryuto Sato KerwinZachary Verret",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Ryuto Sato Kerwin/Zachary Verret",
+      "cleaned": "Ryuto Sato KerwinZachary Verret",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Ryan Creamer/Tristan Buday",
+    "normalized": "Ryan CreamerTristan Buday",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Ryan Creamer/Tristan Buday",
+      "cleaned": "Ryan CreamerTristan Buday",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Samuel Lemire/Lucas Creamer",
+    "normalized": "Samuel LemireLucas Creamer",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Samuel Lemire/Lucas Creamer",
+      "cleaned": "Samuel LemireLucas Creamer",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Thomas Sinotte/Louis Enzo Roy/Emrick Leclerc/Xavier Hebert",
+    "normalized": "Thomas SinotteLouis Enzo RoyEmrick LeclercXavier Hebert",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Thomas Sinotte/Louis Enzo Roy/Emrick Leclerc/Xavier Hebert",
+      "cleaned": "Thomas SinotteLouis Enzo RoyEmrick LeclercXavier Hebert",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Leo Roy/Julien Pomerleau/Zachary Tremblay/Benjamin Gaudet",
+    "normalized": "Leo RoyJulien PomerleauZachary TremblayBenjamin Gaudet",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Leo Roy/Julien Pomerleau/Zachary Tremblay/Benjamin Gaudet",
+      "cleaned": "Leo RoyJulien PomerleauZachary TremblayBenjamin Gaudet",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Laurean Galatan/Laurent Rouleau/Remi Loisel/Zakari Sauve",
+    "normalized": "Laurean GalatanLaurent RouleauRemi LoiselZakari Sauve",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Laurean Galatan/Laurent Rouleau/Remi Loisel/Zakari Sauve",
+      "cleaned": "Laurean GalatanLaurent RouleauRemi LoiselZakari Sauve",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Andrew Emond/Benjamin Pelletier/Bogdan Barba/Edouard Dionne Guay",
+    "normalized": "Andrew EmondBenjamin PelletierBogdan BarbaEdouard Dionne Guay",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Andrew Emond/Benjamin Pelletier/Bogdan Barba/Edouard Dionne Guay",
+      "cleaned": "Andrew EmondBenjamin PelletierBogdan BarbaEdouard Dionne Guay",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Kevin Sun/Samuel Farinas-Davis/Patrick Forystek/Zhile Xu",
+    "normalized": "Kevin SunSamuel Farinas-DavisPatrick ForystekZhile Xu",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Kevin Sun/Samuel Farinas-Davis/Patrick Forystek/Zhile Xu",
+      "cleaned": "Kevin SunSamuel Farinas-DavisPatrick ForystekZhile Xu",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Alex Doyon/Billy Liu/Edouard Rousseau/Jacob Levesque -",
+    "normalized": "Alex DoyonBilly LiuEdouard RousseauJacob Levesque -",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Alex Doyon/Billy Liu/Edouard Rousseau/Jacob Levesque -",
+      "cleaned": "Alex DoyonBilly LiuEdouard RousseauJacob Levesque -",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Pointe-Claire #",
+    "normalized": "Pointe-Claire",
+    "confidence": 0.632,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Pointe-Claire #",
+      "cleaned": "Pointe-Claire",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Otterburn #1",
+    "normalized": "Otterburn 1",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Otterburn #1",
+      "cleaned": "Otterburn 1",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Antoine Gamache/Noa Piche",
+    "normalized": "Antoine GamacheNoa Piche",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Antoine Gamache/Noa Piche",
+      "cleaned": "Antoine GamacheNoa Piche",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Christophe Desrochers/Louis-Etienne Messier",
+    "normalized": "Christophe DesrochersLouis-Etienne Messier",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Christophe Desrochers/Louis-Etienne Messier",
+      "cleaned": "Christophe DesrochersLouis-Etienne Messier",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Adam Marcoux/Laurent Rouleau",
+    "normalized": "Adam MarcouxLaurent Rouleau",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Adam Marcoux/Laurent Rouleau",
+      "cleaned": "Adam MarcouxLaurent Rouleau",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Diego Padron Corbeil/Justin Nadeau",
+    "normalized": "Diego Padron CorbeilJustin Nadeau",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Diego Padron Corbeil/Justin Nadeau",
+      "cleaned": "Diego Padron CorbeilJustin Nadeau",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Victor Girard/Jonathan Pigeon",
+    "normalized": "Victor GirardJonathan Pigeon",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Victor Girard/Jonathan Pigeon",
+      "cleaned": "Victor GirardJonathan Pigeon",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Alex Doyon/Edouard Rousseau",
+    "normalized": "Alex DoyonEdouard Rousseau",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Alex Doyon/Edouard Rousseau",
+      "cleaned": "Alex DoyonEdouard Rousseau",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Andrew Emond/Edouard Dionne Guay",
+    "normalized": "Andrew EmondEdouard Dionne Guay",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Andrew Emond/Edouard Dionne Guay",
+      "cleaned": "Andrew EmondEdouard Dionne Guay",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Jacob Cote/Alexandre Morin",
+    "normalized": "Jacob CoteAlexandre Morin",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Jacob Cote/Alexandre Morin",
+      "cleaned": "Jacob CoteAlexandre Morin",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Yanik Gravel/Zaic Gagnon",
+    "normalized": "Yanik GravelZaic Gagnon",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Yanik Gravel/Zaic Gagnon",
+      "cleaned": "Yanik GravelZaic Gagnon",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Billy Liu/Emile Dubuc",
+    "normalized": "Billy LiuEmile Dubuc",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Billy Liu/Emile Dubuc",
+      "cleaned": "Billy LiuEmile Dubuc",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Lennox Lemay/Zacharia Mansour",
+    "normalized": "Lennox LemayZacharia Mansour",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Lennox Lemay/Zacharia Mansour",
+      "cleaned": "Lennox LemayZacharia Mansour",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Laurent Pomerleau/Eloic Theberge",
+    "normalized": "Laurent PomerleauEloic Theberge",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Laurent Pomerleau/Eloic Theberge",
+      "cleaned": "Laurent PomerleauEloic Theberge",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Ilia Priadko/Benjamin Dube",
+    "normalized": "Ilia PriadkoBenjamin Dube",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Ilia Priadko/Benjamin Dube",
+      "cleaned": "Ilia PriadkoBenjamin Dube",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Edouard Patry/Pierre-Olivier Albert",
+    "normalized": "Edouard PatryPierre-Olivier Albert",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Edouard Patry/Pierre-Olivier Albert",
+      "cleaned": "Edouard PatryPierre-Olivier Albert",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Albert Lavigne/Jeremy Lantz/Mathieu Gilbert/Vincent Jourdenais",
+    "normalized": "Albert LavigneJeremy LantzMathieu GilbertVincent Jourdenais",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Albert Lavigne/Jeremy Lantz/Mathieu Gilbert/Vincent Jourdenais",
+      "cleaned": "Albert LavigneJeremy LantzMathieu GilbertVincent Jourdenais",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Thomas Sinotte/Raphael Cote/Nathan Daoust/Jerome Desrosiers-Mc Arthur",
+    "normalized": "Thomas SinotteRaphael CoteNathan DaoustJerome Desrosiers-Mc Arthur",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Thomas Sinotte/Raphael Cote/Nathan Daoust/Jerome Desrosiers-Mc Arthur",
+      "cleaned": "Thomas SinotteRaphael CoteNathan DaoustJerome Desrosiers-Mc Arthur",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Vladimir Demishkevich/Cedric Liu/Emile Paquette/Marcelo De Andrade",
+    "normalized": "Vladimir DemishkevichCedric LiuEmile PaquetteMarcelo De Andrade",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Vladimir Demishkevich/Cedric Liu/Emile Paquette/Marcelo De Andrade",
+      "cleaned": "Vladimir DemishkevichCedric LiuEmile PaquetteMarcelo De Andrade",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Antoine Duval/Christophe Proulx/Felix Albert/Jeremy Pelletier",
+    "normalized": "Antoine DuvalChristophe ProulxFelix AlbertJeremy Pelletier",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Antoine Duval/Christophe Proulx/Felix Albert/Jeremy Pelletier",
+      "cleaned": "Antoine DuvalChristophe ProulxFelix AlbertJeremy Pelletier",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Benjamin Pelletier/Guillaume Lavallee Guay/Bogdan Barba/Jacob Asselin",
+    "normalized": "Benjamin PelletierGuillaume Lavallee GuayBogdan BarbaJacob Asselin",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Benjamin Pelletier/Guillaume Lavallee Guay/Bogdan Barba/Jacob Asselin",
+      "cleaned": "Benjamin PelletierGuillaume Lavallee GuayBogdan BarbaJacob Asselin",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Connor Green/Felix Raymond/Theo Dufort/Zachary Sauro",
+    "normalized": "Connor GreenFelix RaymondTheo DufortZachary Sauro",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Connor Green/Felix Raymond/Theo Dufort/Zachary Sauro",
+      "cleaned": "Connor GreenFelix RaymondTheo DufortZachary Sauro",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "David Lacroix/Frederic Marechal/Jean-Christophe Pothier/Dominic Sauve -",
+    "normalized": "David LacroixFrederic MarechalJean-Christophe PothierDominic Sauve -",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "David Lacroix/Frederic Marechal/Jean-Christophe Pothier/Dominic Sauve -",
+      "cleaned": "David LacroixFrederic MarechalJean-Christophe PothierDominic Sauve -",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Alexia Gagnon/Charlotte C. Desy",
+    "normalized": "Alexia GagnonCharlotte C. Desy",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Alexia Gagnon/Charlotte C. Desy",
+      "cleaned": "Alexia GagnonCharlotte C. Desy",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Amelie Laliberte/Leanne Castonguay",
+    "normalized": "Amelie LaliberteLeanne Castonguay",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Amelie Laliberte/Leanne Castonguay",
+      "cleaned": "Amelie LaliberteLeanne Castonguay",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Flavie Martin/Maeva Emond",
+    "normalized": "Flavie MartinMaeva Emond",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Flavie Martin/Maeva Emond",
+      "cleaned": "Flavie MartinMaeva Emond",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Maeva Gamache/Catherine Lariviere-Gauthier",
+    "normalized": "Maeva GamacheCatherine Lariviere-Gauthier",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Maeva Gamache/Catherine Lariviere-Gauthier",
+      "cleaned": "Maeva GamacheCatherine Lariviere-Gauthier",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Maya Noel/Emma-Rose Nadeau/Abigail Harrington/Olivia Desrosiers-Mc Arthur",
+    "normalized": "Maya NoelEmma-Rose NadeauAbigail HarringtonOlivia Desrosiers-Mc Arthur",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Maya Noel/Emma-Rose Nadeau/Abigail Harrington/Olivia Desrosiers-Mc Arthur",
+      "cleaned": "Maya NoelEmma-Rose NadeauAbigail HarringtonOlivia Desrosiers-Mc Arthur",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Augustine Boisvert/Coralie Timmons/Maelie Levesque/Zulima Nava-Quintin",
+    "normalized": "Augustine BoisvertCoralie TimmonsMaelie LevesqueZulima Nava-Quintin",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Augustine Boisvert/Coralie Timmons/Maelie Levesque/Zulima Nava-Quintin",
+      "cleaned": "Augustine BoisvertCoralie TimmonsMaelie LevesqueZulima Nava-Quintin",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Charlotte Keating/Mia Forystek/Olive Archambault/Raphaelle Dupuis-Demers",
+    "normalized": "Charlotte KeatingMia ForystekOlive ArchambaultRaphaelle Dupuis-Demers",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Charlotte Keating/Mia Forystek/Olive Archambault/Raphaelle Dupuis-Demers",
+      "cleaned": "Charlotte KeatingMia ForystekOlive ArchambaultRaphaelle Dupuis-Demers",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Daphnee Champagne/Charlie Leclerc/Victoria Lavallee Latour/Megan Champagne",
+    "normalized": "Daphnee ChampagneCharlie LeclercVictoria Lavallee LatourMegan Champagne",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Daphnee Champagne/Charlie Leclerc/Victoria Lavallee Latour/Megan Champagne",
+      "cleaned": "Daphnee ChampagneCharlie LeclercVictoria Lavallee LatourMegan Champagne",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Margaux Loyer/Marie Chamberland/Anne-Sophie Boucher/Flavie Langlois",
+    "normalized": "Margaux LoyerMarie ChamberlandAnne-Sophie BoucherFlavie Langlois",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Margaux Loyer/Marie Chamberland/Anne-Sophie Boucher/Flavie Langlois",
+      "cleaned": "Margaux LoyerMarie ChamberlandAnne-Sophie BoucherFlavie Langlois",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Melodie Verret/Marilou Lessard/Maelle Leclerc/Sarah-Jeanne Boucher",
+    "normalized": "Melodie VerretMarilou LessardMaelle LeclercSarah-Jeanne Boucher",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Melodie Verret/Marilou Lessard/Maelle Leclerc/Sarah-Jeanne Boucher",
+      "cleaned": "Melodie VerretMarilou LessardMaelle LeclercSarah-Jeanne Boucher",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Clara Meuleau/Gaelle Doucet/Jasmine Gemme/Maelie Boulay",
+    "normalized": "Clara MeuleauGaelle DoucetJasmine GemmeMaelie Boulay",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Clara Meuleau/Gaelle Doucet/Jasmine Gemme/Maelie Boulay",
+      "cleaned": "Clara MeuleauGaelle DoucetJasmine GemmeMaelie Boulay",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Halaina Winsor/Noemie Perreault/Payton Winsor/Marguerite Gareau -",
+    "normalized": "Halaina WinsorNoemie PerreaultPayton WinsorMarguerite Gareau -",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Halaina Winsor/Noemie Perreault/Payton Winsor/Marguerite Gareau -",
+      "cleaned": "Halaina WinsorNoemie PerreaultPayton WinsorMarguerite Gareau -",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Abigaelle Legrand/Ophelie Legrand/Sarah-Maude Barrette/Sophia Moise Dos Santos -",
+    "normalized": "Abigaelle LegrandOphelie LegrandSarah-Maude BarretteSophia Moise Dos Santos -",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Abigaelle Legrand/Ophelie Legrand/Sarah-Maude Barrette/Sophia Moise Dos Santos -",
+      "cleaned": "Abigaelle LegrandOphelie LegrandSarah-Maude BarretteSophia Moise Dos Santos -",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Otterburn #",
+    "normalized": "Otterburn",
+    "confidence": 0.632,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Otterburn #",
+      "cleaned": "Otterburn",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Pointe-Claire #1",
+    "normalized": "Pointe-Claire 1",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Pointe-Claire #1",
+      "cleaned": "Pointe-Claire 1",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Tamas Buday",
+    "normalized": "Tamas Buday",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Tamas Buday",
+      "cleaned": "Tamas Buday",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Samuel Raiche",
+    "normalized": "Samuel Raiche",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Samuel Raiche",
+      "cleaned": "Samuel Raiche",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Maxime Compte",
+    "normalized": "Maxime Compte",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Maxime Compte",
+      "cleaned": "Maxime Compte",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Maxime Hamelin",
+    "normalized": "Maxime Hamelin",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Maxime Hamelin",
+      "cleaned": "Maxime Hamelin",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Michel Archambault",
+    "normalized": "Michel Archambault",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Michel Archambault",
+      "cleaned": "Michel Archambault",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Jesse Marynowycz",
+    "normalized": "Jesse Marynowycz",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Jesse Marynowycz",
+      "cleaned": "Jesse Marynowycz",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Vincent Roy",
+    "normalized": "Vincent Roy",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Vincent Roy",
+      "cleaned": "Vincent Roy",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Keven Bruce",
+    "normalized": "Keven Bruce",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Keven Bruce",
+      "cleaned": "Keven Bruce",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Nicolas Gamache",
+    "normalized": "Nicolas Gamache",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Nicolas Gamache",
+      "cleaned": "Nicolas Gamache",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Nadia Drapeau",
+    "normalized": "Nadia Drapeau",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Nadia Drapeau",
+      "cleaned": "Nadia Drapeau",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Silvia Stoll",
+    "normalized": "Silvia Stoll",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Silvia Stoll",
+      "cleaned": "Silvia Stoll",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Lisa Spour",
+    "normalized": "Lisa Spour",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Lisa Spour",
+      "cleaned": "Lisa Spour",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Emilie Tremblay",
+    "normalized": "Emilie Tremblay",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Emilie Tremblay",
+      "cleaned": "Emilie Tremblay",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Chantal Thivierge",
+    "normalized": "Chantal Thivierge",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Chantal Thivierge",
+      "cleaned": "Chantal Thivierge",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Sophie Majeau",
+    "normalized": "Sophie Majeau",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Sophie Majeau",
+      "cleaned": "Sophie Majeau",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Julie Street",
+    "normalized": "Julie Street",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Julie Street",
+      "cleaned": "Julie Street",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Meggie Cabana",
+    "normalized": "Meggie Cabana",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Meggie Cabana",
+      "cleaned": "Meggie Cabana",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Isabelle Langevin",
+    "normalized": "Isabelle Langevin",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Isabelle Langevin",
+      "cleaned": "Isabelle Langevin",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Karen Oljemark -",
+    "normalized": "Karen Oljemark -",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Karen Oljemark -",
+      "cleaned": "Karen Oljemark -",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Allie Wang/Clara Blanchette/Florence Hamel/Joelle Robichaud-Dion",
+    "normalized": "Allie WangClara BlanchetteFlorence HamelJoelle Robichaud-Dion",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Allie Wang/Clara Blanchette/Florence Hamel/Joelle Robichaud-Dion",
+      "cleaned": "Allie WangClara BlanchetteFlorence HamelJoelle Robichaud-Dion",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Anais Lapointe/Maika St-Yves/Mathilde Patry/Florence Bourdeau",
+    "normalized": "Anais LapointeMaika St-YvesMathilde PatryFlorence Bourdeau",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Anais Lapointe/Maika St-Yves/Mathilde Patry/Florence Bourdeau",
+      "cleaned": "Anais LapointeMaika St-YvesMathilde PatryFlorence Bourdeau",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Alina Tverie/Beatrice Charbonneau-Morin/Calina Bidal/Lilia Martin",
+    "normalized": "Alina TverieBeatrice Charbonneau-MorinCalina BidalLilia Martin",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Alina Tverie/Beatrice Charbonneau-Morin/Calina Bidal/Lilia Martin",
+      "cleaned": "Alina TverieBeatrice Charbonneau-MorinCalina BidalLilia Martin",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Abigaelle Legrand/Eva Archambault/Kaiya Leah Schade/Sophia Moise Dos Santos",
+    "normalized": "Abigaelle LegrandEva ArchambaultKaiya Leah SchadeSophia Moise Dos Santos",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Abigaelle Legrand/Eva Archambault/Kaiya Leah Schade/Sophia Moise Dos Santos",
+      "cleaned": "Abigaelle LegrandEva ArchambaultKaiya Leah SchadeSophia Moise Dos Santos",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Flavie Martin/Maeva Emond",
+    "normalized": "Flavie MartinMaeva Emond",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Flavie Martin/Maeva Emond",
+      "cleaned": "Flavie MartinMaeva Emond",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Leia Stephenson/Nora-Maelie Turcotte",
+    "normalized": "Leia StephensonNora-Maelie Turcotte",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Leia Stephenson/Nora-Maelie Turcotte",
+      "cleaned": "Leia StephensonNora-Maelie Turcotte",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Augustine Boisvert/Charlotte Desilets",
+    "normalized": "Augustine BoisvertCharlotte Desilets",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Augustine Boisvert/Charlotte Desilets",
+      "cleaned": "Augustine BoisvertCharlotte Desilets",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Jeanne Champagne/Zulima Nava-Quintin",
+    "normalized": "Jeanne ChampagneZulima Nava-Quintin",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Jeanne Champagne/Zulima Nava-Quintin",
+      "cleaned": "Jeanne ChampagneZulima Nava-Quintin",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Justine Tremblay/Maude Vittoz",
+    "normalized": "Justine TremblayMaude Vittoz",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Justine Tremblay/Maude Vittoz",
+      "cleaned": "Justine TremblayMaude Vittoz",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Maite Leger/Lily Jobin",
+    "normalized": "Maite LegerLily Jobin",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Maite Leger/Lily Jobin",
+      "cleaned": "Maite LegerLily Jobin",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Charlie Leclerc/Noemie Perreault",
+    "normalized": "Charlie LeclercNoemie Perreault",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Charlie Leclerc/Noemie Perreault",
+      "cleaned": "Charlie LeclercNoemie Perreault",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Eloise Hebert/Sarah-Jeanne Boucher",
+    "normalized": "Eloise HebertSarah-Jeanne Boucher",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Eloise Hebert/Sarah-Jeanne Boucher",
+      "cleaned": "Eloise HebertSarah-Jeanne Boucher",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Melyna Cassista/Maelle Leclerc",
+    "normalized": "Melyna CassistaMaelle Leclerc",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Melyna Cassista/Maelle Leclerc",
+      "cleaned": "Melyna CassistaMaelle Leclerc",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Lara Valerio/Noemie Brunette",
+    "normalized": "Lara ValerioNoemie Brunette",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Lara Valerio/Noemie Brunette",
+      "cleaned": "Lara ValerioNoemie Brunette",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Leanne Richard/Marilou Lessard",
+    "normalized": "Leanne RichardMarilou Lessard",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Leanne Richard/Marilou Lessard",
+      "cleaned": "Leanne RichardMarilou Lessard",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Camille Pelletier/Florence Bourdeau",
+    "normalized": "Camille PelletierFlorence Bourdeau",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Camille Pelletier/Florence Bourdeau",
+      "cleaned": "Camille PelletierFlorence Bourdeau",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Gaelle Doucet/Maelie Boulay",
+    "normalized": "Gaelle DoucetMaelie Boulay",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Gaelle Doucet/Maelie Boulay",
+      "cleaned": "Gaelle DoucetMaelie Boulay",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Clarence Dennie-Vaudreuil/Delphine Baux",
+    "normalized": "Clarence Dennie-VaudreuilDelphine Baux",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Clarence Dennie-Vaudreuil/Delphine Baux",
+      "cleaned": "Clarence Dennie-VaudreuilDelphine Baux",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Samuel Jacobs/Theandre Legrand/Cedric Bourgeois/Edouard Pellerin",
+    "normalized": "Samuel JacobsTheandre LegrandCedric BourgeoisEdouard Pellerin",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Samuel Jacobs/Theandre Legrand/Cedric Bourgeois/Edouard Pellerin",
+      "cleaned": "Samuel JacobsTheandre LegrandCedric BourgeoisEdouard Pellerin",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Albert Baillargeon/Achille Legault/Felix Vadnais/Zaic Gagnon",
+    "normalized": "Albert BaillargeonAchille LegaultFelix VadnaisZaic Gagnon",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Albert Baillargeon/Achille Legault/Felix Vadnais/Zaic Gagnon",
+      "cleaned": "Albert BaillargeonAchille LegaultFelix VadnaisZaic Gagnon",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Elliot Pronovost/Noah Marier/Noah Seguin/Sasha Roux",
+    "normalized": "Elliot PronovostNoah MarierNoah SeguinSasha Roux",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Elliot Pronovost/Noah Marier/Noah Seguin/Sasha Roux",
+      "cleaned": "Elliot PronovostNoah MarierNoah SeguinSasha Roux",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Leopold Dupuis-Demers/Tristan Buday/Ryan Creamer/Lucas Creamer",
+    "normalized": "Leopold Dupuis-DemersTristan BudayRyan CreamerLucas Creamer",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Leopold Dupuis-Demers/Tristan Buday/Ryan Creamer/Lucas Creamer",
+      "cleaned": "Leopold Dupuis-DemersTristan BudayRyan CreamerLucas Creamer",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Charles Hebert/Zachary Verret/Frederik Belanger/Ryuto Sato Kerwin",
+    "normalized": "Charles HebertZachary VerretFrederik BelangerRyuto Sato Kerwin",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Charles Hebert/Zachary Verret/Frederik Belanger/Ryuto Sato Kerwin",
+      "cleaned": "Charles HebertZachary VerretFrederik BelangerRyuto Sato Kerwin",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Samuel Lemire/Bradley Creamer/Philemon Archambault/Liam Buday",
+    "normalized": "Samuel LemireBradley CreamerPhilemon ArchambaultLiam Buday",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Samuel Lemire/Bradley Creamer/Philemon Archambault/Liam Buday",
+      "cleaned": "Samuel LemireBradley CreamerPhilemon ArchambaultLiam Buday",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Charles Hamelin/Loic Bergeron/Maxendre Daunais/Mathis Landry -",
+    "normalized": "Charles HamelinLoic BergeronMaxendre DaunaisMathis Landry -",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Charles Hamelin/Loic Bergeron/Maxendre Daunais/Mathis Landry -",
+      "cleaned": "Charles HamelinLoic BergeronMaxendre DaunaisMathis Landry -",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Thomas Sinotte/Emrick Leclerc",
+    "normalized": "Thomas SinotteEmrick Leclerc",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Thomas Sinotte/Emrick Leclerc",
+      "cleaned": "Thomas SinotteEmrick Leclerc",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Xavier Hebert/Louis Enzo Roy",
+    "normalized": "Xavier HebertLouis Enzo Roy",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Xavier Hebert/Louis Enzo Roy",
+      "cleaned": "Xavier HebertLouis Enzo Roy",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Leo Roy/Zachary Tremblay",
+    "normalized": "Leo RoyZachary Tremblay",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Leo Roy/Zachary Tremblay",
+      "cleaned": "Leo RoyZachary Tremblay",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Laurent Rouleau/Zakari Sauve",
+    "normalized": "Laurent RouleauZakari Sauve",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Laurent Rouleau/Zakari Sauve",
+      "cleaned": "Laurent RouleauZakari Sauve",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Benjamin Gaudet/Leo Roy",
+    "normalized": "Benjamin GaudetLeo Roy",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Benjamin Gaudet/Leo Roy",
+      "cleaned": "Benjamin GaudetLeo Roy",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Laurean Galatan/Remi Loisel",
+    "normalized": "Laurean GalatanRemi Loisel",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Laurean Galatan/Remi Loisel",
+      "cleaned": "Laurean GalatanRemi Loisel",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Benjamin Pelletier/Bogdan Barba",
+    "normalized": "Benjamin PelletierBogdan Barba",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Benjamin Pelletier/Bogdan Barba",
+      "cleaned": "Benjamin PelletierBogdan Barba",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Alex Doyon/Jacob Levesque",
+    "normalized": "Alex DoyonJacob Levesque",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Alex Doyon/Jacob Levesque",
+      "cleaned": "Alex DoyonJacob Levesque",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Elliot Arnautovitch/Emile Bouvier",
+    "normalized": "Elliot ArnautovitchEmile Bouvier",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Elliot Arnautovitch/Emile Bouvier",
+      "cleaned": "Elliot ArnautovitchEmile Bouvier",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Ludovik Rioux/Emile Raymond",
+    "normalized": "Ludovik RiouxEmile Raymond",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Ludovik Rioux/Emile Raymond",
+      "cleaned": "Ludovik RiouxEmile Raymond",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Philippe Laliberte/Philippe Richer-Simard",
+    "normalized": "Philippe LalibertePhilippe Richer-Simard",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Philippe Laliberte/Philippe Richer-Simard",
+      "cleaned": "Philippe LalibertePhilippe Richer-Simard",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Etienne Gamache/Maxime Compte",
+    "normalized": "Etienne GamacheMaxime Compte",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Etienne Gamache/Maxime Compte",
+      "cleaned": "Etienne GamacheMaxime Compte",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Chase Racine/Samuel Raiche",
+    "normalized": "Chase RacineSamuel Raiche",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Chase Racine/Samuel Raiche",
+      "cleaned": "Chase RacineSamuel Raiche",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Otterburn #",
+    "normalized": "Otterburn",
+    "confidence": 0.632,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Otterburn #",
+      "cleaned": "Otterburn",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Pointe-Claire #1",
+    "normalized": "Pointe-Claire 1",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Pointe-Claire #1",
+      "cleaned": "Pointe-Claire 1",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Otterburn #2",
+    "normalized": "Otterburn 2",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Otterburn #2",
+      "cleaned": "Otterburn 2",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Justine Tremblay/Maite Leger/Maude Vittoz/Lily Jobin",
+    "normalized": "Justine TremblayMaite LegerMaude VittozLily Jobin",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Justine Tremblay/Maite Leger/Maude Vittoz/Lily Jobin",
+      "cleaned": "Justine TremblayMaite LegerMaude VittozLily Jobin",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Eloise Hebert/Maelle Leclerc/Sarah-Jeanne Boucher/Melyna Cassista",
+    "normalized": "Eloise HebertMaelle LeclercSarah-Jeanne BoucherMelyna Cassista",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Eloise Hebert/Maelle Leclerc/Sarah-Jeanne Boucher/Melyna Cassista",
+      "cleaned": "Eloise HebertMaelle LeclercSarah-Jeanne BoucherMelyna Cassista",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Camille Pelletier/Florence Bourdeau/Billie Angel/Leanne Dionne Guay",
+    "normalized": "Camille PelletierFlorence BourdeauBillie AngelLeanne Dionne Guay",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Camille Pelletier/Florence Bourdeau/Billie Angel/Leanne Dionne Guay",
+      "cleaned": "Camille PelletierFlorence BourdeauBillie AngelLeanne Dionne Guay",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Camille Lacouline/Frederik Belanger/Leanne Richard/Marilou Lessard",
+    "normalized": "Camille LacoulineFrederik BelangerLeanne RichardMarilou Lessard",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Camille Lacouline/Frederik Belanger/Leanne Richard/Marilou Lessard",
+      "cleaned": "Camille LacoulineFrederik BelangerLeanne RichardMarilou Lessard",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Alae El Janati/Nicole Philippart/Patricia Punga/Raphaelle Gaudet",
+    "normalized": "Alae El JanatiNicole PhilippartPatricia PungaRaphaelle Gaudet",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Alae El Janati/Nicole Philippart/Patricia Punga/Raphaelle Gaudet",
+      "cleaned": "Alae El JanatiNicole PhilippartPatricia PungaRaphaelle Gaudet",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Grace Fu/Ophelie Legrand/Sasha Proulx/Wenli Deng",
+    "normalized": "Grace FuOphelie LegrandSasha ProulxWenli Deng",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Grace Fu/Ophelie Legrand/Sasha Proulx/Wenli Deng",
+      "cleaned": "Grace FuOphelie LegrandSasha ProulxWenli Deng",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Adeline Dubuc/Augustine Boisvert/Charlotte Desilets/Jeanne Champagne",
+    "normalized": "Adeline DubucAugustine BoisvertCharlotte DesiletsJeanne Champagne",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Adeline Dubuc/Augustine Boisvert/Charlotte Desilets/Jeanne Champagne",
+      "cleaned": "Adeline DubucAugustine BoisvertCharlotte DesiletsJeanne Champagne",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Pointe-Claire #",
+    "normalized": "Pointe-Claire",
+    "confidence": 0.632,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Pointe-Claire #",
+      "cleaned": "Pointe-Claire",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Otterburn #1",
+    "normalized": "Otterburn 1",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Otterburn #1",
+      "cleaned": "Otterburn 1",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Anais Lapointe/Maika St-Yves",
+    "normalized": "Anais LapointeMaika St-Yves",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Anais Lapointe/Maika St-Yves",
+      "cleaned": "Anais LapointeMaika St-Yves",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Marie Chamberland/Anne-Sophie Boucher",
+    "normalized": "Marie ChamberlandAnne-Sophie Boucher",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Marie Chamberland/Anne-Sophie Boucher",
+      "cleaned": "Marie ChamberlandAnne-Sophie Boucher",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Victoria Lavallee Latour/Megan Champagne",
+    "normalized": "Victoria Lavallee LatourMegan Champagne",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Victoria Lavallee Latour/Megan Champagne",
+      "cleaned": "Victoria Lavallee LatourMegan Champagne",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Flavie Langlois/Margaux Loyer",
+    "normalized": "Flavie LangloisMargaux Loyer",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Flavie Langlois/Margaux Loyer",
+      "cleaned": "Flavie LangloisMargaux Loyer",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Laura Desjardins/Noemie Brunette",
+    "normalized": "Laura DesjardinsNoemie Brunette",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Laura Desjardins/Noemie Brunette",
+      "cleaned": "Laura DesjardinsNoemie Brunette",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Charlie Leclerc/Daphnee Champagne",
+    "normalized": "Charlie LeclercDaphnee Champagne",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Charlie Leclerc/Daphnee Champagne",
+      "cleaned": "Charlie LeclercDaphnee Champagne",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Sarah-Jeanne Boucher/Melodie Verret",
+    "normalized": "Sarah-Jeanne BoucherMelodie Verret",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Sarah-Jeanne Boucher/Melodie Verret",
+      "cleaned": "Sarah-Jeanne BoucherMelodie Verret",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Delphine Baux/Marie-Odile Levesque -",
+    "normalized": "Delphine BauxMarie-Odile Levesque -",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Delphine Baux/Marie-Odile Levesque -",
+      "cleaned": "Delphine BauxMarie-Odile Levesque -",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Halaina Winsor/Payton Winsor -",
+    "normalized": "Halaina WinsorPayton Winsor -",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Halaina Winsor/Payton Winsor -",
+      "cleaned": "Halaina WinsorPayton Winsor -",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Maya Noel/Emma-Rose Nadeau",
+    "normalized": "Maya NoelEmma-Rose Nadeau",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Maya Noel/Emma-Rose Nadeau",
+      "cleaned": "Maya NoelEmma-Rose Nadeau",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Abigail Harrington/Maelle Girard",
+    "normalized": "Abigail HarringtonMaelle Girard",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Abigail Harrington/Maelle Girard",
+      "cleaned": "Abigail HarringtonMaelle Girard",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Olive Archambault/Raphaelle Dupuis-Demers",
+    "normalized": "Olive ArchambaultRaphaelle Dupuis-Demers",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Olive Archambault/Raphaelle Dupuis-Demers",
+      "cleaned": "Olive ArchambaultRaphaelle Dupuis-Demers",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Florence Stewart-Mueller/Sarah Creamer",
+    "normalized": "Florence Stewart-MuellerSarah Creamer",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Florence Stewart-Mueller/Sarah Creamer",
+      "cleaned": "Florence Stewart-MuellerSarah Creamer",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Olivia Desrosiers-Mc Arthur/Jasmine Sayegh",
+    "normalized": "Olivia Desrosiers-Mc ArthurJasmine Sayegh",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Olivia Desrosiers-Mc Arthur/Jasmine Sayegh",
+      "cleaned": "Olivia Desrosiers-Mc ArthurJasmine Sayegh",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Coralie Timmons/Maelie Levesque",
+    "normalized": "Coralie TimmonsMaelie Levesque",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Coralie Timmons/Maelie Levesque",
+      "cleaned": "Coralie TimmonsMaelie Levesque",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Mia Forystek/Charlotte Keating",
+    "normalized": "Mia ForystekCharlotte Keating",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Mia Forystek/Charlotte Keating",
+      "cleaned": "Mia ForystekCharlotte Keating",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Adeline Dubuc/Zulima Nava-Quintin -",
+    "normalized": "Adeline DubucZulima Nava-Quintin -",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Adeline Dubuc/Zulima Nava-Quintin -",
+      "cleaned": "Adeline DubucZulima Nava-Quintin -",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Claudine Courteau-Godmaire/Katsya Ranson -",
+    "normalized": "Claudine Courteau-GodmaireKatsya Ranson -",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Claudine Courteau-Godmaire/Katsya Ranson -",
+      "cleaned": "Claudine Courteau-GodmaireKatsya Ranson -",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Alae El Janati/Aryna Nakloka -",
+    "normalized": "Alae El JanatiAryna Nakloka -",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Alae El Janati/Aryna Nakloka -",
+      "cleaned": "Alae El JanatiAryna Nakloka -",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Eloise Gamache/Julianne Pronovost/Leanne Castonguay/Amelie Laliberte",
+    "normalized": "Eloise GamacheJulianne PronovostLeanne CastonguayAmelie Laliberte",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Eloise Gamache/Julianne Pronovost/Leanne Castonguay/Amelie Laliberte",
+      "cleaned": "Eloise GamacheJulianne PronovostLeanne CastonguayAmelie Laliberte",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Camille Fontaine/Flavie Audet/Maeva Gamache/Aurelie Moreau",
+    "normalized": "Camille FontaineFlavie AudetMaeva GamacheAurelie Moreau",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Camille Fontaine/Flavie Audet/Maeva Gamache/Aurelie Moreau",
+      "cleaned": "Camille FontaineFlavie AudetMaeva GamacheAurelie Moreau",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Claudine Courteau-Godmaire/Florence Gauthier/Samuel Moreau/Mia Zahab",
+    "normalized": "Claudine Courteau-GodmaireFlorence GauthierSamuel MoreauMia Zahab",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Claudine Courteau-Godmaire/Florence Gauthier/Samuel Moreau/Mia Zahab",
+      "cleaned": "Claudine Courteau-GodmaireFlorence GauthierSamuel MoreauMia Zahab",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Abigaelle Legrand/Kaiya Leah Schade/Sarah-Maude Barrette/Sophia Moise Dos Santos",
+    "normalized": "Abigaelle LegrandKaiya Leah SchadeSarah-Maude BarretteSophia Moise Dos Santos",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Abigaelle Legrand/Kaiya Leah Schade/Sarah-Maude Barrette/Sophia Moise Dos Santos",
+      "cleaned": "Abigaelle LegrandKaiya Leah SchadeSarah-Maude BarretteSophia Moise Dos Santos",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Vincent Jourdenais/Mathieu Gilbert",
+    "normalized": "Vincent JourdenaisMathieu Gilbert",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Vincent Jourdenais/Mathieu Gilbert",
+      "cleaned": "Vincent JourdenaisMathieu Gilbert",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Albert Lavigne/Jeremy Lantz",
+    "normalized": "Albert LavigneJeremy Lantz",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Albert Lavigne/Jeremy Lantz",
+      "cleaned": "Albert LavigneJeremy Lantz",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Nathan Daoust/Raphael Cote",
+    "normalized": "Nathan DaoustRaphael Cote",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Nathan Daoust/Raphael Cote",
+      "cleaned": "Nathan DaoustRaphael Cote",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Emile Paquette/Vladimir Demishkevich",
+    "normalized": "Emile PaquetteVladimir Demishkevich",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Emile Paquette/Vladimir Demishkevich",
+      "cleaned": "Emile PaquetteVladimir Demishkevich",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Arthur Moreau/Jacob Levesque",
+    "normalized": "Arthur MoreauJacob Levesque",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Arthur Moreau/Jacob Levesque",
+      "cleaned": "Arthur MoreauJacob Levesque",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Jeremy Pelletier/Felix Albert",
+    "normalized": "Jeremy PelletierFelix Albert",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Jeremy Pelletier/Felix Albert",
+      "cleaned": "Jeremy PelletierFelix Albert",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Cedric Liu/Marcelo De Andrade",
+    "normalized": "Cedric LiuMarcelo De Andrade",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Cedric Liu/Marcelo De Andrade",
+      "cleaned": "Cedric LiuMarcelo De Andrade",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Antoine Duval/Jacob Asselin",
+    "normalized": "Antoine DuvalJacob Asselin",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Antoine Duval/Jacob Asselin",
+      "cleaned": "Antoine DuvalJacob Asselin",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Jerome Desrosiers-Mc Arthur/Tristan Dennie-Vaudreuil",
+    "normalized": "Jerome Desrosiers-Mc ArthurTristan Dennie-Vaudreuil",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Jerome Desrosiers-Mc Arthur/Tristan Dennie-Vaudreuil",
+      "cleaned": "Jerome Desrosiers-Mc ArthurTristan Dennie-Vaudreuil",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Jacob Cote/Alexandre Morin/Victor Girard/Jonathan Pigeon",
+    "normalized": "Jacob CoteAlexandre MorinVictor GirardJonathan Pigeon",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Jacob Cote/Alexandre Morin/Victor Girard/Jonathan Pigeon",
+      "cleaned": "Jacob CoteAlexandre MorinVictor GirardJonathan Pigeon",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Alex Doyon/Billy Liu/Edouard Rousseau/Emile Dubuc",
+    "normalized": "Alex DoyonBilly LiuEdouard RousseauEmile Dubuc",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Alex Doyon/Billy Liu/Edouard Rousseau/Emile Dubuc",
+      "cleaned": "Alex DoyonBilly LiuEdouard RousseauEmile Dubuc",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Andrew Emond/Edouard Dionne Guay/Edouard Patry/Pierre-Olivier Albert",
+    "normalized": "Andrew EmondEdouard Dionne GuayEdouard PatryPierre-Olivier Albert",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Andrew Emond/Edouard Dionne Guay/Edouard Patry/Pierre-Olivier Albert",
+      "cleaned": "Andrew EmondEdouard Dionne GuayEdouard PatryPierre-Olivier Albert",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Yanik Gravel/Albert Baillargeon/Jordan Dionne-Williams/Camil Baillargeon",
+    "normalized": "Yanik GravelAlbert BaillargeonJordan Dionne-WilliamsCamil Baillargeon",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Yanik Gravel/Albert Baillargeon/Jordan Dionne-Williams/Camil Baillargeon",
+      "cleaned": "Yanik GravelAlbert BaillargeonJordan Dionne-WilliamsCamil Baillargeon",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Alexandros Drimtzias/Lennox Lemay/Zacharia Mansour/Leo Brabant",
+    "normalized": "Alexandros DrimtziasLennox LemayZacharia MansourLeo Brabant",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Alexandros Drimtzias/Lennox Lemay/Zacharia Mansour/Leo Brabant",
+      "cleaned": "Alexandros DrimtziasLennox LemayZacharia MansourLeo Brabant",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Ilia Priadko/Benjamin Dube/Zhile Xu/Kevin Sun",
+    "normalized": "Ilia PriadkoBenjamin DubeZhile XuKevin Sun",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Ilia Priadko/Benjamin Dube/Zhile Xu/Kevin Sun",
+      "cleaned": "Ilia PriadkoBenjamin DubeZhile XuKevin Sun",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Lukas Manning/Julian Slavin/Alexandre Mercier/Francois Gauthier",
+    "normalized": "Lukas ManningJulian SlavinAlexandre MercierFrancois Gauthier",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Lukas Manning/Julian Slavin/Alexandre Mercier/Francois Gauthier",
+      "cleaned": "Lukas ManningJulian SlavinAlexandre MercierFrancois Gauthier",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Charles Hebert/Ryuto Sato Kerwin/Frederik Belanger/Zachary Verret",
+    "normalized": "Charles HebertRyuto Sato KerwinFrederik BelangerZachary Verret",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Charles Hebert/Ryuto Sato Kerwin/Frederik Belanger/Zachary Verret",
+      "cleaned": "Charles HebertRyuto Sato KerwinFrederik BelangerZachary Verret",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Angus Yim/Patrick Forystek/Lionel Kabal-Baker/Samuel Farinas-Davis",
+    "normalized": "Angus YimPatrick ForystekLionel Kabal-BakerSamuel Farinas-Davis",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Angus Yim/Patrick Forystek/Lionel Kabal-Baker/Samuel Farinas-Davis",
+      "cleaned": "Angus YimPatrick ForystekLionel Kabal-BakerSamuel Farinas-Davis",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Charles Hamelin/Loic Bergeron/Maxendre Daunais/Mathis Landry",
+    "normalized": "Charles HamelinLoic BergeronMaxendre DaunaisMathis Landry",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Charles Hamelin/Loic Bergeron/Maxendre Daunais/Mathis Landry",
+      "cleaned": "Charles HamelinLoic BergeronMaxendre DaunaisMathis Landry",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Antoine Gamache/Emile Raymond/Noa Piche/Sasha Roux",
+    "normalized": "Antoine GamacheEmile RaymondNoa PicheSasha Roux",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Antoine Gamache/Emile Raymond/Noa Piche/Sasha Roux",
+      "cleaned": "Antoine GamacheEmile RaymondNoa PicheSasha Roux",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Samuel Jacobs/Justin Nadeau/Diego Padron Corbeil/Theandre Legrand",
+    "normalized": "Samuel JacobsJustin NadeauDiego Padron CorbeilTheandre Legrand",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Samuel Jacobs/Justin Nadeau/Diego Padron Corbeil/Theandre Legrand",
+      "cleaned": "Samuel JacobsJustin NadeauDiego Padron CorbeilTheandre Legrand",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Elliot Pronovost/Noah Marier/Noah Seguin/Zacharie Dubuc",
+    "normalized": "Elliot PronovostNoah MarierNoah SeguinZacharie Dubuc",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Elliot Pronovost/Noah Marier/Noah Seguin/Zacharie Dubuc",
+      "cleaned": "Elliot PronovostNoah MarierNoah SeguinZacharie Dubuc",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Pointe-Claire #1 1",
+    "normalized": "Pointe-Claire 1 1",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Pointe-Claire #1 1",
+      "cleaned": "Pointe-Claire 1 1",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Etienne Gamache/Ludovik Rioux/Antoine Gamache/Philippe Richer-Simard",
+    "normalized": "Etienne GamacheLudovik RiouxAntoine GamachePhilippe Richer-Simard",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Etienne Gamache/Ludovik Rioux/Antoine Gamache/Philippe Richer-Simard",
+      "cleaned": "Etienne GamacheLudovik RiouxAntoine GamachePhilippe Richer-Simard",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Chase Racine/Samuel Raiche/Elliot Arnautovitch/Emile Bouvier",
+    "normalized": "Chase RacineSamuel RaicheElliot ArnautovitchEmile Bouvier",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Chase Racine/Samuel Raiche/Elliot Arnautovitch/Emile Bouvier",
+      "cleaned": "Chase RacineSamuel RaicheElliot ArnautovitchEmile Bouvier",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Antoine Laliberte/Jean-Michel Laliberte/Timothy Gagnon/Zachary Sauro",
+    "normalized": "Antoine LaliberteJean-Michel LaliberteTimothy GagnonZachary Sauro",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Antoine Laliberte/Jean-Michel Laliberte/Timothy Gagnon/Zachary Sauro",
+      "cleaned": "Antoine LaliberteJean-Michel LaliberteTimothy GagnonZachary Sauro",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Eli Thorp/Leo Carmichael/Lukas Manning -",
+    "normalized": "Eli ThorpLeo CarmichaelLukas Manning -",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Eli Thorp/Leo Carmichael/Lukas Manning -",
+      "cleaned": "Eli ThorpLeo CarmichaelLukas Manning -",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Xavier Hebert/Emrick Leclerc",
+    "normalized": "Xavier HebertEmrick Leclerc",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Xavier Hebert/Emrick Leclerc",
+      "cleaned": "Xavier HebertEmrick Leclerc",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Benjamin Pelletier/Bogdan Barba",
+    "normalized": "Benjamin PelletierBogdan Barba",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Benjamin Pelletier/Bogdan Barba",
+      "cleaned": "Benjamin PelletierBogdan Barba",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Benjamin Gaudet/Julien Pomerleau",
+    "normalized": "Benjamin GaudetJulien Pomerleau",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Benjamin Gaudet/Julien Pomerleau",
+      "cleaned": "Benjamin GaudetJulien Pomerleau",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Zachary Tremblay/Leo Roy",
+    "normalized": "Zachary TremblayLeo Roy",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Zachary Tremblay/Leo Roy",
+      "cleaned": "Zachary TremblayLeo Roy",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Thomas Sinotte/Louis Enzo Roy",
+    "normalized": "Thomas SinotteLouis Enzo Roy",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Thomas Sinotte/Louis Enzo Roy",
+      "cleaned": "Thomas SinotteLouis Enzo Roy",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Laurent Rouleau/Remi Loisel",
+    "normalized": "Laurent RouleauRemi Loisel",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Laurent Rouleau/Remi Loisel",
+      "cleaned": "Laurent RouleauRemi Loisel",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Laurean Galatan/Zakari Sauve",
+    "normalized": "Laurean GalatanZakari Sauve",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Laurean Galatan/Zakari Sauve",
+      "cleaned": "Laurean GalatanZakari Sauve",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Cedric Bourgeois/Edouard Pellerin",
+    "normalized": "Cedric BourgeoisEdouard Pellerin",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Cedric Bourgeois/Edouard Pellerin",
+      "cleaned": "Cedric BourgeoisEdouard Pellerin",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Zaic Gagnon/Felix Vadnais",
+    "normalized": "Zaic GagnonFelix Vadnais",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Zaic Gagnon/Felix Vadnais",
+      "cleaned": "Zaic GagnonFelix Vadnais",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Samuel Jacobs/Theandre Legrand",
+    "normalized": "Samuel JacobsTheandre Legrand",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Samuel Jacobs/Theandre Legrand",
+      "cleaned": "Samuel JacobsTheandre Legrand",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Zachary Verret/Ryuto Sato Kerwin",
+    "normalized": "Zachary VerretRyuto Sato Kerwin",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Zachary Verret/Ryuto Sato Kerwin",
+      "cleaned": "Zachary VerretRyuto Sato Kerwin",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Ryan Creamer/Tristan Buday",
+    "normalized": "Ryan CreamerTristan Buday",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Ryan Creamer/Tristan Buday",
+      "cleaned": "Ryan CreamerTristan Buday",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Noah Seguin/Sasha Roux -",
+    "normalized": "Noah SeguinSasha Roux -",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Noah Seguin/Sasha Roux -",
+      "cleaned": "Noah SeguinSasha Roux -",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Justine Tremblay/Maite Leger/Maude Vittoz/Lily Jobin",
+    "normalized": "Justine TremblayMaite LegerMaude VittozLily Jobin",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Justine Tremblay/Maite Leger/Maude Vittoz/Lily Jobin",
+      "cleaned": "Justine TremblayMaite LegerMaude VittozLily Jobin",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Eloise Hebert/Melyna Cassista/Sarah-Jeanne Boucher/Maelle Leclerc",
+    "normalized": "Eloise HebertMelyna CassistaSarah-Jeanne BoucherMaelle Leclerc",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Eloise Hebert/Melyna Cassista/Sarah-Jeanne Boucher/Maelle Leclerc",
+      "cleaned": "Eloise HebertMelyna CassistaSarah-Jeanne BoucherMaelle Leclerc",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Camille Pelletier/Florence Bourdeau/Billie Angel/Leanne Dionne Guay",
+    "normalized": "Camille PelletierFlorence BourdeauBillie AngelLeanne Dionne Guay",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Camille Pelletier/Florence Bourdeau/Billie Angel/Leanne Dionne Guay",
+      "cleaned": "Camille PelletierFlorence BourdeauBillie AngelLeanne Dionne Guay",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Camille Lacouline/Leanne Richard/Marilou Lessard",
+    "normalized": "Camille LacoulineLeanne RichardMarilou Lessard",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Camille Lacouline/Leanne Richard/Marilou Lessard",
+      "cleaned": "Camille LacoulineLeanne RichardMarilou Lessard",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Grace Fu/Ophelie Legrand/Sasha Proulx/Wenli Deng",
+    "normalized": "Grace FuOphelie LegrandSasha ProulxWenli Deng",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Grace Fu/Ophelie Legrand/Sasha Proulx/Wenli Deng",
+      "cleaned": "Grace FuOphelie LegrandSasha ProulxWenli Deng",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Flavie Martin/Maeva Emond",
+    "normalized": "Flavie MartinMaeva Emond",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Flavie Martin/Maeva Emond",
+      "cleaned": "Flavie MartinMaeva Emond",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Augustine Boisvert/Charlotte Desilets",
+    "normalized": "Augustine BoisvertCharlotte Desilets",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Augustine Boisvert/Charlotte Desilets",
+      "cleaned": "Augustine BoisvertCharlotte Desilets",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Sarah Creamer/Mia Forystek",
+    "normalized": "Sarah CreamerMia Forystek",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Sarah Creamer/Mia Forystek",
+      "cleaned": "Sarah CreamerMia Forystek",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Allie Wang/Florence Hamel",
+    "normalized": "Allie WangFlorence Hamel",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Allie Wang/Florence Hamel",
+      "cleaned": "Allie WangFlorence Hamel",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Calina Bidal/Clara Blanchette",
+    "normalized": "Calina BidalClara Blanchette",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Calina Bidal/Clara Blanchette",
+      "cleaned": "Calina BidalClara Blanchette",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Mathilde Patry/Maika St-Yves",
+    "normalized": "Mathilde PatryMaika St-Yves",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Mathilde Patry/Maika St-Yves",
+      "cleaned": "Mathilde PatryMaika St-Yves",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Anna-Mariya Izmaylova/Daphnee Champagne",
+    "normalized": "Anna-Mariya IzmaylovaDaphnee Champagne",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Anna-Mariya Izmaylova/Daphnee Champagne",
+      "cleaned": "Anna-Mariya IzmaylovaDaphnee Champagne",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Claudine Courteau-Godmaire/Jasmine Gemme",
+    "normalized": "Claudine Courteau-GodmaireJasmine Gemme",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Claudine Courteau-Godmaire/Jasmine Gemme",
+      "cleaned": "Claudine Courteau-GodmaireJasmine Gemme",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Florence Stewart-Mueller/Kaiya Leah Schade",
+    "normalized": "Florence Stewart-MuellerKaiya Leah Schade",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Florence Stewart-Mueller/Kaiya Leah Schade",
+      "cleaned": "Florence Stewart-MuellerKaiya Leah Schade",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Alina Tverie/Ariane Loisel -",
+    "normalized": "Alina TverieAriane Loisel -",
+    "confidence": 0.902,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Alina Tverie/Ariane Loisel -",
+      "cleaned": "Alina TverieAriane Loisel -",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Otterburn #",
+    "normalized": "Otterburn",
+    "confidence": 0.632,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Otterburn #",
+      "cleaned": "Otterburn",
+      "format_detected": "title_case"
+    }
+  },
+  {
+    "raw": "Otterburn #",
+    "normalized": "Otterburn",
+    "confidence": 0.632,
+    "match_type": "title_case",
+    "metadata": {
+      "original": "Otterburn #",
+      "cleaned": "Otterburn",
+      "format_detected": "title_case"
+    }
+  }
+]

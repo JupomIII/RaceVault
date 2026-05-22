@@ -1,0 +1,12 @@
+{
+  "layout_type": "layout_c",
+  "confidence": 0.0,
+  "table_index": null,
+  "all_scores": {
+    "layout_a": 0.0,
+    "layout_b": 0.0,
+    "layout_c": 0.0,
+    "layout_d": 0.0
+  },
+  "method": "manual"
+}

@@ -1,0 +1,3 @@
+2026-05-20 15:34:09,681 | main | INFO | Processing: Resulats-2-KM (1).pdf
+2026-05-20 15:34:09,681 | main | DEBUG | Extracted 6 pages, 19 tables
+2026-05-20 15:34:09,746 | main | INFO | Successfully processed Resulats-2-KM (1).pdf -> output\Resulats-2-KM _1__1.json (confidence: 0.65)

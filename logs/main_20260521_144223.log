@@ -1,0 +1,14 @@
+2026-05-21 14:42:23,349 | main | INFO | Found 16 PDF(s) to process
+2026-05-21 14:42:23,349 | main | INFO | Processing: 2km 18-10-2025.pdf
+2026-05-21 14:42:23,866 | main | DEBUG | Extracted 6 pages, 19 tables
+2026-05-21 14:42:23,876 | main | ERROR | Could not detect layout
+2026-05-21 14:42:23,877 | main | ERROR | Moved failed file to failed\2km 18-10-2025.pdf: Could not detect layout
+2026-05-21 14:42:23,877 | main | INFO | Processing: Ess prov J1 2025.pdf
+2026-05-21 14:42:25,345 | main | DEBUG | Extracted 12 pages, 16 tables
+2026-05-21 14:42:25,468 | main | INFO | Successfully processed Ess prov J1 2025.pdf -> output\Ess prov J1 2025.json (confidence: 0.00)
+2026-05-21 14:42:25,469 | main | INFO | Moved parsed file to parsed\Ess prov J1 2025.pdf
+2026-05-21 14:42:25,470 | main | INFO | Processing: Ess prov J2 2025.pdf
+2026-05-21 14:42:27,282 | main | DEBUG | Extracted 22 pages, 35 tables
+2026-05-21 14:42:27,345 | main | INFO | Successfully processed Ess prov J2 2025.pdf -> output\Ess prov J2 2025.json (confidence: 0.00)
+2026-05-21 14:42:27,347 | main | INFO | Moved parsed file to parsed\Ess prov J2 2025.pdf
+2026-05-21 14:42:27,347 | main | INFO | Processing: Ess prov J3 2025.pdf

@@ -1,0 +1,7 @@
+{
+  "parse_warnings": [
+    "Table parsing failed: bad character in group name '<round' at position 37",
+    "Text parsing failed: bad character in group name '<round' at position 37"
+  ],
+  "failed_rows": []
+}

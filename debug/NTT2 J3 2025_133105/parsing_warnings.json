@@ -1,0 +1,673 @@
+{
+  "parse_warnings": [
+    "No events extracted",
+    "Potential duplicates detected: 3 pairs"
+  ],
+  "failed_rows": [
+    {
+      "row": {
+        "line": "Place Ln/co Crew / \u00e9quipage Club Time/temps Delta"
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "Hommes U18 Men C-2 500M"
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "Place Ln/co Crew / \u00e9quipage Club Time/temps Delta"
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "Place Ln/co Crew / \u00e9quipage Club Time/temps Delta"
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "3 of 12 2025-06-29, 4:27 p.m."
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "Regatta Results file:///D:/Day%203%20Results.htm"
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "2025 National Team Trials #2 - 6/29/2025 (Day 3)"
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "Hommes SENIOR Men K-2 500M"
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "Place Ln/co Crew / \u00e9quipage Club Time/temps Delta"
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "Hommes U18 Men K-2 500M"
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "Place Ln/co Crew / \u00e9quipage Club Time/temps Delta"
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "Place Ln/co Crew / \u00e9quipage Club Time/temps Delta"
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "4 of 12 2025-06-29, 4:27 p.m."
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "Regatta Results file:///D:/Day%203%20Results.htm"
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "Place Ln/co Crew / \u00e9quipage Club Time/temps Delta"
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "Femmes SENIOR Women C-2 500M"
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "Place Ln/co Crew / \u00e9quipage Club Time/temps Delta"
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "U18 Women C-2 500m"
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "Place Ln/co Crew / \u00e9quipage Club Time/temps Delta"
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "Abigail HARRINGTON, Julianne"
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "PRONOVOST"
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "Olivia DESROSIERS-MCARTHUR, Emma-"
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "Rose NADEAU"
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "5 of 12 2025-06-29, 4:27 p.m."
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "Regatta Results file:///D:/Day%203%20Results.htm"
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "2025 National Team Trials #2 - 6/29/2025 (Day 3)"
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "Place Ln/co Crew / \u00e9quipage Club Time/temps Delta"
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "DNF 5 Madeleine BEAUREGARD, Isabel LOWRY Carleton Place 0:00.000 0:00.000"
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "Femmes SENIOR Women K-2 500M"
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "Place Ln/co Crew / \u00e9quipage Club Time/temps Delta"
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "Daphn\u00e9e CHAMPAGNE, Anna-Marya"
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "IZMAYLOV"
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "U18 Women K2 500m"
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "Place Ln/co Crew / \u00e9quipage Club Time/temps Delta"
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "Megan CHAMPAGNE, Victoria LAVALL\u00c9E-"
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "LATOUR"
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "6 of 12 2025-06-29, 4:27 p.m."
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "Regatta Results file:///D:/Day%203%20Results.htm"
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "Place Ln/co Crew / \u00e9quipage Club Time/temps Delta"
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "U21 Men C1 1000m"
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "Place Ln/co Crew / \u00e9quipage Club Time/temps Delta"
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "U21 Men K1 1000m"
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "Place Ln/co Crew / \u00e9quipage Club Time/temps Delta"
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "SCR 8 Luke ENNS Toba 0:00.000 0:00.000"
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "7 of 12 2025-06-29, 4:27 p.m."
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "Regatta Results file:///D:/Day%203%20Results.htm"
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "2025 National Team Trials #2 - 6/29/2025 (Day 3)"
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "U21 Women C1 200m"
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "Place Ln/co Crew / \u00e9quipage Club Time/temps Delta"
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "U21 Women K1 500m"
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "Place Ln/co Crew / \u00e9quipage Club Time/temps Delta"
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "Senior Women C-1 5000m"
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "Place Ln/co Crew / \u00e9quipage Club Time/temps Delta"
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "8 of 12 2025-06-29, 4:27 p.m."
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "Regatta Results file:///D:/Day%203%20Results.htm"
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "U18 Women C-1 5000m"
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "Place Ln/co Crew / \u00e9quipage Club Time/temps Delta"
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "DNF 11 Nora-Maelie TURCOTTE Lac-Beauport 0:00.000 0:00.000"
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "DNF 6 Haley SEBESTA North Bay 0:00.000 0:00.000"
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "Paracanoe 5000m"
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "Place Ln/co Crew / \u00e9quipage Club Time/temps Delta"
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "Paddle All ICF K1 5000m"
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "Place Ln/co Crew / \u00e9quipage Club Time/temps Delta"
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "9 of 12 2025-06-29, 4:27 p.m."
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "Regatta Results file:///D:/Day%203%20Results.htm"
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "2025 National Team Trials #2 - 6/29/2025 (Day 3)"
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "Seniorr Men K-1 5000m"
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "Place Ln/co Crew / \u00e9quipage Club Time/temps Delta"
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "DNS 4 Vladimir DEMISHKEVICH Pointe-Claire 0:00.000 0:00.000"
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "DNF 5 Mathieu GILBERT Trois Rivieres 0:00.000 0:00.000"
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "DNF 12 Ryan NARODITSKY Rideau 0:00.000 0:00.000"
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "Senior Women K-1 5000m"
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "Place Ln/co Crew / \u00e9quipage Club Time/temps Delta"
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "DNF 2 Kristiane FREE Calgary 0:00.000 0:00.000"
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "Senior Men C-1 5000m"
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "Place Ln/co Crew / \u00e9quipage Club Time/temps Delta"
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "DNF 7 Lucas WILLIAMS Mississauga 0:00.000 0:00.000"
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "10 of 12 2025-06-29, 4:27 p.m."
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "Regatta Results file:///D:/Day%203%20Results.htm"
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "U18 Women K-1 5000m"
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "Place Ln/co Crew / \u00e9quipage Club Time/temps Delta"
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "DNF 3 Megan CHAMPAGNE Sherbrooke 0:00.000 0:00.000"
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "DNF 12 Amalia JORDAN Calgary 0:00.000 0:00.000"
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "DNF 2 Beatrice OGER Rideau 0:00.000 0:00.000"
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "U18 Men C-1 5000m"
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "Place Ln/co Crew / \u00e9quipage Club Time/temps Delta"
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "DSQ 11 Logan GRIMSRUD Rideau 0:00.000 0:00.000"
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "11 of 12 2025-06-29, 4:27 p.m."
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "Regatta Results file:///D:/Day%203%20Results.htm"
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "U18 Men K-1 5000m"
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "Place Ln/co Crew / \u00e9quipage Club Time/temps Delta"
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "DNF 27 Xavier BIRD Calgary 0:00.000 0:00.000"
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "DNF 11 Laurent ROULEAU Lachine 0:00.000 0:00.000"
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "DNF 46 anakin PYE Sack-a-Wa 0:00.000 0:00.000"
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    },
+    {
+      "row": {
+        "line": "12 of 12 2025-06-29, 4:27 p.m."
+      },
+      "reason": "Could not parse result line",
+      "layout": "layout_b"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+2026-05-21 14:47:40,629 | main | INFO | Processing: Prov M16 J3 2025.pdf
+2026-05-21 14:47:41,686 | main | DEBUG | Extracted 7 pages, 0 tables
+2026-05-21 14:47:41,728 | main | INFO | Successfully processed Prov M16 J3 2025.pdf -> output\Prov M16 J3 2025.json (confidence: 0.84)
+2026-05-21 14:47:41,730 | main | INFO | Processing: Prov M16 J2 2025.pdf
+2026-05-21 14:47:42,868 | main | DEBUG | Extracted 9 pages, 0 tables
+2026-05-21 14:47:42,921 | main | INFO | Successfully processed Prov M16 J2 2025.pdf -> output\Prov M16 J2 2025.json (confidence: 0.85)
+2026-05-21 14:47:42,924 | main | INFO | Processing: Prov M16 J1 2025.pdf
+2026-05-21 14:47:44,073 | main | DEBUG | Extracted 12 pages, 0 tables
+2026-05-21 14:47:44,145 | main | INFO | Successfully processed Prov M16 J1 2025.pdf -> output\Prov M16 J1 2025.json (confidence: 0.89)
+2026-05-21 14:47:44,147 | main | INFO | Processing: Prov M14 2025.pdf
+2026-05-21 14:47:49,082 | main | DEBUG | Extracted 39 pages, 0 tables
+2026-05-21 14:47:49,513 | main | INFO | Successfully processed Prov M14 2025.pdf -> output\Prov M14 2025.json (confidence: 0.87)

@@ -1,0 +1,12 @@
+{
+  "layout_type": "layout_d",
+  "confidence": 0.5249999999999999,
+  "table_index": 318,
+  "all_scores": {
+    "layout_a": 0.35,
+    "layout_b": 0.2,
+    "layout_c": 0.30000000000000004,
+    "layout_d": 0.5249999999999999
+  },
+  "method": "table"
+}
