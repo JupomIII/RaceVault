@@ -4,3 +4,9 @@ __pycache__/
 *.pyc
 build/
 dist/
+.debug/
+debug/
+.logs/
+logs/
+output/
+.output/
