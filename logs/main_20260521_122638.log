@@ -1,4 +1,0 @@
-2026-05-21 12:26:45,543 | main | INFO | Processing: Resultats_jour1_-prov-M14-_160825.pdf
-2026-05-21 12:26:50,454 | main | DEBUG | Extracted 39 pages, 0 tables
-2026-05-21 12:26:50,930 | main | INFO | Successfully processed Resultats_jour1_-prov-M14-_160825.pdf -> output\Resultats_jour1_-prov-M14-_160825.json (confidence: 0.87)
-2026-05-21 12:26:50,934 | main | INFO | Moved parsed file to parsed\Resultats_jour1_-prov-M14-_160825_2.pdf

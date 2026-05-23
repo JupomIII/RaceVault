@@ -328,7 +328,7 @@ class RaceVaultGUI(QWidget):
                 basename = os.path.basename(f)
                 dest = os.path.join(dest_dir, basename)
 
-                # duplicate detection: ignore parsed/ so files can remain in input
+                # duplicate detection: skip if output already exists
                 output_conflict = os.path.exists(os.path.join(self.pipeline.config.output_dir, os.path.splitext(basename)[0] + ".json"))
                 if os.path.exists(dest) or output_conflict:
                     logger.info(f"Duplicate detected, skipping: {basename}")
@@ -477,9 +477,10 @@ class RaceVaultGUI(QWidget):
         layout.addWidget(self.search_info_label)
 
         # Standardized columns: Competition, Distance, Boat Class, Athlete, Time, Position, Date
-        self.search_table = QTableWidget(0, 7)
+        self.search_table = QTableWidget(0, 8)
         self.search_table.setHorizontalHeaderLabels([
             "Competition Name",
+            "Event Name",
             "Distance",
             "Boat Class",
             "Athlete Name",
@@ -1048,14 +1049,14 @@ class RaceVaultGUI(QWidget):
             comp_item = QTableWidgetItem(row.get("source_file", ""))
             comp_item.setData(Qt.UserRole, row)
             self.search_table.setItem(row_index, 0, comp_item)
-
-            self.search_table.setItem(row_index, 1, QTableWidgetItem(row.get("distance", "")))
-            self.search_table.setItem(row_index, 2, QTableWidgetItem(row.get("boat_class", "")))
-            self.search_table.setItem(row_index, 3, QTableWidgetItem(row.get("athlete_name", "")))
-            self.search_table.setItem(row_index, 4, QTableWidgetItem(row.get("time", "")))
-            pos = row.get("position", "")
-            self.search_table.setItem(row_index, 5, QTableWidgetItem(str(pos) if pos is not None else ""))
-            self.search_table.setItem(row_index, 6, QTableWidgetItem(row.get("date", "")))
+        self.search_table.setItem(row_index, 1, QTableWidgetItem(row.get("event_name", "")))
+        self.search_table.setItem(row_index, 2, QTableWidgetItem(row.get("distance", "")))
+        self.search_table.setItem(row_index, 3, QTableWidgetItem(row.get("boat_class", "")))
+        self.search_table.setItem(row_index, 4, QTableWidgetItem(row.get("athlete_name", "")))
+        self.search_table.setItem(row_index, 5, QTableWidgetItem(row.get("time", "")))
+        pos = row.get("position", "")
+        self.search_table.setItem(row_index, 6, QTableWidgetItem(str(pos) if pos is not None else ""))
+        self.search_table.setItem(row_index, 7, QTableWidgetItem(row.get("date", "")))
 
         self.search_table.setSortingEnabled(True)
 

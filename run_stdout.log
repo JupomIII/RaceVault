@@ -1,6 +1,7 @@
 [Preview] Missing file: C:\Users\julie\Desktop\RaceVault\app\assets\layout_previews\auto_detect.png
 MuPDF error: format error: No common ancestor in structure tree
 
+[Preview] Missing file: C:\Users\julie\Desktop\RaceVault\app\assets\layout_previews\auto_detect.png
 MuPDF error: format error: No common ancestor in structure tree
 
 MuPDF error: format error: No common ancestor in structure tree
@@ -9,15 +10,5 @@ MuPDF error: format error: No common ancestor in structure tree
 
 MuPDF error: format error: No common ancestor in structure tree
 
-MuPDF error: format error: No common ancestor in structure tree
-
-MuPDF error: format error: No common ancestor in structure tree
-
-MuPDF error: format error: No common ancestor in structure tree
-
-MuPDF error: format error: No common ancestor in structure tree
-
-MuPDF error: format error: No common ancestor in structure tree
-
-MuPDF error: format error: No common ancestor in structure tree
-
+Consider using the pymupdf_layout package for a greatly improved page layout analysis.
+[Preview] Missing file: C:\Users\julie\Desktop\RaceVault\app\assets\layout_previews\auto_detect.png

@@ -5,114 +5,10 @@ import pandas as pd
 import re
 import logging
 
+from .base_parser import BaseParser
+from ..schema import Event, Result, Athlete, ParseResult
+
 logger = logging.getLogger(__name__)
-
-
-# ============================================================
-# LIGHTWEIGHT SCHEMA
-# ============================================================
-
-class Athlete:
-    def __init__(self, raw_name: str):
-        self.raw_name = raw_name.strip()
-
-    def __repr__(self):
-        return f"Athlete({self.raw_name!r})"
-
-
-class Result:
-    def __init__(
-        self,
-        position: Optional[int],
-        lane: Optional[int],
-        athlete: Athlete,
-        club: str,
-        time: Optional[str],
-        delta: Optional[str] = None,
-        raw_data: Optional[dict] = None,
-    ):
-        self.position = position
-        self.lane = lane
-        self.athlete = athlete
-        self.club = club
-        self.time = time
-        self.delta = delta
-        self.raw_data = raw_data or {}
-
-    def __repr__(self):
-        return (
-            f"Result(pos={self.position}, lane={self.lane}, "
-            f"athlete={self.athlete}, club={self.club!r}, time={self.time!r})"
-        )
-
-
-class Event:
-    def __init__(self, event_name: str):
-        self.event_name = event_name.strip()
-        self.round: Optional[str] = None
-        self.results: List[Result] = []
-        self.raw_data: dict = {}
-
-    def __repr__(self):
-        return (
-            f"Event({self.event_name!r}, round={self.round!r}, "
-            f"results={len(self.results)})"
-        )
-
-
-class ParseResult:
-    def __init__(self, source_file: str, layout_type: str):
-        self.source_file = source_file
-        self.layout_type = layout_type
-        self.events: List[Event] = []
-        self.parsing_warnings: List[str] = []
-        self.failed_rows: List[str] = []
-
-    def to_dict(self) -> dict:
-        return {
-            "source_file": self.source_file,
-            "layout_type": self.layout_type,
-            "events": [
-                {
-                    "event_name": event.event_name,
-                    "round": event.round,
-                    "raw_data": event.raw_data,
-                    "results": [
-                        {
-                            "position": result.position,
-                            "lane": result.lane,
-                            "athlete": result.athlete.raw_name,
-                            "club": result.club,
-                            "time": result.time,
-                            "delta": result.delta,
-                            "raw_data": result.raw_data,
-                        }
-                        for result in event.results
-                    ],
-                }
-                for event in self.events
-            ],
-            "parsing_warnings": self.parsing_warnings,
-            "failed_rows": self.failed_rows,
-        }
-
-
-# ============================================================
-# BASE PARSER
-# ============================================================
-
-class BaseParser:
-    def __init__(self, layout_type: str):
-        self.layout_type = layout_type
-        self.warnings: List[str] = []
-        self.failed_rows: List[str] = []
-
-    def _add_warning(self, msg: str):
-        logger.warning(msg)
-        self.warnings.append(msg)
-
-    def parse(self, extracted_data: Dict[str, Any], layout_info: Dict[str, Any]) -> ParseResult:
-        raise NotImplementedError
 
 
 # ============================================================
@@ -332,7 +228,7 @@ class LayoutAParser(BaseParser):
             if parsed:
                 current_event.results.append(parsed)
             else:
-                self.failed_rows.append(line)
+                self.failed_rows.append({"line": line, "layout": self.layout_type})
 
         if current_event and current_event.results:
             events.append(current_event)

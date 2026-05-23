@@ -1,3 +1,0 @@
-2026-05-23 13:42:23,146 | main | INFO | Processing: Nationals 2025.pdf
-2026-05-23 13:42:46,756 | main | DEBUG | Extracted 97 pages, 396 tables
-2026-05-23 13:42:47,994 | main | INFO | Successfully processed Nationals 2025.pdf -> output\Nationals 2025.json (confidence: 0.69)

@@ -1,21 +1,12 @@
-2026-05-23 14:06:12,025 | main | INFO | Processing: Jeux Canada J2 2025.pdf
-Detected 6 potential duplicate athletes
-2026-05-23 14:06:13,413 | main | INFO | Successfully processed Jeux Canada J2 2025.pdf -> output\Jeux Canada J2 2025.json (confidence: 0.68)
-2026-05-23 14:06:13,416 | main | INFO | Processing: Jeux Canada J1 2025.pdf
-Detected 27 potential duplicate athletes
-2026-05-23 14:06:14,119 | main | INFO | Successfully processed Jeux Canada J1 2025.pdf -> output\Jeux Canada J1 2025.json (confidence: 0.76)
-2026-05-23 14:06:14,129 | main | INFO | Processing: Ess prov J3 2025.pdf
-2026-05-23 14:06:17,263 | main | INFO | Successfully processed Ess prov J3 2025.pdf -> output\Ess prov J3 2025.json (confidence: 0.00)
-2026-05-23 14:06:17,267 | main | INFO | Processing: Ess prov J2 2025.pdf
-2026-05-23 14:06:19,545 | main | INFO | Successfully processed Ess prov J2 2025.pdf -> output\Ess prov J2 2025.json (confidence: 0.00)
-2026-05-23 14:06:19,548 | main | INFO | Processing: Ess prov J1 2025.pdf
-2026-05-23 14:06:21,077 | main | INFO | Successfully processed Ess prov J1 2025.pdf -> output\Ess prov J1 2025.json (confidence: 0.00)
-Traceback (most recent call last):
-  File "C:\Users\julie\Desktop\RaceVault\app\gui.py", line 360, in parse_selected
-    self._process_file_list(file_paths, layout_override=layout_override)
-  File "C:\Users\julie\Desktop\RaceVault\app\gui.py", line 425, in _process_file_list
-    self.athlete_manager.rebuild_from_outputs()
-  File "C:\Users\julie\Desktop\RaceVault\app\athlete_manager.py", line 77, in rebuild_from_outputs
-    athlete_name = athlete_info.get("normalized_name") or athlete_info.get("raw_name", "")
-                   ^^^^^^^^^^^^^^^^
-AttributeError: 'str' object has no attribute 'get'
+2026-05-23 14:18:18,610 | main | INFO | Processing: Prov M16 J3 2025.pdf
+Detected 87 potential duplicate athletes
+2026-05-23 14:18:19,631 | main | INFO | Successfully processed Prov M16 J3 2025.pdf -> output\Prov M16 J3 2025.json (confidence: 0.84)
+2026-05-23 14:18:19,633 | main | INFO | Processing: Prov M16 J2 2025.pdf
+Detected 70 potential duplicate athletes
+2026-05-23 14:18:20,854 | main | INFO | Successfully processed Prov M16 J2 2025.pdf -> output\Prov M16 J2 2025.json (confidence: 0.85)
+2026-05-23 14:18:20,856 | main | INFO | Processing: Prov M16 J1 2025.pdf
+Detected 450 potential duplicate athletes
+2026-05-23 14:18:22,089 | main | INFO | Successfully processed Prov M16 J1 2025.pdf -> output\Prov M16 J1 2025.json (confidence: 0.89)
+2026-05-23 14:18:22,091 | main | INFO | Processing: Prov M14 2025.pdf
+Detected 1106 potential duplicate athletes
+2026-05-23 14:18:27,486 | main | INFO | Successfully processed Prov M14 2025.pdf -> output\Prov M14 2025.json (confidence: 0.87)

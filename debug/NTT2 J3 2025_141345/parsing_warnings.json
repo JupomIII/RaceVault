@@ -1,7 +1,0 @@
-{
-  "parse_warnings": [
-    "No events extracted",
-    "Text parsing failed: 'LayoutBParser' object has no attribute '_parse_result_line'"
-  ],
-  "failed_rows": []
-}

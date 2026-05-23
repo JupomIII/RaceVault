@@ -1,6 +1,0 @@
-2026-05-21 14:12:01,024 | main | INFO | Processing: NTT2 J3 2025.pdf
-2026-05-21 14:12:02,431 | main | DEBUG | Extracted 12 pages, 27 tables
-2026-05-21 14:12:02,471 | main | INFO | Successfully processed NTT2 J3 2025.pdf -> output\NTT2 J3 2025_1.json (confidence: 0.00)
-2026-05-21 14:12:37,856 | main | INFO | Processing: NTT2 J3 2025.pdf
-2026-05-21 14:12:39,217 | main | DEBUG | Extracted 12 pages, 27 tables
-2026-05-21 14:12:39,258 | main | INFO | Successfully processed NTT2 J3 2025.pdf -> output\NTT2 J3 2025.json (confidence: 0.00)

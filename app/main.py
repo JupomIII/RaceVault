@@ -2,7 +2,6 @@ from __future__ import annotations
 import os
 import sys
 import traceback
-import logging
 from typing import List, Optional
 from pathlib import Path
 
@@ -12,15 +11,14 @@ if __package__ is None:
         sys.path.insert(0, root_dir)
 
 from app.config import Config
-from app.utils import setup_logger, move_to_failed, sanitize_filename, move_to_parsed
+from app.utils import setup_logger, sanitize_filename
 from app.extractor import PDFExtractor
 from app.layout_detector import LayoutDetector
 from app.parsers import get_parser
 from app.normalizer import Normalizer
 from app.exporter import JSONExporter
-from app.debug_manager import DebugManager
 
-logger = setup_logger("main")
+logger = setup_logger("main", log_file="racevault.log")
 
 
 class Pipeline:
@@ -32,7 +30,6 @@ class Pipeline:
         self.layout_detector = LayoutDetector()
         self.normalizer = Normalizer()
         self.exporter = JSONExporter(self.config.output_dir)
-        self.debug_manager = DebugManager(self.config.debug_dir)
 
     def run(self, reparse_existing: bool = False, move_parsed: bool = False) -> List[str]:
         pdf_files = self._scan_input(reparse_existing=reparse_existing)
@@ -48,7 +45,6 @@ class Pipeline:
             except Exception as e:
                 logger.error(f"Unhandled error processing {pdf_path}: {e}")
                 logger.debug(traceback.format_exc())
-                move_to_failed(pdf_path, self.config.failed_dir, str(e), logger)
 
         logger.info(f"Pipeline complete. Exported {len(exported_files)} file(s).")
         return exported_files
@@ -78,7 +74,6 @@ class Pipeline:
         if layout_info["layout_type"] is None:
             msg = "Could not detect layout"
             logger.error(msg)
-            move_to_failed(pdf_path, self.config.failed_dir, msg, logger)
             return {"output_path": None, "layout_info": layout_info, "parse_result": None}
 
         try:
@@ -87,7 +82,6 @@ class Pipeline:
         except Exception as e:
             msg = f"Parser error: {e}"
             logger.error(msg)
-            move_to_failed(pdf_path, self.config.failed_dir, msg, logger)
             return {"output_path": None, "layout_info": layout_info, "parse_result": None}
 
         parse_result.source_file = filename
@@ -96,21 +90,12 @@ class Pipeline:
 
         parse_result = self.normalizer.normalize(parse_result)
 
-        self.debug_manager.save_artifacts(filename, extracted, layout_info, parse_result)
-
         output_path = self.exporter.export(parse_result, original_path=pdf_path)
 
         logger.info(
             f"Successfully processed {filename} -> {output_path} "
             f"(confidence: {parse_result.confidence:.2f})"
         )
-
-        # Move the source PDF into the parsed directory to avoid duplicate reprocessing
-        if move_parsed:
-            try:
-                move_to_parsed(pdf_path, self.config.parsed_dir, logger)
-            except Exception:
-                logger.exception("Failed moving parsed PDF to parsed dir")
 
         return {"output_path": output_path, "layout_info": layout_info, "parse_result": parse_result}
 
@@ -150,7 +135,6 @@ class Pipeline:
         if layout_info["layout_type"] is None:
             msg = "Could not detect layout"
             logger.error(msg)
-            move_to_failed(pdf_path, self.config.failed_dir, msg, logger)
             return None
 
         # 3. Parsing
@@ -160,7 +144,6 @@ class Pipeline:
         except Exception as e:
             msg = f"Parser error: {e}"
             logger.error(msg)
-            move_to_failed(pdf_path, self.config.failed_dir, msg, logger)
             return None
 
         parse_result.source_file = filename
@@ -169,22 +152,13 @@ class Pipeline:
         # 4. Normalization
         parse_result = self.normalizer.normalize(parse_result)
 
-        # 5. Debug artifacts
-        self.debug_manager.save_artifacts(filename, extracted, layout_info, parse_result)
-
-        # 6. Export
+        # 5. Export
         output_path = self.exporter.export(parse_result, original_path=pdf_path)
 
         logger.info(
             f"Successfully processed {filename} -> {output_path} "
             f"(confidence: {parse_result.confidence:.2f})"
         )
-
-        # Move parsed PDF to parsed directory
-        try:
-            move_to_parsed(pdf_path, self.config.parsed_dir, logger)
-        except Exception:
-            logger.exception("Failed moving parsed PDF to parsed dir")
 
         return output_path
 

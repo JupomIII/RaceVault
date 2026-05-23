@@ -1,3 +1,0 @@
-2026-05-21 12:48:36,772 | main | INFO | Processing: Prov M14 16-08-2025.pdf
-2026-05-21 12:48:41,643 | main | DEBUG | Extracted 39 pages, 0 tables
-2026-05-21 12:48:42,110 | main | INFO | Successfully processed Prov M14 16-08-2025.pdf -> output\Prov M14 16-08-2025.json (confidence: 0.87)

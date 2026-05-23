@@ -5,114 +5,10 @@ import pandas as pd
 import re
 import logging
 
+from .base_parser import BaseParser
+from ..schema import Event, Result, Athlete, ParseResult
+
 logger = logging.getLogger(__name__)
-
-
-# ============================================================
-# LIGHTWEIGHT SCHEMA
-# ============================================================
-
-class Athlete:
-    def __init__(self, raw_name: str):
-        self.raw_name = raw_name.strip()
-
-    def __repr__(self):
-        return f"Athlete({self.raw_name!r})"
-
-
-class Result:
-    def __init__(
-        self,
-        position: Optional[int],
-        lane: Optional[int],
-        athlete: Athlete,
-        club: str,
-        time: Optional[str],
-        delta: Optional[str] = None,
-        raw_data: Optional[dict] = None,
-    ):
-        self.position = position
-        self.lane = lane
-        self.athlete = athlete
-        self.club = club
-        self.time = time
-        self.delta = delta
-        self.raw_data = raw_data or {}
-
-    def __repr__(self):
-        return (
-            f"Result(pos={self.position}, lane={self.lane}, "
-            f"athlete={self.athlete}, club={self.club!r}, time={self.time!r})"
-        )
-
-
-class Event:
-    def __init__(self, event_name: str):
-        self.event_name = event_name.strip()
-        self.round: Optional[str] = None
-        self.results: List[Result] = []
-        self.raw_data: dict = {}
-
-    def __repr__(self):
-        return (
-            f"Event({self.event_name!r}, round={self.round!r}, "
-            f"results={len(self.results)})"
-        )
-
-
-class ParseResult:
-    def __init__(self, source_file: str, layout_type: str):
-        self.source_file = source_file
-        self.layout_type = layout_type
-        self.events: List[Event] = []
-        self.parsing_warnings: List[str] = []
-        self.failed_rows: List[str] = []
-
-    def to_dict(self) -> dict:
-        return {
-            "source_file": self.source_file,
-            "layout_type": self.layout_type,
-            "events": [
-                {
-                    "event_name": event.event_name,
-                    "round": event.round,
-                    "raw_data": event.raw_data,
-                    "results": [
-                        {
-                            "position": result.position,
-                            "lane": result.lane,
-                            "athlete": result.athlete.raw_name,
-                            "club": result.club,
-                            "time": result.time,
-                            "delta": result.delta,
-                            "raw_data": result.raw_data,
-                        }
-                        for result in event.results
-                    ],
-                }
-                for event in self.events
-            ],
-            "parsing_warnings": self.parsing_warnings,
-            "failed_rows": self.failed_rows,
-        }
-
-
-# ============================================================
-# BASE PARSER
-# ============================================================
-
-class BaseParser:
-    def __init__(self, layout_type: str):
-        self.layout_type = layout_type
-        self.warnings: List[str] = []
-        self.failed_rows: List[str] = []
-
-    def _add_warning(self, msg: str):
-        logger.warning(msg)
-        self.warnings.append(msg)
-
-    def parse(self, extracted_data: Dict[str, Any], layout_info: Dict[str, Any]) -> ParseResult:
-        raise NotImplementedError
 
 
 # ============================================================
@@ -205,7 +101,8 @@ class LayoutNationalTrialsParser(BaseParser):
     )
 
     TIME_RE = re.compile(
-        r"\b\d{1,2}:\d{2}\.\d{3}\b"
+        # Match times like 04:16.37, 4:16.370, 0416.37 (missing colon), allow stray trailing colon
+        r"\b\d{1,2}:\d{2}\.\d{1,3}:?\b|\b\d{4}\.\d{1,3}:?\b"
     )
 
     RESULT_LINE_RE = re.compile(
@@ -263,24 +160,20 @@ class LayoutNationalTrialsParser(BaseParser):
             for p in self.SKIP_PATTERNS
         ]
 
-        for raw_line in text.splitlines():
+        # Pre-merge multi-line result fragments (e.g., K4 names split vertically)
+        merged_lines = self._premerge_lines(text, skip_res)
 
-            line = self._clean_line(raw_line)
-
-            if not line:
-                continue
+        for line in merged_lines:
 
             # ------------------------------------------------
             # SKIP METADATA
             # ------------------------------------------------
-
             if any(rx.search(line) for rx in skip_res):
                 continue
 
             # ------------------------------------------------
             # EVENT DETECTION
             # ------------------------------------------------
-
             if (
                 self.EVENT_RE.search(line)
                 and "Race #" not in line
@@ -298,7 +191,6 @@ class LayoutNationalTrialsParser(BaseParser):
             # ------------------------------------------------
             # RACE INFO
             # ------------------------------------------------
-
             race_match = self.RACE_INFO_RE.match(line)
 
             if race_match and current_event:
@@ -328,20 +220,18 @@ class LayoutNationalTrialsParser(BaseParser):
             # ------------------------------------------------
             # NO EVENT
             # ------------------------------------------------
-
             if current_event is None:
                 continue
 
             # ------------------------------------------------
             # RESULT LINE
             # ------------------------------------------------
-
             parsed = self._parse_result_line(line)
 
             if parsed:
                 current_event.results.append(parsed)
             else:
-                self.failed_rows.append(line)
+                self.failed_rows.append({"line": line, "layout": self.layout_type})
 
         if current_event and current_event.results:
             events.append(current_event)
@@ -476,6 +366,76 @@ class LayoutNationalTrialsParser(BaseParser):
     # ========================================================
     # UTILITIES
     # ========================================================
+
+    def _normalize_times(self, line: str) -> str:
+        """Normalize common OCR/time artifacts in a line.
+
+        - Remove stray trailing colons after time decimals
+        - Insert missing colon in 4-digit mmss blocks (e.g., 0416.37 -> 04:16.37)
+        - Separate fused words where lowercase-to-uppercase boundary indicates missing space
+        """
+        if not line:
+            return line
+
+        # Separate fused words like 'TremblayLac-Beauport' -> 'Tremblay Lac-Beauport'
+        line = re.sub(r"([a-zà-ÿ])([A-Z])", r"\1 \2", line)
+
+        # Remove stray trailing colon after fractional seconds, e.g., '04:16.50:' -> '04:16.50'
+        line = re.sub(r"(\d{1,2}:\d{2}\.\d{1,3}):\b", r"\1", line)
+
+        # Fix missing colon in mmss.sss -> mm:ss.sss (0416.37 -> 04:16.37)
+        line = re.sub(r"\b(\d{2})(\d{2}\.\d{1,3})\b", r"\1:\2", line)
+
+        return line
+
+    def _premerge_lines(self, text: str, skip_res: List[re.Pattern]) -> List[str]:
+        """Merge lines that are likely continuations of the previous result row.
+
+        This handles K4 multi-line name spills and other vertical text artifacts where
+        a result's name is split across lines without times.
+        """
+        merged: List[str] = []
+        last_result_index: Optional[int] = None
+
+        for raw in text.splitlines():
+            line = self._clean_line(raw)
+            if not line:
+                continue
+
+            # Normalize common artifacts first
+            line = self._normalize_times(line)
+
+            # If the line looks like metadata or headers, keep as-is and reset merge state
+            if any(rx.search(line) for rx in skip_res):
+                merged.append(line)
+                last_result_index = None
+                continue
+
+            if self.EVENT_RE.search(line) and "Race #" not in line and len(line) < 140:
+                merged.append(line)
+                last_result_index = None
+                continue
+
+            if self.RACE_INFO_RE.match(line):
+                merged.append(line)
+                last_result_index = None
+                continue
+
+            times = self.TIME_RE.findall(line)
+
+            if len(times) >= 2:
+                # complete result row — start a new merged entry
+                merged.append(line)
+                last_result_index = len(merged) - 1
+            else:
+                # likely a continuation (name fragment). Merge into last result if present.
+                if last_result_index is not None:
+                    merged[last_result_index] = merged[last_result_index] + " " + line
+                else:
+                    # no prior result to merge with — keep as its own line
+                    merged.append(line)
+
+        return merged
 
     @staticmethod
     def _clean_line(line: str) -> str:
