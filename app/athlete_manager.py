@@ -167,6 +167,30 @@ class AthleteManager:
     def get_all_athletes(self) -> List[Dict[str, Any]]:
         """Get all athletes sorted by name."""
         return sorted(self.athletes.values(), key=lambda x: x.get("name", ""))
+
+    def search_athletes(self, query: str) -> List[Dict[str, Any]]:
+        """Search athletes by name or best time fields (case-insensitive).
+
+        If query is empty, returns all athletes.
+        """
+        q = (query or "").strip().lower()
+        if not q:
+            return self.get_all_athletes()
+
+        results: List[Dict[str, Any]] = []
+        for athlete in self.athletes.values():
+            name = athlete.get("name", "").lower()
+            if q in name:
+                results.append(athlete)
+                continue
+
+            # Search in best times fields
+            for bt in athlete.get("best_times", {}).values():
+                if any(q in str(bt.get(k, "")).lower() for k in ("time", "distance", "boat_class", "source_file", "category", "date")):
+                    results.append(athlete)
+                    break
+
+        return sorted(results, key=lambda x: x.get("name", ""))
     
     def get_athlete(self, name: str) -> Optional[Dict[str, Any]]:
         """Get athlete profile by name."""

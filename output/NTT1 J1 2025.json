@@ -1,0 +1,2650 @@
+{
+  "source_file": "NTT1 J1 2025.pdf",
+  "layout_type": "layout_b",
+  "events": [
+    {
+      "event_name": "Open Men C1 1000m",
+      "round": "Final",
+      "raw_data": {
+        "race_number": "1",
+        "race_time": "8:00 AM",
+        "round_raw": "Heat 1 - Advancement/Progression: 1/3 + next 3 BT to Final; Rest Out"
+      },
+      "results": [
+        {
+          "position": 1,
+          "lane": 5,
+          "athlete": "Connor FITZPATRICK",
+          "club": "Senobe",
+          "time": "4:01.730",
+          "delta": "0:00.000",
+          "raw_data": {
+            "line": "1 5 Connor FITZPATRICK Senobe 4:01.730 0:00.000",
+            "status": null
+          }
+        },
+        {
+          "position": 2,
+          "lane": 4,
+          "athlete": "Andrew BILLARD",
+          "club": "Maskwa",
+          "time": "4:02.862",
+          "delta": "0:01.132",
+          "raw_data": {
+            "line": "2 4 Andrew BILLARD Maskwa 4:02.862 0:01.132",
+            "status": null
+          }
+        },
+        {
+          "position": 3,
+          "lane": 6,
+          "athlete": "Émile BOUVIER",
+          "club": "Pointe-Claire",
+          "time": "4:03.282",
+          "delta": "0:01.552",
+          "raw_data": {
+            "line": "3 6 Émile BOUVIER Pointe-Claire 4:03.282 0:01.552",
+            "status": null
+          }
+        },
+        {
+          "position": 4,
+          "lane": 3,
+          "athlete": "Viktor HARDY",
+          "club": "Lac-Beauport",
+          "time": "4:14.971",
+          "delta": "0:13.241",
+          "raw_data": {
+            "line": "4 3 Viktor HARDY Lac-Beauport 4:14.971 0:13.241",
+            "status": null
+          }
+        },
+        {
+          "position": 5,
+          "lane": 2,
+          "athlete": "Elliot ARNAUTOVITCH",
+          "club": "Pointe-Claire",
+          "time": "4:15.805",
+          "delta": "0:14.075",
+          "raw_data": {
+            "line": "5 2 Elliot ARNAUTOVITCH Pointe-Claire 4:15.805 0:14.075",
+            "status": null
+          }
+        },
+        {
+          "position": 6,
+          "lane": 1,
+          "athlete": "Duncan GILES",
+          "club": "Senobe",
+          "time": "4:22.086",
+          "delta": "0:20.356",
+          "raw_data": {
+            "line": "6 1 Duncan GILES Senobe 4:22.086 0:20.356",
+            "status": null
+          }
+        },
+        {
+          "position": 7,
+          "lane": 7,
+          "athlete": "Edgar C DÉSY",
+          "club": "Lac-Beauport",
+          "time": "4:22.144",
+          "delta": "0:20.414",
+          "raw_data": {
+            "line": "7 7 Edgar C DÉSY Lac-Beauport 4:22.144 0:20.414",
+            "status": null
+          }
+        },
+        {
+          "position": 8,
+          "lane": 9,
+          "athlete": "Shawn GE",
+          "club": "Burloak",
+          "time": "4:26.115",
+          "delta": "0:24.385",
+          "raw_data": {
+            "line": "8 9 Shawn GE Burloak 4:26.115 0:24.385",
+            "status": null
+          }
+        },
+        {
+          "position": 9,
+          "lane": 8,
+          "athlete": "Cole NORMAN",
+          "club": "Rideau",
+          "time": "4:33.333",
+          "delta": "0:31.603",
+          "raw_data": {
+            "line": "9 8 Cole NORMAN Rideau 4:33.333 0:31.603",
+            "status": null
+          }
+        }
+      ]
+    },
+    {
+      "event_name": "Open Men C1 1000m",
+      "round": "Final",
+      "raw_data": {
+        "race_number": "2",
+        "race_time": "8:06 AM",
+        "round_raw": "Heat 2 - Advancement/Progression: 1/3 + next 3 BT to Final; Rest Out"
+      },
+      "results": [
+        {
+          "position": 1,
+          "lane": 7,
+          "athlete": "Zachary KRALIK",
+          "club": "Mississauga",
+          "time": "4:05.448",
+          "delta": "0:00.000",
+          "raw_data": {
+            "line": "1 7 Zachary KRALIK Mississauga 4:05.448 0:00.000",
+            "status": null
+          }
+        },
+        {
+          "position": 2,
+          "lane": 5,
+          "athlete": "Alix PLOMTEUX",
+          "club": "Lac-Beauport",
+          "time": "4:06.298",
+          "delta": "0:00.850",
+          "raw_data": {
+            "line": "2 5 Alix PLOMTEUX Lac-Beauport 4:06.298 0:00.850",
+            "status": null
+          }
+        },
+        {
+          "position": 3,
+          "lane": 6,
+          "athlete": "Bret HIMMELMAN",
+          "club": "Maskwa",
+          "time": "4:07.459",
+          "delta": "0:02.011",
+          "raw_data": {
+            "line": "3 6 Bret HIMMELMAN Maskwa 4:07.459 0:02.011",
+            "status": null
+          }
+        },
+        {
+          "position": 4,
+          "lane": 3,
+          "athlete": "Nikita CIUDIN",
+          "club": "Calgary",
+          "time": "4:08.195",
+          "delta": "0:02.747",
+          "raw_data": {
+            "line": "4 3 Nikita CIUDIN Calgary 4:08.195 0:02.747",
+            "status": null
+          }
+        },
+        {
+          "position": 5,
+          "lane": 4,
+          "athlete": "Peter BRADLEY",
+          "club": "Rideau",
+          "time": "4:10.057",
+          "delta": "0:04.609",
+          "raw_data": {
+            "line": "5 4 Peter BRADLEY Rideau 4:10.057 0:04.609",
+            "status": null
+          }
+        },
+        {
+          "position": 6,
+          "lane": 1,
+          "athlete": "Alexander MACNEIL",
+          "club": "Maskwa",
+          "time": "4:18.643",
+          "delta": "0:13.195",
+          "raw_data": {
+            "line": "6 1 Alexander MACNEIL Maskwa 4:18.643 0:13.195",
+            "status": null
+          }
+        },
+        {
+          "position": 7,
+          "lane": 8,
+          "athlete": "Eric CHOUINARD",
+          "club": "Mic Mac",
+          "time": "4:19.907",
+          "delta": "0:14.459",
+          "raw_data": {
+            "line": "7 8 Eric CHOUINARD Mic Mac 4:19.907 0:14.459",
+            "status": null
+          }
+        },
+        {
+          "position": 8,
+          "lane": 2,
+          "athlete": "Édouard BEAUMIER",
+          "club": "Lac-Beauport",
+          "time": "4:20.971",
+          "delta": "0:15.523",
+          "raw_data": {
+            "line": "8 2 Édouard BEAUMIER Lac-Beauport 4:20.971 0:15.523",
+            "status": null
+          }
+        }
+      ]
+    },
+    {
+      "event_name": "Open Men K1 1000m",
+      "round": "Final",
+      "raw_data": {
+        "race_number": "3",
+        "race_time": "8:12 AM",
+        "round_raw": "Heat 1 - Advancement/Progression: 1/3 + next 3 BT to Final; Rest Out"
+      },
+      "results": [
+        {
+          "position": 1,
+          "lane": 4,
+          "athlete": "Nicholas MATVEEV",
+          "club": "Balmy Beach",
+          "time": "3:42.987",
+          "delta": "0:00.000",
+          "raw_data": {
+            "line": "1 4 Nicholas MATVEEV Balmy Beach 3:42.987 0:00.000",
+            "status": null
+          }
+        },
+        {
+          "position": 2,
+          "lane": 5,
+          "athlete": "Jason BURKHOLDER",
+          "club": "Burloak",
+          "time": "3:48.429",
+          "delta": "0:05.442",
+          "raw_data": {
+            "line": "2 5 Jason BURKHOLDER Burloak 3:48.429 0:05.442",
+            "status": null
+          }
+        },
+        {
+          "position": 3,
+          "lane": 2,
+          "athlete": "Craig JOHNSON",
+          "club": "Senobe",
+          "time": "3:49.251",
+          "delta": "0:06.264",
+          "raw_data": {
+            "line": "3 2 Craig JOHNSON Senobe 3:49.251 0:06.264",
+            "status": null
+          }
+        },
+        {
+          "position": 4,
+          "lane": 7,
+          "athlete": "Ryan NARODITSKY",
+          "club": "Rideau",
+          "time": "3:50.090",
+          "delta": "0:07.103",
+          "raw_data": {
+            "line": "4 7 Ryan NARODITSKY Rideau 3:50.090 0:07.103",
+            "status": null
+          }
+        },
+        {
+          "position": 5,
+          "lane": 3,
+          "athlete": "Raphaël CÔTÉ",
+          "club": "Lac-Beauport",
+          "time": "3:51.613",
+          "delta": "0:08.626",
+          "raw_data": {
+            "line": "5 3 Raphaël CÔTÉ Lac-Beauport 3:51.613 0:08.626",
+            "status": null
+          }
+        },
+        {
+          "position": 6,
+          "lane": 8,
+          "athlete": "Thomas SINOTTE",
+          "club": "Lachine",
+          "time": "3:52.705",
+          "delta": "0:09.718",
+          "raw_data": {
+            "line": "6 8 Thomas SINOTTE Lachine 3:52.705 0:09.718",
+            "status": null
+          }
+        },
+        {
+          "position": 7,
+          "lane": 6,
+          "athlete": "Lucas STEIN",
+          "club": "Balmy Beach",
+          "time": "3:56.906",
+          "delta": "0:13.919",
+          "raw_data": {
+            "line": "7 6 Lucas STEIN Balmy Beach 3:56.906 0:13.919",
+            "status": null
+          }
+        }
+      ]
+    },
+    {
+      "event_name": "Open Men K1 1000m",
+      "round": "Final",
+      "raw_data": {
+        "race_number": "4",
+        "race_time": "8:18 AM",
+        "round_raw": "Heat 2 - Advancement/Progression: 1/3 + next 3 BT to Final; Rest Out"
+      },
+      "results": [
+        {
+          "position": 1,
+          "lane": 6,
+          "athlete": "Vincent JOURDENAIS",
+          "club": "Trois Rivieres",
+          "time": "3:45.415",
+          "delta": "0:00.000",
+          "raw_data": {
+            "line": "1 6 Vincent JOURDENAIS Trois Rivieres 3:45.415 0:00.000",
+            "status": null
+          }
+        },
+        {
+          "position": 2,
+          "lane": 4,
+          "athlete": "Carson COREY",
+          "club": "Burloak",
+          "time": "3:50.558",
+          "delta": "0:05.143",
+          "raw_data": {
+            "line": "2 4 Carson COREY Burloak 3:50.558 0:05.143",
+            "status": null
+          }
+        },
+        {
+          "position": 3,
+          "lane": 7,
+          "athlete": "Nathan DAOUST",
+          "club": "Pointe-Claire",
+          "time": "3:52.265",
+          "delta": "0:06.850",
+          "raw_data": {
+            "line": "3 7 Nathan DAOUST Pointe-Claire 3:52.265 0:06.850",
+            "status": null
+          }
+        },
+        {
+          "position": 4,
+          "lane": 5,
+          "athlete": "Cameron LOW",
+          "club": "Balmy Beach",
+          "time": "3:56.805",
+          "delta": "0:11.390",
+          "raw_data": {
+            "line": "4 5 Cameron LOW Balmy Beach 3:56.805 0:11.390",
+            "status": null
+          }
+        },
+        {
+          "position": 5,
+          "lane": 3,
+          "athlete": "Mathieu GILBERT",
+          "club": "Trois Rivieres",
+          "time": "3:59.501",
+          "delta": "0:14.086",
+          "raw_data": {
+            "line": "5 3 Mathieu GILBERT Trois Rivieres 3:59.501 0:14.086",
+            "status": null
+          }
+        },
+        {
+          "position": 6,
+          "lane": 2,
+          "athlete": "Carter NAUGLER",
+          "club": "Senobe",
+          "time": "4:01.966",
+          "delta": "0:16.551",
+          "raw_data": {
+            "line": "6 2 Carter NAUGLER Senobe 4:01.966 0:16.551",
+            "status": null
+          }
+        }
+      ]
+    },
+    {
+      "event_name": "Open Men K1 1000m",
+      "round": "Final",
+      "raw_data": {
+        "race_number": "5",
+        "race_time": "8:24 AM",
+        "round_raw": "Heat 3 - Advancement/Progression: 1/3 + next 3 BT to Final; Rest Out"
+      },
+      "results": [
+        {
+          "position": 1,
+          "lane": 5,
+          "athlete": "Ian GAUDET",
+          "club": "Banook",
+          "time": "3:43.239",
+          "delta": "0:00.000",
+          "raw_data": {
+            "line": "1 5 Ian GAUDET Banook 3:43.239 0:00.000",
+            "status": null
+          }
+        },
+        {
+          "position": 2,
+          "lane": 4,
+          "athlete": "Alex CANNING",
+          "club": "Banook",
+          "time": "3:50.721",
+          "delta": "0:07.482",
+          "raw_data": {
+            "line": "2 4 Alex CANNING Banook 3:50.721 0:07.482",
+            "status": null
+          }
+        },
+        {
+          "position": 3,
+          "lane": 6,
+          "athlete": "Alex ERITH-ELLWOOD",
+          "club": "Senobe",
+          "time": "3:52.624",
+          "delta": "0:09.385",
+          "raw_data": {
+            "line": "3 6 Alex ERITH-ELLWOOD Senobe 3:52.624 0:09.385",
+            "status": null
+          }
+        },
+        {
+          "position": 4,
+          "lane": 3,
+          "athlete": "Nathan KONÉ",
+          "club": "Trois Rivieres",
+          "time": "3:59.704",
+          "delta": "0:16.465",
+          "raw_data": {
+            "line": "4 3 Nathan KONÉ Trois Rivieres 3:59.704 0:16.465",
+            "status": null
+          }
+        },
+        {
+          "position": 5,
+          "lane": 7,
+          "athlete": "Cedric LIU",
+          "club": "Pointe-Claire",
+          "time": "4:05.032",
+          "delta": "0:21.793",
+          "raw_data": {
+            "line": "5 7 Cedric LIU Pointe-Claire 4:05.032 0:21.793",
+            "status": null
+          }
+        },
+        {
+          "position": 6,
+          "lane": 2,
+          "athlete": "Alexander HOFEREK",
+          "club": "Rideau",
+          "time": "4:39.434",
+          "delta": "0:56.195",
+          "raw_data": {
+            "line": "6 2 Alexander HOFEREK Rideau 4:39.434 0:56.195",
+            "status": null
+          }
+        }
+      ]
+    },
+    {
+      "event_name": "Open Women C-1 200m",
+      "round": "Final",
+      "raw_data": {
+        "race_number": "6",
+        "race_time": "8:40 AM",
+        "round_raw": "Heat 1 - Advancement/Progression: 1/3 + next 3 BT to Final; Rest Out"
+      },
+      "results": [
+        {
+          "position": 1,
+          "lane": 5,
+          "athlete": "Katie VINCENT",
+          "club": "Mississauga",
+          "time": "0:45.859",
+          "delta": "0:00.000",
+          "raw_data": {
+            "line": "1 5 Katie VINCENT Mississauga 0:45.859 0:00.000",
+            "status": null
+          }
+        },
+        {
+          "position": 2,
+          "lane": 6,
+          "athlete": "Jacy GRANT",
+          "club": "Cheema",
+          "time": "0:47.612",
+          "delta": "0:01.753",
+          "raw_data": {
+            "line": "2 6 Jacy GRANT Cheema 0:47.612 0:01.753",
+            "status": null
+          }
+        },
+        {
+          "position": 3,
+          "lane": 4,
+          "athlete": "Evie MCDONALD",
+          "club": "Rideau",
+          "time": "0:47.819",
+          "delta": "0:01.960",
+          "raw_data": {
+            "line": "3 4 Evie MCDONALD Rideau 0:47.819 0:01.960",
+            "status": null
+          }
+        },
+        {
+          "position": 4,
+          "lane": 7,
+          "athlete": "Élizabeth DESROSIERS-MCARTHUR",
+          "club": "Lac-Beauport",
+          "time": "0:48.077",
+          "delta": "0:02.218",
+          "raw_data": {
+            "line": "4 7 Élizabeth DESROSIERS-MCARTHUR Lac-Beauport 0:48.077 0:02.218",
+            "status": null
+          }
+        },
+        {
+          "position": 5,
+          "lane": 2,
+          "athlete": "Amelie LALIBERTE",
+          "club": "Otterburn",
+          "time": "0:48.790",
+          "delta": "0:02.931",
+          "raw_data": {
+            "line": "5 2 Amelie LALIBERTE Otterburn 0:48.790 0:02.931",
+            "status": null
+          }
+        },
+        {
+          "position": 6,
+          "lane": 8,
+          "athlete": "Charlotte DÉSY",
+          "club": "Lac-Beauport",
+          "time": "0:50.060",
+          "delta": "0:04.201",
+          "raw_data": {
+            "line": "6 8 Charlotte DÉSY Lac-Beauport 0:50.060 0:04.201",
+            "status": null
+          }
+        },
+        {
+          "position": 7,
+          "lane": 3,
+          "athlete": "Ava CAREW",
+          "club": "Senobe",
+          "time": "0:50.359",
+          "delta": "0:04.500",
+          "raw_data": {
+            "line": "7 3 Ava CAREW Senobe 0:50.359 0:04.500",
+            "status": null
+          }
+        },
+        {
+          "position": 8,
+          "lane": 1,
+          "athlete": "Leia STEPHENSON",
+          "club": "Lac-Beauport",
+          "time": "0:53.152",
+          "delta": "0:07.293",
+          "raw_data": {
+            "line": "8 1 Leia STEPHENSON Lac-Beauport 0:53.152 0:07.293",
+            "status": null
+          }
+        }
+      ]
+    },
+    {
+      "event_name": "Open Women C-1 200m",
+      "round": "Final",
+      "raw_data": {
+        "race_number": "7",
+        "race_time": "8:45 AM",
+        "round_raw": "Heat 2 - Advancement/Progression: 1/3 + next 3 BT to Final; Rest Out"
+      },
+      "results": [
+        {
+          "position": 1,
+          "lane": 5,
+          "athlete": "Sophia JENSEN",
+          "club": "Cascades",
+          "time": "0:46.907",
+          "delta": "0:00.000",
+          "raw_data": {
+            "line": "1 5 Sophia JENSEN Cascades 0:46.907 0:00.000",
+            "status": null
+          }
+        },
+        {
+          "position": 2,
+          "lane": 6,
+          "athlete": "Zoe WOJTYK",
+          "club": "Rideau",
+          "time": "0:48.528",
+          "delta": "0:01.621",
+          "raw_data": {
+            "line": "2 6 Zoe WOJTYK Rideau 0:48.528 0:01.621",
+            "status": null
+          }
+        },
+        {
+          "position": 3,
+          "lane": 4,
+          "athlete": "Sloan MACKENZIE",
+          "club": "Cheema",
+          "time": "0:49.005",
+          "delta": "0:02.098",
+          "raw_data": {
+            "line": "3 4 Sloan MACKENZIE Cheema 0:49.005 0:02.098",
+            "status": null
+          }
+        },
+        {
+          "position": 5,
+          "lane": 7,
+          "athlete": "Ruby MUHL",
+          "club": "Rideau",
+          "time": "0:49.540",
+          "delta": "0:02.633",
+          "raw_data": {
+            "line": "5 7 Ruby MUHL Rideau 0:49.540 0:02.633",
+            "status": null
+          }
+        },
+        {
+          "position": 6,
+          "lane": 8,
+          "athlete": "Léanne CASTONGUAY",
+          "club": "Otterburn",
+          "time": "0:51.086",
+          "delta": "0:04.179",
+          "raw_data": {
+            "line": "6 8 Léanne CASTONGUAY Otterburn 0:51.086 0:04.179",
+            "status": null
+          }
+        },
+        {
+          "position": 7,
+          "lane": 2,
+          "athlete": "Alexia GAGNON",
+          "club": "Lac-Beauport",
+          "time": "0:51.407",
+          "delta": "0:04.500",
+          "raw_data": {
+            "line": "7 2 Alexia GAGNON Lac-Beauport 0:51.407 0:04.500",
+            "status": null
+          }
+        }
+      ]
+    },
+    {
+      "event_name": "Open Women K1 500m",
+      "round": "Final",
+      "raw_data": {
+        "race_number": "8",
+        "race_time": "9:00 AM",
+        "round_raw": "Heat 1 - Advancement/Progression: 1/3 + next 3 BT to Final; Rest Out"
+      },
+      "results": [
+        {
+          "position": 2,
+          "lane": 3,
+          "athlete": "Anna ARCHIBALD",
+          "club": "Banook",
+          "time": "2:00.346",
+          "delta": "0:05.742",
+          "raw_data": {
+            "line": "2 3 Anna ARCHIBALD Banook 2:00.346 0:05.742",
+            "status": null
+          }
+        },
+        {
+          "position": 3,
+          "lane": 7,
+          "athlete": "Florence HAMEL",
+          "club": "Lachine",
+          "time": "2:05.346",
+          "delta": "0:10.742",
+          "raw_data": {
+            "line": "3 7 Florence HAMEL Lachine 2:05.346 0:10.742",
+            "status": null
+          }
+        },
+        {
+          "position": 4,
+          "lane": 6,
+          "athlete": "Brianna SMITH",
+          "club": "Maskwa",
+          "time": "2:06.087",
+          "delta": "0:11.483",
+          "raw_data": {
+            "line": "4 6 Brianna SMITH Maskwa 2:06.087 0:11.483",
+            "status": null
+          }
+        },
+        {
+          "position": 5,
+          "lane": 4,
+          "athlete": "Kristiane FREE",
+          "club": "Calgary",
+          "time": "2:07.932",
+          "delta": "0:13.328",
+          "raw_data": {
+            "line": "5 4 Kristiane FREE Calgary 2:07.932 0:13.328",
+            "status": null
+          }
+        },
+        {
+          "position": 6,
+          "lane": 8,
+          "athlete": "Mathilde PATRY",
+          "club": "Trois Rivieres",
+          "time": "2:10.334",
+          "delta": "0:15.730",
+          "raw_data": {
+            "line": "6 8 Mathilde PATRY Trois Rivieres 2:10.334 0:15.730",
+            "status": null
+          }
+        },
+        {
+          "position": 7,
+          "lane": 2,
+          "athlete": "Jonnie NEWMAN",
+          "club": "Calgary",
+          "time": "2:11.932",
+          "delta": "0:17.328",
+          "raw_data": {
+            "line": "7 2 Jonnie NEWMAN Calgary 2:11.932 0:17.328",
+            "status": null
+          }
+        }
+      ]
+    },
+    {
+      "event_name": "Open Women K1 500m",
+      "round": "Final",
+      "raw_data": {
+        "race_number": "9",
+        "race_time": "9:05 AM",
+        "round_raw": "Heat 2 - Advancement/Progression: 1/3 + next 3 BT to Final; Rest Out"
+      },
+      "results": [
+        {
+          "position": 1,
+          "lane": 5,
+          "athlete": "Riley MELANSON",
+          "club": "Senobe",
+          "time": "1:58.253",
+          "delta": "0:00.000",
+          "raw_data": {
+            "line": "1 5 Riley MELANSON Senobe 1:58.253 0:00.000",
+            "status": null
+          }
+        },
+        {
+          "position": 2,
+          "lane": 3,
+          "athlete": "Callie LOCH",
+          "club": "Rideau",
+          "time": "2:01.379",
+          "delta": "0:03.126",
+          "raw_data": {
+            "line": "2 3 Callie LOCH Rideau 2:01.379 0:03.126",
+            "status": null
+          }
+        },
+        {
+          "position": 3,
+          "lane": 4,
+          "athlete": "Maren BRADLEY",
+          "club": "Rideau",
+          "time": "2:02.109",
+          "delta": "0:03.856",
+          "raw_data": {
+            "line": "3 4 Maren BRADLEY Rideau 2:02.109 0:03.856",
+            "status": null
+          }
+        },
+        {
+          "position": 4,
+          "lane": 7,
+          "athlete": "Emilee VATERS",
+          "club": "Maskwa",
+          "time": "2:02.667",
+          "delta": "0:04.414",
+          "raw_data": {
+            "line": "4 7 Emilee VATERS Maskwa 2:02.667 0:04.414",
+            "status": null
+          }
+        },
+        {
+          "position": 5,
+          "lane": 8,
+          "athlete": "Marie CHAMBERLAND",
+          "club": "Lac-Beauport",
+          "time": "2:04.069",
+          "delta": "0:05.816",
+          "raw_data": {
+            "line": "5 8 Marie CHAMBERLAND Lac-Beauport 2:04.069 0:05.816",
+            "status": null
+          }
+        },
+        {
+          "position": 6,
+          "lane": 6,
+          "athlete": "Allie WANG",
+          "club": "Lachine",
+          "time": "2:05.920",
+          "delta": "0:07.667",
+          "raw_data": {
+            "line": "6 6 Allie WANG Lachine 2:05.920 0:07.667",
+            "status": null
+          }
+        }
+      ]
+    },
+    {
+      "event_name": "Open Women K1 500m",
+      "round": "Final",
+      "raw_data": {
+        "race_number": "10",
+        "race_time": "9:10 AM",
+        "round_raw": "Heat 3 - Advancement/Progression: 1/3 + next 3 BT to Final; Rest Out"
+      },
+      "results": [
+        {
+          "position": 1,
+          "lane": 5,
+          "athlete": "Toshka BESHARAH",
+          "club": "Rideau",
+          "time": "1:56.080",
+          "delta": "0:00.000",
+          "raw_data": {
+            "line": "1 5 Toshka BESHARAH Rideau 1:56.080 0:00.000",
+            "status": null
+          }
+        },
+        {
+          "position": 2,
+          "lane": 6,
+          "athlete": "Chloe BRYER",
+          "club": "Burloak",
+          "time": "1:57.816",
+          "delta": "0:01.736",
+          "raw_data": {
+            "line": "2 6 Chloe BRYER Burloak 1:57.816 0:01.736",
+            "status": null
+          }
+        },
+        {
+          "position": 3,
+          "lane": 4,
+          "athlete": "Julia DEMCHUK",
+          "club": "Calgary",
+          "time": "2:01.753",
+          "delta": "0:05.673",
+          "raw_data": {
+            "line": "3 4 Julia DEMCHUK Calgary 2:01.753 0:05.673",
+            "status": null
+          }
+        },
+        {
+          "position": 4,
+          "lane": 3,
+          "athlete": "Calina BIDAL",
+          "club": "Lachine",
+          "time": "2:05.592",
+          "delta": "0:09.512",
+          "raw_data": {
+            "line": "4 3 Calina BIDAL Lachine 2:05.592 0:09.512",
+            "status": null
+          }
+        },
+        {
+          "position": 5,
+          "lane": 8,
+          "athlete": "Alina TVERIE",
+          "club": "Lachine",
+          "time": "2:07.212",
+          "delta": "0:11.132",
+          "raw_data": {
+            "line": "5 8 Alina TVERIE Lachine 2:07.212 0:11.132",
+            "status": null
+          }
+        },
+        {
+          "position": 6,
+          "lane": 7,
+          "athlete": "Emily BEST",
+          "club": "Rideau",
+          "time": "2:08.138",
+          "delta": "0:12.058",
+          "raw_data": {
+            "line": "6 7 Emily BEST Rideau 2:08.138 0:12.058",
+            "status": null
+          }
+        }
+      ]
+    },
+    {
+      "event_name": "Open Men C1 1000m",
+      "round": "Semi-final",
+      "raw_data": {
+        "race_number": "11",
+        "race_time": "10:00 AM",
+        "round_raw": "Semi 1 - Advancement/Progression:"
+      },
+      "results": [
+        {
+          "position": 1,
+          "lane": 4,
+          "athlete": "Nikita CIUDIN",
+          "club": "Calgary",
+          "time": "4:05.877",
+          "delta": "0:00.000",
+          "raw_data": {
+            "line": "1 4 Nikita CIUDIN Calgary 4:05.877 0:00.000",
+            "status": null
+          }
+        },
+        {
+          "position": 2,
+          "lane": 5,
+          "athlete": "Viktor HARDY",
+          "club": "Lac-Beauport",
+          "time": "4:06.808",
+          "delta": "0:00.931",
+          "raw_data": {
+            "line": "2 5 Viktor HARDY Lac-Beauport 4:06.808 0:00.931",
+            "status": null
+          }
+        },
+        {
+          "position": 3,
+          "lane": 3,
+          "athlete": "Peter BRADLEY",
+          "club": "Rideau",
+          "time": "4:06.814",
+          "delta": "0:00.937",
+          "raw_data": {
+            "line": "3 3 Peter BRADLEY Rideau 4:06.814 0:00.937",
+            "status": null
+          }
+        },
+        {
+          "position": 4,
+          "lane": 8,
+          "athlete": "Edgar C DÉSY",
+          "club": "Lac-Beauport",
+          "time": "4:08.877",
+          "delta": "0:03.000",
+          "raw_data": {
+            "line": "4 8 Edgar C DÉSY Lac-Beauport 4:08.877 0:03.000",
+            "status": null
+          }
+        },
+        {
+          "position": 5,
+          "lane": 1,
+          "athlete": "Eric CHOUINARD",
+          "club": "Mic Mac",
+          "time": "4:12.032",
+          "delta": "0:06.155",
+          "raw_data": {
+            "line": "5 1 Eric CHOUINARD Mic Mac 4:12.032 0:06.155",
+            "status": null
+          }
+        },
+        {
+          "position": 6,
+          "lane": 2,
+          "athlete": "Duncan GILES",
+          "club": "Senobe",
+          "time": "4:12.998",
+          "delta": "0:07.121",
+          "raw_data": {
+            "line": "6 2 Duncan GILES Senobe 4:12.998 0:07.121",
+            "status": null
+          }
+        },
+        {
+          "position": 7,
+          "lane": 9,
+          "athlete": "Édouard BEAUMIER",
+          "club": "Lac-Beauport",
+          "time": "4:14.159",
+          "delta": "0:08.282",
+          "raw_data": {
+            "line": "7 9 Édouard BEAUMIER Lac-Beauport 4:14.159 0:08.282",
+            "status": null
+          }
+        },
+        {
+          "position": 8,
+          "lane": 6,
+          "athlete": "Elliot ARNAUTOVITCH",
+          "club": "Pointe-Claire",
+          "time": "4:16.406",
+          "delta": "0:10.529",
+          "raw_data": {
+            "line": "8 6 Elliot ARNAUTOVITCH Pointe-Claire 4:16.406 0:10.529",
+            "status": null
+          }
+        },
+        {
+          "position": 9,
+          "lane": 7,
+          "athlete": "Alexander MACNEIL",
+          "club": "Maskwa",
+          "time": "4:36.636",
+          "delta": "0:30.759",
+          "raw_data": {
+            "line": "9 7 Alexander MACNEIL Maskwa 4:36.636 0:30.759",
+            "status": null
+          }
+        }
+      ]
+    },
+    {
+      "event_name": "Open Men K1 1000m",
+      "round": "Semi-final",
+      "raw_data": {
+        "race_number": "12",
+        "race_time": "10:06 AM",
+        "round_raw": "Semi 1 - Advancement/Progression:"
+      },
+      "results": [
+        {
+          "position": 1,
+          "lane": 6,
+          "athlete": "Alex ERITH-ELLWOOD",
+          "club": "Senobe",
+          "time": "3:46.907",
+          "delta": "0:00.000",
+          "raw_data": {
+            "line": "1 6 Alex ERITH-ELLWOOD Senobe 3:46.907 0:00.000",
+            "status": null
+          }
+        },
+        {
+          "position": 2,
+          "lane": 5,
+          "athlete": "Jason BURKHOLDER",
+          "club": "Burloak",
+          "time": "3:47.447",
+          "delta": "0:00.540",
+          "raw_data": {
+            "line": "2 5 Jason BURKHOLDER Burloak 3:47.447 0:00.540",
+            "status": null
+          }
+        },
+        {
+          "position": 3,
+          "lane": 4,
+          "athlete": "Nathan DAOUST",
+          "club": "Pointe-Claire",
+          "time": "3:47.930",
+          "delta": "0:01.023",
+          "raw_data": {
+            "line": "3 4 Nathan DAOUST Pointe-Claire 3:47.930 0:01.023",
+            "status": null
+          }
+        },
+        {
+          "position": 4,
+          "lane": 3,
+          "athlete": "Nathan KONÉ",
+          "club": "Trois Rivieres",
+          "time": "3:49.274",
+          "delta": "0:02.367",
+          "raw_data": {
+            "line": "4 3 Nathan KONÉ Trois Rivieres 3:49.274 0:02.367",
+            "status": null
+          }
+        },
+        {
+          "position": 5,
+          "lane": 1,
+          "athlete": "Thomas SINOTTE",
+          "club": "Lachine",
+          "time": "3:50.763",
+          "delta": "0:03.856",
+          "raw_data": {
+            "line": "5 1 Thomas SINOTTE Lachine 3:50.763 0:03.856",
+            "status": null
+          }
+        },
+        {
+          "position": 6,
+          "lane": 2,
+          "athlete": "Mathieu GILBERT",
+          "club": "Trois Rivieres",
+          "time": "3:51.067",
+          "delta": "0:04.160",
+          "raw_data": {
+            "line": "6 2 Mathieu GILBERT Trois Rivieres 3:51.067 0:04.160",
+            "status": null
+          }
+        },
+        {
+          "position": 7,
+          "lane": 7,
+          "athlete": "Ryan NARODITSKY",
+          "club": "Rideau",
+          "time": "3:51.292",
+          "delta": "0:04.385",
+          "raw_data": {
+            "line": "7 7 Ryan NARODITSKY Rideau 3:51.292 0:04.385",
+            "status": null
+          }
+        },
+        {
+          "position": 8,
+          "lane": 8,
+          "athlete": "Alexander HOFEREK",
+          "club": "Rideau",
+          "time": "4:10.263",
+          "delta": "0:23.356",
+          "raw_data": {
+            "line": "8 8 Alexander HOFEREK Rideau 4:10.263 0:23.356",
+            "status": null
+          }
+        }
+      ]
+    },
+    {
+      "event_name": "Open Men K1 1000m",
+      "round": "Semi-final",
+      "raw_data": {
+        "race_number": "13",
+        "race_time": "10:12 AM",
+        "round_raw": "Semi 2 - Advancement/Progression:"
+      },
+      "results": [
+        {
+          "position": 1,
+          "lane": 3,
+          "athlete": "Cameron LOW",
+          "club": "Balmy Beach",
+          "time": "3:42.322",
+          "delta": "0:00.000",
+          "raw_data": {
+            "line": "1 3 Cameron LOW Balmy Beach 3:42.322 0:00.000",
+            "status": null
+          }
+        },
+        {
+          "position": 2,
+          "lane": 4,
+          "athlete": "Alex CANNING",
+          "club": "Banook",
+          "time": "3:43.621",
+          "delta": "0:01.299",
+          "raw_data": {
+            "line": "2 4 Alex CANNING Banook 3:43.621 0:01.299",
+            "status": null
+          }
+        },
+        {
+          "position": 3,
+          "lane": 5,
+          "athlete": "Carson COREY",
+          "club": "Burloak",
+          "time": "3:44.357",
+          "delta": "0:02.035",
+          "raw_data": {
+            "line": "3 5 Carson COREY Burloak 3:44.357 0:02.035",
+            "status": null
+          }
+        },
+        {
+          "position": 4,
+          "lane": 6,
+          "athlete": "Craig JOHNSON",
+          "club": "Senobe",
+          "time": "3:46.397",
+          "delta": "0:04.075",
+          "raw_data": {
+            "line": "4 6 Craig JOHNSON Senobe 3:46.397 0:04.075",
+            "status": null
+          }
+        },
+        {
+          "position": 5,
+          "lane": 1,
+          "athlete": "Lucas STEIN",
+          "club": "Balmy Beach",
+          "time": "3:48.799",
+          "delta": "0:06.477",
+          "raw_data": {
+            "line": "5 1 Lucas STEIN Balmy Beach 3:48.799 0:06.477",
+            "status": null
+          }
+        },
+        {
+          "position": 6,
+          "lane": 7,
+          "athlete": "Raphaël CÔTÉ",
+          "club": "Lac-Beauport",
+          "time": "3:49.702",
+          "delta": "0:07.380",
+          "raw_data": {
+            "line": "6 7 Raphaël CÔTÉ Lac-Beauport 3:49.702 0:07.380",
+            "status": null
+          }
+        },
+        {
+          "position": 7,
+          "lane": 8,
+          "athlete": "Carter NAUGLER",
+          "club": "Senobe",
+          "time": "3:56.880",
+          "delta": "0:14.558",
+          "raw_data": {
+            "line": "7 8 Carter NAUGLER Senobe 3:56.880 0:14.558",
+            "status": null
+          }
+        },
+        {
+          "position": 8,
+          "lane": 2,
+          "athlete": "Cedric LIU",
+          "club": "Pointe-Claire",
+          "time": "4:05.242",
+          "delta": "0:22.920",
+          "raw_data": {
+            "line": "8 2 Cedric LIU Pointe-Claire 4:05.242 0:22.920",
+            "status": null
+          }
+        }
+      ]
+    },
+    {
+      "event_name": "Open Women C-1 200m",
+      "round": "Semi-final",
+      "raw_data": {
+        "race_number": "14",
+        "race_time": "10:25 AM",
+        "round_raw": "Semi 1 - Advancement/Progression:"
+      },
+      "results": [
+        {
+          "position": 1,
+          "lane": 4,
+          "athlete": "Élizabeth DESROSIERS-MCARTHUR",
+          "club": "Lac-Beauport",
+          "time": "0:47.569",
+          "delta": "0:00.000",
+          "raw_data": {
+            "line": "1 4 Élizabeth DESROSIERS-MCARTHUR Lac-Beauport 0:47.569 0:00.000",
+            "status": null
+          }
+        },
+        {
+          "position": 2,
+          "lane": 3,
+          "athlete": "Amelie LALIBERTE",
+          "club": "Otterburn",
+          "time": "0:49.074",
+          "delta": "0:01.505",
+          "raw_data": {
+            "line": "2 3 Amelie LALIBERTE Otterburn 0:49.074 0:01.505",
+            "status": null
+          }
+        },
+        {
+          "position": 3,
+          "lane": 6,
+          "athlete": "Ruby MUHL",
+          "club": "Rideau",
+          "time": "0:49.161",
+          "delta": "0:01.592",
+          "raw_data": {
+            "line": "3 6 Ruby MUHL Rideau 0:49.161 0:01.592",
+            "status": null
+          }
+        },
+        {
+          "position": 5,
+          "lane": 1,
+          "athlete": "Ava CAREW",
+          "club": "Senobe",
+          "time": "0:50.304",
+          "delta": "0:02.735",
+          "raw_data": {
+            "line": "5 1 Ava CAREW Senobe 0:50.304 0:02.735",
+            "status": null
+          }
+        },
+        {
+          "position": 6,
+          "lane": 7,
+          "athlete": "Charlotte DÉSY",
+          "club": "Lac-Beauport",
+          "time": "0:50.431",
+          "delta": "0:02.862",
+          "raw_data": {
+            "line": "6 7 Charlotte DÉSY Lac-Beauport 0:50.431 0:02.862",
+            "status": null
+          }
+        },
+        {
+          "position": 7,
+          "lane": 2,
+          "athlete": "Léanne CASTONGUAY",
+          "club": "Otterburn",
+          "time": "0:51.017",
+          "delta": "0:03.448",
+          "raw_data": {
+            "line": "7 2 Léanne CASTONGUAY Otterburn 0:51.017 0:03.448",
+            "status": null
+          }
+        },
+        {
+          "position": 8,
+          "lane": 8,
+          "athlete": "Alexia GAGNON",
+          "club": "Lac-Beauport",
+          "time": "0:51.563",
+          "delta": "0:03.994",
+          "raw_data": {
+            "line": "8 8 Alexia GAGNON Lac-Beauport 0:51.563 0:03.994",
+            "status": null
+          }
+        },
+        {
+          "position": 9,
+          "lane": 9,
+          "athlete": "Leia STEPHENSON",
+          "club": "Lac-Beauport",
+          "time": "0:53.103",
+          "delta": "0:05.534",
+          "raw_data": {
+            "line": "9 9 Leia STEPHENSON Lac-Beauport 0:53.103 0:05.534",
+            "status": null
+          }
+        }
+      ]
+    },
+    {
+      "event_name": "Open Women C-1 200m",
+      "round": "Final",
+      "raw_data": {
+        "race_number": "15",
+        "race_time": "10:30 AM",
+        "round_raw": "Va'a Final 1"
+      },
+      "results": [
+        {
+          "position": 1,
+          "lane": 8,
+          "athlete": "Mathieu ST-PIERRE",
+          "club": "Shawinigan",
+          "time": "0:55.491",
+          "delta": "0:00.000",
+          "raw_data": {
+            "line": "1 8 Mathieu ST-PIERRE Shawinigan 0:55.491 0:00.000",
+            "status": null
+          }
+        },
+        {
+          "position": 2,
+          "lane": 3,
+          "athlete": "Brianna HENNESSY",
+          "club": "Ottawa",
+          "time": "0:57.761",
+          "delta": "0:02.270",
+          "raw_data": {
+            "line": "2 3 Brianna HENNESSY Ottawa 0:57.761 0:02.270",
+            "status": null
+          }
+        },
+        {
+          "position": 3,
+          "lane": 5,
+          "athlete": "Erica SCARFF",
+          "club": "Mississauga",
+          "time": "0:59.566",
+          "delta": "0:04.075",
+          "raw_data": {
+            "line": "3 5 Erica SCARFF Mississauga 0:59.566 0:04.075",
+            "status": null
+          }
+        }
+      ]
+    },
+    {
+      "event_name": "Open Women C-1 200m",
+      "round": "Final",
+      "raw_data": {
+        "race_number": "16",
+        "race_time": "10:35 AM",
+        "round_raw": "Kayak Final 1"
+      },
+      "results": [
+        {
+          "position": 1,
+          "lane": 5,
+          "athlete": "Gabriel FERRON-BOUIUS",
+          "club": "Rideau",
+          "time": "0:42.588",
+          "delta": "0:00.000",
+          "raw_data": {
+            "line": "1 5 Gabriel FERRON-BOUIUS Rideau 0:42.588 0:00.000",
+            "status": null
+          }
+        }
+      ]
+    },
+    {
+      "event_name": "Open Women K1 500m",
+      "round": "Semi-final",
+      "raw_data": {
+        "race_number": "17",
+        "race_time": "10:50 AM",
+        "round_raw": "Semi 1 - Advancement/Progression:"
+      },
+      "results": [
+        {
+          "position": 1,
+          "lane": 5,
+          "athlete": "Chloe BRYER",
+          "club": "Burloak",
+          "time": "2:00.440",
+          "delta": "0:00.000",
+          "raw_data": {
+            "line": "1 5 Chloe BRYER Burloak 2:00.440 0:00.000",
+            "status": null
+          }
+        },
+        {
+          "position": 2,
+          "lane": 6,
+          "athlete": "Florence HAMEL",
+          "club": "Lachine",
+          "time": "2:02.612",
+          "delta": "0:02.172",
+          "raw_data": {
+            "line": "2 6 Florence HAMEL Lachine 2:02.612 0:02.172",
+            "status": null
+          }
+        },
+        {
+          "position": 3,
+          "lane": 2,
+          "athlete": "Kristiane FREE",
+          "club": "Calgary",
+          "time": "2:03.233",
+          "delta": "0:02.793",
+          "raw_data": {
+            "line": "3 2 Kristiane FREE Calgary 2:03.233 0:02.793",
+            "status": null
+          }
+        },
+        {
+          "position": 4,
+          "lane": 4,
+          "athlete": "Maren BRADLEY",
+          "club": "Rideau",
+          "time": "2:04.331",
+          "delta": "0:03.891",
+          "raw_data": {
+            "line": "4 4 Maren BRADLEY Rideau 2:04.331 0:03.891",
+            "status": null
+          }
+        },
+        {
+          "position": 5,
+          "lane": 7,
+          "athlete": "Emilee VATERS",
+          "club": "Maskwa",
+          "time": "2:04.434",
+          "delta": "0:03.994",
+          "raw_data": {
+            "line": "5 7 Emilee VATERS Maskwa 2:04.434 0:03.994",
+            "status": null
+          }
+        },
+        {
+          "position": 6,
+          "lane": 8,
+          "athlete": "Allie WANG",
+          "club": "Lachine",
+          "time": "2:04.687",
+          "delta": "0:04.247",
+          "raw_data": {
+            "line": "6 8 Allie WANG Lachine 2:04.687 0:04.247",
+            "status": null
+          }
+        },
+        {
+          "position": 7,
+          "lane": 3,
+          "athlete": "Calina BIDAL",
+          "club": "Lachine",
+          "time": "2:05.653",
+          "delta": "0:05.213",
+          "raw_data": {
+            "line": "7 3 Calina BIDAL Lachine 2:05.653 0:05.213",
+            "status": null
+          }
+        },
+        {
+          "position": 8,
+          "lane": 9,
+          "athlete": "Mathilde PATRY",
+          "club": "Trois Rivieres",
+          "time": "2:07.348",
+          "delta": "0:06.908",
+          "raw_data": {
+            "line": "8 9 Mathilde PATRY Trois Rivieres 2:07.348 0:06.908",
+            "status": null
+          }
+        }
+      ]
+    },
+    {
+      "event_name": "Open Women K1 500m",
+      "round": "Semi-final",
+      "raw_data": {
+        "race_number": "18",
+        "race_time": "10:55 AM",
+        "round_raw": "Semi 2 - Advancement/Progression:"
+      },
+      "results": [
+        {
+          "position": 1,
+          "lane": 2,
+          "athlete": "Alina TVERIE",
+          "club": "Lachine",
+          "time": "1:58.572",
+          "delta": "0:00.000",
+          "raw_data": {
+            "line": "1 2 Alina TVERIE Lachine 1:58.572 0:00.000",
+            "status": null
+          }
+        },
+        {
+          "position": 2,
+          "lane": 4,
+          "athlete": "Callie LOCH",
+          "club": "Rideau",
+          "time": "1:59.376",
+          "delta": "0:00.804",
+          "raw_data": {
+            "line": "2 4 Callie LOCH Rideau 1:59.376 0:00.804",
+            "status": null
+          }
+        },
+        {
+          "position": 3,
+          "lane": 5,
+          "athlete": "Anna ARCHIBALD",
+          "club": "Banook",
+          "time": "1:59.859",
+          "delta": "0:01.287",
+          "raw_data": {
+            "line": "3 5 Anna ARCHIBALD Banook 1:59.859 0:01.287",
+            "status": null
+          }
+        },
+        {
+          "position": 4,
+          "lane": 6,
+          "athlete": "Julia DEMCHUK",
+          "club": "Calgary",
+          "time": "2:01.629",
+          "delta": "0:03.057",
+          "raw_data": {
+            "line": "4 6 Julia DEMCHUK Calgary 2:01.629 0:03.057",
+            "status": null
+          }
+        },
+        {
+          "position": 5,
+          "lane": 3,
+          "athlete": "Brianna SMITH",
+          "club": "Maskwa",
+          "time": "2:02.239",
+          "delta": "0:03.667",
+          "raw_data": {
+            "line": "5 3 Brianna SMITH Maskwa 2:02.239 0:03.667",
+            "status": null
+          }
+        },
+        {
+          "position": 6,
+          "lane": 7,
+          "athlete": "Marie CHAMBERLAND",
+          "club": "Lac-Beauport",
+          "time": "2:05.336",
+          "delta": "0:06.764",
+          "raw_data": {
+            "line": "6 7 Marie CHAMBERLAND Lac-Beauport 2:05.336 0:06.764",
+            "status": null
+          }
+        },
+        {
+          "position": 7,
+          "lane": 8,
+          "athlete": "Emily BEST",
+          "club": "Rideau",
+          "time": "2:06.445",
+          "delta": "0:07.873",
+          "raw_data": {
+            "line": "7 8 Emily BEST Rideau 2:06.445 0:07.873",
+            "status": null
+          }
+        },
+        {
+          "position": 8,
+          "lane": 9,
+          "athlete": "Jonnie NEWMAN",
+          "club": "Calgary",
+          "time": "2:11.744",
+          "delta": "0:13.172",
+          "raw_data": {
+            "line": "8 9 Jonnie NEWMAN Calgary 2:11.744 0:13.172",
+            "status": null
+          }
+        }
+      ]
+    },
+    {
+      "event_name": "Open Men C1 1000m",
+      "round": "B-Final",
+      "raw_data": {
+        "race_number": "19",
+        "race_time": "2:00 PM",
+        "round_raw": "B-Final"
+      },
+      "results": [
+        {
+          "position": 1,
+          "lane": 7,
+          "athlete": "Elliot ARNAUTOVITCH",
+          "club": "Pointe-Claire",
+          "time": "4:15.692",
+          "delta": "0:00.000",
+          "raw_data": {
+            "line": "1 7 Elliot ARNAUTOVITCH Pointe-Claire 4:15.692 0:00.000",
+            "status": null
+          }
+        },
+        {
+          "position": 2,
+          "lane": 4,
+          "athlete": "Eric CHOUINARD",
+          "club": "Mic Mac",
+          "time": "4:17.807",
+          "delta": "0:02.115",
+          "raw_data": {
+            "line": "2 4 Eric CHOUINARD Mic Mac 4:17.807 0:02.115",
+            "status": null
+          }
+        },
+        {
+          "position": 3,
+          "lane": 1,
+          "athlete": "Cole NORMAN",
+          "club": "Rideau",
+          "time": "4:18.824",
+          "delta": "0:03.132",
+          "raw_data": {
+            "line": "3 1 Cole NORMAN Rideau 4:18.824 0:03.132",
+            "status": null
+          }
+        },
+        {
+          "position": 4,
+          "lane": 6,
+          "athlete": "Duncan GILES",
+          "club": "Senobe",
+          "time": "4:22.778",
+          "delta": "0:07.086",
+          "raw_data": {
+            "line": "4 6 Duncan GILES Senobe 4:22.778 0:07.086",
+            "status": null
+          }
+        },
+        {
+          "position": 5,
+          "lane": 3,
+          "athlete": "Édouard BEAUMIER",
+          "club": "Lac-Beauport",
+          "time": "4:23.106",
+          "delta": "0:07.414",
+          "raw_data": {
+            "line": "5 3 Édouard BEAUMIER Lac-Beauport 4:23.106 0:07.414",
+            "status": null
+          }
+        },
+        {
+          "position": 6,
+          "lane": 5,
+          "athlete": "Edgar C DÉSY",
+          "club": "Lac-Beauport",
+          "time": "4:27.267",
+          "delta": "0:11.575",
+          "raw_data": {
+            "line": "6 5 Edgar C DÉSY Lac-Beauport 4:27.267 0:11.575",
+            "status": null
+          }
+        },
+        {
+          "position": 7,
+          "lane": 8,
+          "athlete": "Shawn GE",
+          "club": "Burloak",
+          "time": "4:30.439",
+          "delta": "0:14.747",
+          "raw_data": {
+            "line": "7 8 Shawn GE Burloak 4:30.439 0:14.747",
+            "status": null
+          }
+        },
+        {
+          "position": 8,
+          "lane": 2,
+          "athlete": "Alexander MACNEIL",
+          "club": "Maskwa",
+          "time": "4:53.318",
+          "delta": "0:37.626",
+          "raw_data": {
+            "line": "8 2 Alexander MACNEIL Maskwa 4:53.318 0:37.626",
+            "status": null
+          }
+        }
+      ]
+    },
+    {
+      "event_name": "Open Men C1 1000m",
+      "round": "Final",
+      "raw_data": {
+        "race_number": "20",
+        "race_time": "2:06 PM",
+        "round_raw": "Final"
+      },
+      "results": [
+        {
+          "position": 1,
+          "lane": 5,
+          "athlete": "Connor FITZPATRICK",
+          "club": "Senobe",
+          "time": "4:00.042",
+          "delta": "0:00.000",
+          "raw_data": {
+            "line": "1 5 Connor FITZPATRICK Senobe 4:00.042 0:00.000",
+            "status": null
+          }
+        },
+        {
+          "position": 2,
+          "lane": 6,
+          "athlete": "Alix PLOMTEUX",
+          "club": "Lac-Beauport",
+          "time": "4:02.157",
+          "delta": "0:02.115",
+          "raw_data": {
+            "line": "2 6 Alix PLOMTEUX Lac-Beauport 4:02.157 0:02.115",
+            "status": null
+          }
+        },
+        {
+          "position": 3,
+          "lane": 3,
+          "athlete": "Andrew BILLARD",
+          "club": "Maskwa",
+          "time": "4:02.892",
+          "delta": "0:02.850",
+          "raw_data": {
+            "line": "3 3 Andrew BILLARD Maskwa 4:02.892 0:02.850",
+            "status": null
+          }
+        },
+        {
+          "position": 4,
+          "lane": 4,
+          "athlete": "Zachary KRALIK",
+          "club": "Mississauga",
+          "time": "4:04.076",
+          "delta": "0:04.034",
+          "raw_data": {
+            "line": "4 4 Zachary KRALIK Mississauga 4:04.076 0:04.034",
+            "status": null
+          }
+        },
+        {
+          "position": 5,
+          "lane": 7,
+          "athlete": "Émile BOUVIER",
+          "club": "Pointe-Claire",
+          "time": "4:06.174",
+          "delta": "0:06.132",
+          "raw_data": {
+            "line": "5 7 Émile BOUVIER Pointe-Claire 4:06.174 0:06.132",
+            "status": null
+          }
+        },
+        {
+          "position": 6,
+          "lane": 8,
+          "athlete": "Nikita CIUDIN",
+          "club": "Calgary",
+          "time": "4:09.772",
+          "delta": "0:09.730",
+          "raw_data": {
+            "line": "6 8 Nikita CIUDIN Calgary 4:09.772 0:09.730",
+            "status": null
+          }
+        },
+        {
+          "position": 7,
+          "lane": 2,
+          "athlete": "Bret HIMMELMAN",
+          "club": "Maskwa",
+          "time": "4:11.691",
+          "delta": "0:11.649",
+          "raw_data": {
+            "line": "7 2 Bret HIMMELMAN Maskwa 4:11.691 0:11.649",
+            "status": null
+          }
+        },
+        {
+          "position": 8,
+          "lane": 9,
+          "athlete": "Peter BRADLEY",
+          "club": "Rideau",
+          "time": "4:15.588",
+          "delta": "0:15.546",
+          "raw_data": {
+            "line": "8 9 Peter BRADLEY Rideau 4:15.588 0:15.546",
+            "status": null
+          }
+        },
+        {
+          "position": 9,
+          "lane": 1,
+          "athlete": "Viktor HARDY",
+          "club": "Lac-Beauport",
+          "time": "4:26.002",
+          "delta": "0:25.960",
+          "raw_data": {
+            "line": "9 1 Viktor HARDY Lac-Beauport 4:26.002 0:25.960",
+            "status": null
+          }
+        }
+      ]
+    },
+    {
+      "event_name": "Open Men K1 1000m",
+      "round": "B-Final",
+      "raw_data": {
+        "race_number": "21",
+        "race_time": "2:12 PM",
+        "round_raw": "B-Final"
+      },
+      "results": [
+        {
+          "position": 1,
+          "lane": 4,
+          "athlete": "Craig JOHNSON",
+          "club": "Senobe",
+          "time": "3:47.873",
+          "delta": "0:00.000",
+          "raw_data": {
+            "line": "1 4 Craig JOHNSON Senobe 3:47.873 0:00.000",
+            "status": null
+          }
+        },
+        {
+          "position": 2,
+          "lane": 6,
+          "athlete": "Lucas STEIN",
+          "club": "Balmy Beach",
+          "time": "3:49.448",
+          "delta": "0:01.575",
+          "raw_data": {
+            "line": "2 6 Lucas STEIN Balmy Beach 3:49.448 0:01.575",
+            "status": null
+          }
+        },
+        {
+          "position": 3,
+          "lane": 1,
+          "athlete": "Ryan NARODITSKY",
+          "club": "Rideau",
+          "time": "3:50.298",
+          "delta": "0:02.425",
+          "raw_data": {
+            "line": "3 1 Ryan NARODITSKY Rideau 3:50.298 0:02.425",
+            "status": null
+          }
+        },
+        {
+          "position": 4,
+          "lane": 2,
+          "athlete": "Raphaël CÔTÉ",
+          "club": "Lac-Beauport",
+          "time": "3:50.465",
+          "delta": "0:02.592",
+          "raw_data": {
+            "line": "4 2 Raphaël CÔTÉ Lac-Beauport 3:50.465 0:02.592",
+            "status": null
+          }
+        },
+        {
+          "position": 5,
+          "lane": 5,
+          "athlete": "Nathan KONÉ",
+          "club": "Trois Rivieres",
+          "time": "3:50.959",
+          "delta": "0:03.086",
+          "raw_data": {
+            "line": "5 5 Nathan KONÉ Trois Rivieres 3:50.959 0:03.086",
+            "status": null
+          }
+        },
+        {
+          "position": 6,
+          "lane": 7,
+          "athlete": "Mathieu GILBERT",
+          "club": "Trois Rivieres",
+          "time": "3:51.000",
+          "delta": "0:03.127",
+          "raw_data": {
+            "line": "6 7 Mathieu GILBERT Trois Rivieres 3:51.000 0:03.127",
+            "status": null
+          }
+        },
+        {
+          "position": 7,
+          "lane": 3,
+          "athlete": "Thomas SINOTTE",
+          "club": "Lachine",
+          "time": "3:52.701",
+          "delta": "0:04.828",
+          "raw_data": {
+            "line": "7 3 Thomas SINOTTE Lachine 3:52.701 0:04.828",
+            "status": null
+          }
+        },
+        {
+          "position": 8,
+          "lane": 8,
+          "athlete": "Carter NAUGLER",
+          "club": "Senobe",
+          "time": "3:56.672",
+          "delta": "0:08.799",
+          "raw_data": {
+            "line": "8 8 Carter NAUGLER Senobe 3:56.672 0:08.799",
+            "status": null
+          }
+        },
+        {
+          "position": 9,
+          "lane": 9,
+          "athlete": "Cedric LIU",
+          "club": "Pointe-Claire",
+          "time": "4:01.488",
+          "delta": "0:13.615",
+          "raw_data": {
+            "line": "9 9 Cedric LIU Pointe-Claire 4:01.488 0:13.615",
+            "status": null
+          }
+        }
+      ]
+    },
+    {
+      "event_name": "Open Men K1 1000m",
+      "round": "Final",
+      "raw_data": {
+        "race_number": "22",
+        "race_time": "2:18 PM",
+        "round_raw": "Final"
+      },
+      "results": [
+        {
+          "position": 1,
+          "lane": 4,
+          "athlete": "Vincent JOURDENAIS",
+          "club": "Trois Rivieres",
+          "time": "3:41.424",
+          "delta": "0:00.000",
+          "raw_data": {
+            "line": "1 4 Vincent JOURDENAIS Trois Rivieres 3:41.424 0:00.000",
+            "status": null
+          }
+        },
+        {
+          "position": 2,
+          "lane": 5,
+          "athlete": "Nicholas MATVEEV",
+          "club": "Balmy Beach",
+          "time": "3:42.153",
+          "delta": "0:00.729",
+          "raw_data": {
+            "line": "2 5 Nicholas MATVEEV Balmy Beach 3:42.153 0:00.729",
+            "status": null
+          }
+        },
+        {
+          "position": 3,
+          "lane": 7,
+          "athlete": "Cameron LOW",
+          "club": "Balmy Beach",
+          "time": "3:42.906",
+          "delta": "0:01.482",
+          "raw_data": {
+            "line": "3 7 Cameron LOW Balmy Beach 3:42.906 0:01.482",
+            "status": null
+          }
+        },
+        {
+          "position": 4,
+          "lane": 6,
+          "athlete": "Ian GAUDET",
+          "club": "Banook",
+          "time": "3:43.998",
+          "delta": "0:02.574",
+          "raw_data": {
+            "line": "4 6 Ian GAUDET Banook 3:43.998 0:02.574",
+            "status": null
+          }
+        },
+        {
+          "position": 5,
+          "lane": 2,
+          "athlete": "Alex CANNING",
+          "club": "Banook",
+          "time": "3:44.510",
+          "delta": "0:03.086",
+          "raw_data": {
+            "line": "5 2 Alex CANNING Banook 3:44.510 0:03.086",
+            "status": null
+          }
+        },
+        {
+          "position": 6,
+          "lane": 3,
+          "athlete": "Alex ERITH-ELLWOOD",
+          "club": "Senobe",
+          "time": "3:46.378",
+          "delta": "0:04.954",
+          "raw_data": {
+            "line": "6 3 Alex ERITH-ELLWOOD Senobe 3:46.378 0:04.954",
+            "status": null
+          }
+        },
+        {
+          "position": 7,
+          "lane": 8,
+          "athlete": "Jason BURKHOLDER",
+          "club": "Burloak",
+          "time": "3:46.694",
+          "delta": "0:05.270",
+          "raw_data": {
+            "line": "7 8 Jason BURKHOLDER Burloak 3:46.694 0:05.270",
+            "status": null
+          }
+        },
+        {
+          "position": 8,
+          "lane": 1,
+          "athlete": "Nathan DAOUST",
+          "club": "Pointe-Claire",
+          "time": "3:48.573",
+          "delta": "0:07.149",
+          "raw_data": {
+            "line": "8 1 Nathan DAOUST Pointe-Claire 3:48.573 0:07.149",
+            "status": null
+          }
+        },
+        {
+          "position": 9,
+          "lane": 9,
+          "athlete": "Carson COREY",
+          "club": "Burloak",
+          "time": "3:51.918",
+          "delta": "0:10.494",
+          "raw_data": {
+            "line": "9 9 Carson COREY Burloak 3:51.918 0:10.494",
+            "status": null
+          }
+        }
+      ]
+    },
+    {
+      "event_name": "Open Women C-1 200m",
+      "round": "B-Final",
+      "raw_data": {
+        "race_number": "23",
+        "race_time": "2:40 PM",
+        "round_raw": "B-Final"
+      },
+      "results": [
+        {
+          "position": 2,
+          "lane": 6,
+          "athlete": "Charlotte DÉSY",
+          "club": "Lac-Beauport",
+          "time": "0:52.685",
+          "delta": "0:02.178",
+          "raw_data": {
+            "line": "2 6 Charlotte DÉSY Lac-Beauport 0:52.685 0:02.178",
+            "status": null
+          }
+        },
+        {
+          "position": 3,
+          "lane": 3,
+          "athlete": "Léanne CASTONGUAY",
+          "club": "Otterburn",
+          "time": "0:52.863",
+          "delta": "0:02.356",
+          "raw_data": {
+            "line": "3 3 Léanne CASTONGUAY Otterburn 0:52.863 0:02.356",
+            "status": null
+          }
+        },
+        {
+          "position": 4,
+          "lane": 4,
+          "athlete": "Ava CAREW",
+          "club": "Senobe",
+          "time": "0:53.145",
+          "delta": "0:02.638",
+          "raw_data": {
+            "line": "4 4 Ava CAREW Senobe 0:53.145 0:02.638",
+            "status": null
+          }
+        },
+        {
+          "position": 5,
+          "lane": 2,
+          "athlete": "Leia STEPHENSON",
+          "club": "Lac-Beauport",
+          "time": "0:54.714",
+          "delta": "0:04.207",
+          "raw_data": {
+            "line": "5 2 Leia STEPHENSON Lac-Beauport 0:54.714 0:04.207",
+            "status": null
+          }
+        },
+        {
+          "position": 6,
+          "lane": 7,
+          "athlete": "Alexia GAGNON",
+          "club": "Lac-Beauport",
+          "time": "0:54.760",
+          "delta": "0:04.253",
+          "raw_data": {
+            "line": "6 7 Alexia GAGNON Lac-Beauport 0:54.760 0:04.253",
+            "status": null
+          }
+        }
+      ]
+    },
+    {
+      "event_name": "Open Women C-1 200m",
+      "round": "Final",
+      "raw_data": {
+        "race_number": "24",
+        "race_time": "2:45 PM",
+        "round_raw": "Final"
+      },
+      "results": [
+        {
+          "position": 1,
+          "lane": 5,
+          "athlete": "Katie VINCENT",
+          "club": "Mississauga",
+          "time": "0:46.057",
+          "delta": "0:00.000",
+          "raw_data": {
+            "line": "1 5 Katie VINCENT Mississauga 0:46.057 0:00.000",
+            "status": null
+          }
+        },
+        {
+          "position": 2,
+          "lane": 4,
+          "athlete": "Sophia JENSEN",
+          "club": "Cascades",
+          "time": "0:46.402",
+          "delta": "0:00.345",
+          "raw_data": {
+            "line": "2 4 Sophia JENSEN Cascades 0:46.402 0:00.345",
+            "status": null
+          }
+        },
+        {
+          "position": 3,
+          "lane": 3,
+          "athlete": "Jacy GRANT",
+          "club": "Cheema",
+          "time": "0:48.052",
+          "delta": "0:01.995",
+          "raw_data": {
+            "line": "3 3 Jacy GRANT Cheema 0:48.052 0:01.995",
+            "status": null
+          }
+        },
+        {
+          "position": 4,
+          "lane": 7,
+          "athlete": "Evie MCDONALD",
+          "club": "Rideau",
+          "time": "0:48.580",
+          "delta": "0:02.523",
+          "raw_data": {
+            "line": "4 7 Evie MCDONALD Rideau 0:48.580 0:02.523",
+            "status": null
+          }
+        },
+        {
+          "position": 5,
+          "lane": 6,
+          "athlete": "Zoe WOJTYK",
+          "club": "Rideau",
+          "time": "0:48.787",
+          "delta": "0:02.730",
+          "raw_data": {
+            "line": "5 6 Zoe WOJTYK Rideau 0:48.787 0:02.730",
+            "status": null
+          }
+        },
+        {
+          "position": 6,
+          "lane": 8,
+          "athlete": "Élizabeth DESROSIERS-MCARTHUR",
+          "club": "Lac-Beauport",
+          "time": "0:48.885",
+          "delta": "0:02.828",
+          "raw_data": {
+            "line": "6 8 Élizabeth DESROSIERS-MCARTHUR Lac-Beauport 0:48.885 0:02.828",
+            "status": null
+          }
+        },
+        {
+          "position": 7,
+          "lane": 2,
+          "athlete": "Sloan MACKENZIE",
+          "club": "Cheema",
+          "time": "0:49.098",
+          "delta": "0:03.041",
+          "raw_data": {
+            "line": "7 2 Sloan MACKENZIE Cheema 0:49.098 0:03.041",
+            "status": null
+          }
+        },
+        {
+          "position": 8,
+          "lane": 9,
+          "athlete": "Ruby MUHL",
+          "club": "Rideau",
+          "time": "0:50.000",
+          "delta": "0:03.943",
+          "raw_data": {
+            "line": "8 9 Ruby MUHL Rideau 0:50.000 0:03.943",
+            "status": null
+          }
+        },
+        {
+          "position": 9,
+          "lane": 1,
+          "athlete": "Amelie LALIBERTE",
+          "club": "Otterburn",
+          "time": "0:50.069",
+          "delta": "0:04.012",
+          "raw_data": {
+            "line": "9 1 Amelie LALIBERTE Otterburn 0:50.069 0:04.012",
+            "status": null
+          }
+        }
+      ]
+    },
+    {
+      "event_name": "Open Women C-1 200m",
+      "round": "Final",
+      "raw_data": {
+        "race_number": "25",
+        "race_time": "2:50 PM",
+        "round_raw": "Kayak Final 2 - Advancement/Progression:"
+      },
+      "results": [
+        {
+          "position": 1,
+          "lane": 5,
+          "athlete": "Gabriel FERRON-BOUIUS",
+          "club": "Rideau",
+          "time": "0:42.422",
+          "delta": "0:00.000",
+          "raw_data": {
+            "line": "1 5 Gabriel FERRON-BOUIUS Rideau 0:42.422 0:00.000",
+            "status": null
+          }
+        }
+      ]
+    },
+    {
+      "event_name": "Open Women C-1 200m",
+      "round": "Final",
+      "raw_data": {
+        "race_number": "26",
+        "race_time": "2:55 PM",
+        "round_raw": "Va'a Final 2 - Advancement/Progression:"
+      },
+      "results": [
+        {
+          "position": 1,
+          "lane": 2,
+          "athlete": "Mathieu ST-PIERRE",
+          "club": "Shawinigan",
+          "time": "0:57.444",
+          "delta": "0:00.000",
+          "raw_data": {
+            "line": "1 2 Mathieu ST-PIERRE Shawinigan 0:57.444 0:00.000",
+            "status": null
+          }
+        },
+        {
+          "position": 2,
+          "lane": 5,
+          "athlete": "Brianna HENNESSY",
+          "club": "Ottawa",
+          "time": "0:59.134",
+          "delta": "0:01.690",
+          "raw_data": {
+            "line": "2 5 Brianna HENNESSY Ottawa 0:59.134 0:01.690",
+            "status": null
+          }
+        },
+        {
+          "position": 3,
+          "lane": 7,
+          "athlete": "Erica SCARFF",
+          "club": "Mississauga",
+          "time": "1:01.134",
+          "delta": "0:03.690",
+          "raw_data": {
+            "line": "3 7 Erica SCARFF Mississauga 1:01.134 0:03.690",
+            "status": null
+          }
+        }
+      ]
+    },
+    {
+      "event_name": "Open Women K1 500m",
+      "round": "B-Final",
+      "raw_data": {
+        "race_number": "27",
+        "race_time": "3:10 PM",
+        "round_raw": "B-Final"
+      },
+      "results": [
+        {
+          "position": 1,
+          "lane": 4,
+          "athlete": "Julia DEMCHUK",
+          "club": "Calgary",
+          "time": "2:01.520",
+          "delta": "0:00.000",
+          "raw_data": {
+            "line": "1 4 Julia DEMCHUK Calgary 2:01.520 0:00.000",
+            "status": null
+          }
+        },
+        {
+          "position": 2,
+          "lane": 6,
+          "athlete": "Brianna SMITH",
+          "club": "Maskwa",
+          "time": "2:03.767",
+          "delta": "0:02.247",
+          "raw_data": {
+            "line": "2 6 Brianna SMITH Maskwa 2:03.767 0:02.247",
+            "status": null
+          }
+        },
+        {
+          "position": 3,
+          "lane": 3,
+          "athlete": "Emilee VATERS",
+          "club": "Maskwa",
+          "time": "2:04.595",
+          "delta": "0:03.075",
+          "raw_data": {
+            "line": "3 3 Emilee VATERS Maskwa 2:04.595 0:03.075",
+            "status": null
+          }
+        },
+        {
+          "position": 4,
+          "lane": 7,
+          "athlete": "Allie WANG",
+          "club": "Lachine",
+          "time": "2:05.164",
+          "delta": "0:03.644",
+          "raw_data": {
+            "line": "4 7 Allie WANG Lachine 2:05.164 0:03.644",
+            "status": null
+          }
+        },
+        {
+          "position": 5,
+          "lane": 2,
+          "athlete": "Marie CHAMBERLAND",
+          "club": "Lac-Beauport",
+          "time": "2:05.854",
+          "delta": "0:04.334",
+          "raw_data": {
+            "line": "5 2 Marie CHAMBERLAND Lac-Beauport 2:05.854 0:04.334",
+            "status": null
+          }
+        },
+        {
+          "position": 6,
+          "lane": 5,
+          "athlete": "Maren BRADLEY",
+          "club": "Rideau",
+          "time": "2:05.968",
+          "delta": "0:04.448",
+          "raw_data": {
+            "line": "6 5 Maren BRADLEY Rideau 2:05.968 0:04.448",
+            "status": null
+          }
+        },
+        {
+          "position": 7,
+          "lane": 9,
+          "athlete": "Mathilde PATRY",
+          "club": "Trois Rivieres",
+          "time": "2:06.152",
+          "delta": "0:04.632",
+          "raw_data": {
+            "line": "7 9 Mathilde PATRY Trois Rivieres 2:06.152 0:04.632",
+            "status": null
+          }
+        },
+        {
+          "position": 8,
+          "lane": 8,
+          "athlete": "Emily BEST",
+          "club": "Rideau",
+          "time": "2:07.244",
+          "delta": "0:05.724",
+          "raw_data": {
+            "line": "8 8 Emily BEST Rideau 2:07.244 0:05.724",
+            "status": null
+          }
+        },
+        {
+          "position": 9,
+          "lane": 1,
+          "athlete": "Calina BIDAL",
+          "club": "Lachine",
+          "time": "2:07.572",
+          "delta": "0:06.052",
+          "raw_data": {
+            "line": "9 1 Calina BIDAL Lachine 2:07.572 0:06.052",
+            "status": null
+          }
+        }
+      ]
+    },
+    {
+      "event_name": "Open Women K1 500m",
+      "round": "Final",
+      "raw_data": {
+        "race_number": "28",
+        "race_time": "3:15 PM",
+        "round_raw": "Final"
+      },
+      "results": [
+        {
+          "position": 2,
+          "lane": 4,
+          "athlete": "Riley MELANSON",
+          "club": "Senobe",
+          "time": "1:55.169",
+          "delta": "0:01.391",
+          "raw_data": {
+            "line": "2 4 Riley MELANSON Senobe 1:55.169 0:01.391",
+            "status": null
+          }
+        },
+        {
+          "position": 3,
+          "lane": 6,
+          "athlete": "Toshka BESHARAH",
+          "club": "Rideau",
+          "time": "1:56.916",
+          "delta": "0:03.138",
+          "raw_data": {
+            "line": "3 6 Toshka BESHARAH Rideau 1:56.916 0:03.138",
+            "status": null
+          }
+        },
+        {
+          "position": 4,
+          "lane": 3,
+          "athlete": "Chloe BRYER",
+          "club": "Burloak",
+          "time": "1:57.059",
+          "delta": "0:03.281",
+          "raw_data": {
+            "line": "4 3 Chloe BRYER Burloak 1:57.059 0:03.281",
+            "status": null
+          }
+        },
+        {
+          "position": 5,
+          "lane": 2,
+          "athlete": "Callie LOCH",
+          "club": "Rideau",
+          "time": "1:59.490",
+          "delta": "0:05.712",
+          "raw_data": {
+            "line": "5 2 Callie LOCH Rideau 1:59.490 0:05.712",
+            "status": null
+          }
+        },
+        {
+          "position": 6,
+          "lane": 7,
+          "athlete": "Alina TVERIE",
+          "club": "Lachine",
+          "time": "2:01.261",
+          "delta": "0:07.483",
+          "raw_data": {
+            "line": "6 7 Alina TVERIE Lachine 2:01.261 0:07.483",
+            "status": null
+          }
+        },
+        {
+          "position": 7,
+          "lane": 9,
+          "athlete": "Anna ARCHIBALD",
+          "club": "Banook",
+          "time": "2:03.278",
+          "delta": "0:09.500",
+          "raw_data": {
+            "line": "7 9 Anna ARCHIBALD Banook 2:03.278 0:09.500",
+            "status": null
+          }
+        },
+        {
+          "position": 8,
+          "lane": 1,
+          "athlete": "Kristiane FREE",
+          "club": "Calgary",
+          "time": "2:03.835",
+          "delta": "0:10.057",
+          "raw_data": {
+            "line": "8 1 Kristiane FREE Calgary 2:03.835 0:10.057",
+            "status": null
+          }
+        },
+        {
+          "position": 9,
+          "lane": 8,
+          "athlete": "Florence HAMEL",
+          "club": "Lachine",
+          "time": "2:04.680",
+          "delta": "0:10.902",
+          "raw_data": {
+            "line": "9 8 Florence HAMEL Lachine 2:04.680 0:10.902",
+            "status": null
+          }
+        }
+      ]
+    }
+  ],
+  "parsing_warnings": [
+    "Potential duplicates detected: 166 pairs"
+  ],
+  "failed_rows": [
+    "15 10:30 Paracanoe Day 1 Va'a Final 1",
+    "--- Page 2 ---",
+    "--- Page 3 ---",
+    "- 5/2/2025 (Jour 1)",
+    "1st- 3rd to Final A, 4th - 7th + 1x8th to SF, Rest to B Final.",
+    "1st to Final A, 2nd - 7th to SF, Rest Out.",
+    "--- Page 4 ---",
+    "1st- 3rd to Final A, 4th - 7th + 1x8th to SF, Rest to B Final.",
+    "--- Page 5 ---",
+    "- 5/2/2025 (Jour 1)",
+    "4 3 Konwana'Ke:ren DIABO Onake 0:49.465 0:02.558",
+    "1st to Final A, 2nd - 7th to SF, Rest Out.",
+    "1 5 Michelle RUSSELL Abenaki 1:54.604 0:00.000",
+    "--- Page 6 ---",
+    "1st - 3rd to Final A, Rest to B Final",
+    "1st-3rd to Final A, 4th-7th + 1 x 8th BT to Finals B, Rest Out.",
+    "--- Page 7 ---",
+    "- 5/2/2025 (Jour 1)",
+    "1st - 3rd to Final A, Rest to B Final",
+    "4 5 Konwana'Ke:ren DIABO Onake 0:49.333 0:01.764",
+    "Paracanoe Day 1",
+    "--- Page 8 ---",
+    "1st-3rd to Final A, 4th-7th + 1 x 8th BT to Finals B, Rest Out.",
+    "Lunch",
+    "--- Page 9 ---",
+    "- 5/2/2025 (Jour 1)",
+    "--- Page 10 ---",
+    "1 5 Konwana'Ke:ren DIABO Onake 0:50.507 0:00.000",
+    "--- Page 11 ---",
+    "- 5/2/2025 (Jour 1)",
+    "Paracanoe Day 1",
+    "--- Page 12 ---",
+    "1 5 Michelle RUSSELL Abenaki 1:53.778 0:00.000"
+  ],
+  "_export_metadata": {
+    "exported_at": "2026-05-23T13:54:16.384465",
+    "exporter_version": "1.0.0",
+    "schema_version": "1.0.0",
+    "original_path": "input\\NTT1 J1 2025.pdf"
+  }
+}

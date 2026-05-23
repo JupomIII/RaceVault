@@ -1,0 +1,16 @@
+{
+  "parse_warnings": [
+    "Potential duplicates detected: 27 pairs"
+  ],
+  "failed_rows": [
+    "13:00 Course n\u00b0 1 Samedi 24 mai \u00c9liminatoire1",
+    "13:08 Course n\u00b0 2 Samedi 24 mai \u00c9liminatoire2",
+    "13:18 Course n\u00b0 3 Samedi 24 mai \u00c9liminatoire1",
+    "13:26 Course n\u00b0 4 Samedi 24 mai \u00c9liminatoire2",
+    "--- Page 2 ---",
+    "13:36 Course n\u00b0 5 Samedi 24 mai \u00c9liminatoire1",
+    "13:44 Course n\u00b0 6 Samedi 24 mai \u00c9liminatoire2",
+    "13:52 Course n\u00b0 7 Samedi 24 mai \u00c9liminatoire3",
+    "--- Page 3 ---"
+  ]
+}

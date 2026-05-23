@@ -2,6 +2,7 @@ from __future__ import annotations
 import sys
 import os
 import json
+import re
 import logging
 import subprocess
 import shutil
@@ -569,6 +570,16 @@ class RaceVaultGUI(QWidget):
         self.refresh_athletes_button.clicked.connect(self.refresh_athletes_list)
         controls_layout.addWidget(self.refresh_athletes_button)
         
+        # Search for athletes
+        self.athlete_search_input = QLineEdit()
+        self.athlete_search_input.setPlaceholderText("Search athletes by name, distance, boat, time...")
+        self.athlete_search_input.returnPressed.connect(self.apply_athlete_search)
+        controls_layout.addWidget(self.athlete_search_input)
+
+        self.athlete_search_button = QPushButton("Search")
+        self.athlete_search_button.clicked.connect(self.apply_athlete_search)
+        controls_layout.addWidget(self.athlete_search_button)
+        
         controls_layout.addStretch()
         layout.addLayout(controls_layout)
 
@@ -589,9 +600,13 @@ class RaceVaultGUI(QWidget):
         times_layout = QVBoxLayout(times_container)
         times_label = QLabel("Best Times:")
         times_layout.addWidget(times_label)
-        self.athlete_times_text = QTextEdit()
-        self.athlete_times_text.setReadOnly(True)
-        times_layout.addWidget(self.athlete_times_text)
+        # Structured table for best times (better formatting than plain text)
+        self.athlete_times_table = QTableWidget(0, 6)
+        self.athlete_times_table.setHorizontalHeaderLabels(["Distance", "Boat Class", "Category", "Time", "Date", "Source File"])
+        self.athlete_times_table.horizontalHeader().setSectionResizeMode(QHeaderView.Stretch)
+        self.athlete_times_table.setEditTriggers(QTableWidget.NoEditTriggers)
+        self.athlete_times_table.setSelectionBehavior(QTableWidget.SelectRows)
+        times_layout.addWidget(self.athlete_times_table)
         info_layout.addWidget(times_container, 2)
         
         # Right: Birth date editor
@@ -889,23 +904,37 @@ class RaceVaultGUI(QWidget):
             for event in data.get("events", []):
                 event_name = event.get("event_name") or ""
                 for result in event.get("results", []):
-                    athlete = result.get("athlete") or {}
-                    raw_name = athlete.get("raw_name", "") or ""
-                    normalized_name = athlete.get("normalized_name", "") or ""
-                    position = result.get("position") if result.get("position") is not None else ""
+                    athlete = result.get("athlete")
+                    if isinstance(athlete, dict):
+                        raw_name = athlete.get("raw_name", "") or ""
+                        normalized_name = athlete.get("normalized_name", "") or ""
+                    else:
+                        raw_name = str(athlete or "")
+                        normalized_name = ""
+                    position_value = result.get("position")
+                    position = str(position_value) if position_value is not None else ""
 
                     # attempt to extract distance and boat class from event name or raw_data
                     distance = ""
                     boat_class = ""
-                    # check event_name for patterns like '2000m' and 'K1', 'C1', 'K2', etc.
+                    # look for distance token like '2000m' and boat class patterns like K1, K-1, K 1, C2, etc.
                     en = (event_name or "").replace("\u00a0", " ")
-                    tokens = en.split()
-                    for t in tokens:
-                        tclean = t.replace(" ", "").upper()
-                        if tclean.endswith("M") and any(ch.isdigit() for ch in tclean):
+                    # distance: token ending with m and containing digits
+                    for t in en.split():
+                        if t.lower().endswith('m') and any(ch.isdigit() for ch in t):
                             distance = t
-                        if any(tclean.startswith(prefix) for prefix in ("K1", "K2", "K4", "C1", "C2", "C4")) or tclean in ("K1", "K2", "K4", "C1", "C2", "C4"):
-                            boat_class = tclean
+                            break
+
+                    # boat class regex: matches K or C optionally separated by space or hyphen, followed by 1/2/4
+                    boat_match = None
+                    try:
+                        import re as _re
+                        boat_match = _re.search(r"\b([KCkc])\s*-?\s*([124])\b", en)
+                    except Exception:
+                        boat_match = None
+
+                    if boat_match:
+                        boat_class = (boat_match.group(1).upper() + boat_match.group(2))
 
                     # fallback: look into raw_data 'line' for boat class or distance
                     raw_line = result.get("raw_data", {}).get("line", "")
@@ -915,10 +944,37 @@ class RaceVaultGUI(QWidget):
                                 distance = part
                                 break
                     if not boat_class and raw_line:
-                        for prefix in ("K1", "K2", "K4", "C1", "C2", "C4"):
-                            if prefix in raw_line:
-                                boat_class = prefix
-                                break
+                        try:
+                            import re as _re
+                            bm = _re.search(r"\b([KCkc])\s*-?\s*([124])\b", raw_line)
+                            if bm:
+                                boat_class = (bm.group(1).upper() + bm.group(2))
+                        except Exception:
+                            pass
+
+                    # Normalize athlete name separators for team boats and include individual tokens for searching
+                    ath_field = result.get("athlete")
+                    if isinstance(ath_field, dict):
+                        raw_name = ath_field.get("raw_name", "") or ""
+                        existing_normalized = ath_field.get("normalized_name", "") or ""
+                    else:
+                        raw_name = str(ath_field or "")
+                        existing_normalized = ""
+
+                    # replace common separators with comma
+                    norm_name = raw_name
+                    norm_name = re.sub(r"[/:;|\\]+", ",", norm_name)
+                    norm_name = re.sub(r"\s+&\s+|\s+and\s+", ",", norm_name, flags=re.IGNORECASE)
+                    # collapse spaces and commas
+                    norm_name = re.sub(r"\s*,\s*", ", ", norm_name).strip(" ,")
+                    # individual names list
+                    name_parts = [p.strip() for p in re.split(r",\s*", norm_name) if p.strip()]
+                    # build athlete name fields
+                    raw_name_display = raw_name
+                    if name_parts:
+                        normalized_name = " / ".join(name_parts)
+                    else:
+                        normalized_name = existing_normalized or (result.get('normalized_name', '') or '')
 
                     self.search_index.append(
                         {
@@ -954,20 +1010,24 @@ class RaceVaultGUI(QWidget):
             filtered = []
             for row in self.search_index:
                 if search_type == "Race/Event":
-                    haystack = row["event_name"].lower()
+                    haystack = str(row.get("event_name", "")).lower()
                 elif search_type == "Athlete Name":
-                    haystack = f"{row['athlete_name']} {row['normalized_name']}".lower()
+                    haystack = f"{row.get('athlete_name', '')} {row.get('normalized_name', '')}".lower()
                 elif search_type == "Source file / Date":
-                    haystack = row["source_file"].lower()
+                    haystack = f"{row.get('source_file', '')} {row.get('date', '')}".lower()
                 else:
                     haystack = " ".join(
                         [
-                            row["source_file"],
-                            row["event_name"],
-                            row["athlete_name"],
-                            row["normalized_name"],
-                            row["club"],
-                            row["time"],
+                            str(row.get("source_file", "")),
+                            str(row.get("event_name", "")),
+                            str(row.get("distance", "")),
+                            str(row.get("boat_class", "")),
+                            str(row.get("athlete_name", "")),
+                            str(row.get("normalized_name", "")),
+                            str(row.get("club", "")),
+                            str(row.get("time", "")),
+                            str(row.get("position", "")),
+                            str(row.get("date", "")),
                         ]
                     ).lower()
 
@@ -1184,6 +1244,26 @@ class RaceVaultGUI(QWidget):
         self.athletes_table.setSortingEnabled(True)
         self.clear_athlete_selection()
 
+    def apply_athlete_search(self) -> None:
+        """Filter athletes list using the athlete manager search API."""
+        query = self.athlete_search_input.text().strip()
+        athletes = self.athlete_manager.search_athletes(query)
+        # repopulate athletes table
+        self.athletes_table.setSortingEnabled(False)
+        self.athletes_table.setRowCount(0)
+        for idx, athlete in enumerate(athletes):
+            self.athletes_table.insertRow(idx)
+            name_item = QTableWidgetItem(athlete.get("name", ""))
+            name_item.setData(Qt.UserRole, athlete.get("name", ""))
+            self.athletes_table.setItem(idx, 0, name_item)
+            birth_date = athlete.get("birth_date", "")
+            self.athletes_table.setItem(idx, 1, QTableWidgetItem(birth_date or "-"))
+            age = athlete.get("age")
+            age_str = str(age) if age is not None else "-"
+            self.athletes_table.setItem(idx, 2, QTableWidgetItem(age_str))
+        self.athletes_table.setSortingEnabled(True)
+        self.clear_athlete_selection()
+
     def on_athlete_selected(self) -> None:
         """Handle athlete selection in table."""
         selected_rows = self.athletes_table.selectionModel().selectedRows()
@@ -1204,9 +1284,30 @@ class RaceVaultGUI(QWidget):
             self.clear_athlete_selection()
             return
         
-        # Display best times
-        card = self.athlete_manager.get_athlete_card(athlete_name)
-        self.athlete_times_text.setPlainText(card)
+        # Display best times in structured table
+        self.athlete_times_table.setRowCount(0)
+        best_times = athlete.get("best_times", {})
+        # sort by distance (numeric if endswith 'm') then by time
+        def dist_key(d):
+            if isinstance(d, str) and d.endswith('m') and d[:-1].isdigit():
+                return int(d[:-1])
+            return 99999
+
+        # create list of time entries
+        entries = []
+        for key, info in best_times.items():
+            entries.append(info)
+
+        entries.sort(key=lambda e: (dist_key(e.get('distance', '')), self.athlete_manager._time_to_seconds(e.get('time', '99999'))))
+
+        for idx, info in enumerate(entries):
+            self.athlete_times_table.insertRow(idx)
+            self.athlete_times_table.setItem(idx, 0, QTableWidgetItem(info.get('distance', '')))
+            self.athlete_times_table.setItem(idx, 1, QTableWidgetItem(info.get('boat_class', '') or ''))
+            self.athlete_times_table.setItem(idx, 2, QTableWidgetItem(info.get('category', '')))
+            self.athlete_times_table.setItem(idx, 3, QTableWidgetItem(info.get('time', '')))
+            self.athlete_times_table.setItem(idx, 4, QTableWidgetItem(info.get('date', '') or ''))
+            self.athlete_times_table.setItem(idx, 5, QTableWidgetItem(info.get('source_file', '') or ''))
         
         # Show birth date in editor
         birth_date = athlete.get("birth_date") or ""
@@ -1220,7 +1321,7 @@ class RaceVaultGUI(QWidget):
 
     def clear_athlete_selection(self) -> None:
         """Clear athlete selection and displays."""
-        self.athlete_times_text.setPlainText("")
+        self.athlete_times_table.setRowCount(0)
         self.birth_date_input.setText("")
         self.age_display.setText("N/A")
 

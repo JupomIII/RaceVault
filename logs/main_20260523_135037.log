@@ -1,0 +1,15 @@
+2026-05-23 13:53:53,540 | main | INFO | Processing: NTT2 J3 2025.pdf
+2026-05-23 13:53:55,316 | main | DEBUG | Extracted 12 pages, 27 tables
+2026-05-23 13:53:55,436 | main | INFO | Successfully processed NTT2 J3 2025.pdf -> output\NTT2 J3 2025.json (confidence: 0.68)
+2026-05-23 13:53:55,439 | main | INFO | Processing: NTT2 J2 2025.pdf
+2026-05-23 13:54:01,200 | main | DEBUG | Extracted 33 pages, 92 tables
+2026-05-23 13:54:01,620 | main | INFO | Successfully processed NTT2 J2 2025.pdf -> output\NTT2 J2 2025.json (confidence: 0.69)
+2026-05-23 13:54:01,624 | main | INFO | Processing: NTT2 J1 2025.pdf
+2026-05-23 13:54:10,509 | main | DEBUG | Extracted 26 pages, 108 tables
+2026-05-23 13:54:10,951 | main | INFO | Successfully processed NTT2 J1 2025.pdf -> output\NTT2 J1 2025.json (confidence: 0.69)
+2026-05-23 13:54:10,954 | main | INFO | Processing: NTT1 J2 2025.pdf
+2026-05-23 13:54:13,811 | main | DEBUG | Extracted 12 pages, 30 tables
+2026-05-23 13:54:13,928 | main | INFO | Successfully processed NTT1 J2 2025.pdf -> output\NTT1 J2 2025.json (confidence: 0.69)
+2026-05-23 13:54:13,933 | main | INFO | Processing: NTT1 J1 2025.pdf
+2026-05-23 13:54:16,299 | main | DEBUG | Extracted 12 pages, 28 tables
+2026-05-23 13:54:16,388 | main | INFO | Successfully processed NTT1 J1 2025.pdf -> output\NTT1 J1 2025.json (confidence: 0.69)
