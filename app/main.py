@@ -2,6 +2,7 @@ from __future__ import annotations
 import os
 import sys
 import traceback
+import re
 from typing import List, Optional
 from pathlib import Path
 
@@ -17,6 +18,7 @@ from app.layout_detector import LayoutDetector
 from app.parsers import get_parser
 from app.normalizer import Normalizer
 from app.exporter import JSONExporter
+from app.schema import ParseResult as SchemaParseResult, Event as SchemaEvent, Result as SchemaResult, Athlete as SchemaAthlete
 
 logger = setup_logger("main", log_file="racevault.log")
 
@@ -55,6 +57,7 @@ class Pipeline:
         layout_override: Optional[str] = None,
         extracted: Optional[Dict[str, Any]] = None,
         move_parsed: bool = False,
+        pages_per_chunk: Optional[int] = None,
     ) -> Dict[str, Any]:
         filename = os.path.basename(pdf_path)
         logger.info(f"Processing: {filename}")
@@ -78,7 +81,121 @@ class Pipeline:
 
         try:
             parser = get_parser(layout_info["layout_type"])
-            parse_result = parser.parse(extracted, layout_info)
+
+            # If requested, parse layout_b in page chunks to reduce memory.
+            if pages_per_chunk and layout_info.get("layout_type") == "layout_b" and extracted and isinstance(extracted.get("text"), str):
+                text = extracted.get("text", "")
+                # Split per-page using the extractor marker
+                pages = []
+                # The extractor inserts markers like "\n--- Page {n} ---\n"
+                parts = re.split(r"\n--- Page \d+ ---\n", text)
+                if parts and parts[0].strip() == "":
+                    parts = parts[1:]
+
+                for p in parts:
+                    pages.append(p)
+
+                events_accum = []
+                # parse pages in chunks
+                for i in range(0, len(pages), pages_per_chunk):
+                    chunk_pages = pages[i : i + pages_per_chunk]
+                    chunk_text = "\n".join(chunk_pages)
+                    try:
+                        evs = parser._parse_text(chunk_text)
+                        if evs:
+                            events_accum.extend(evs)
+                    except Exception as e:
+                        logger.exception("Chunk parse failed in pipeline")
+                        # preserve warning on parser
+                        parser._add_warning(f"Chunk parsing failed: {e}")
+
+                # attach accumulated events into a SchemaParseResult directly
+                schema_pr = SchemaParseResult()
+                schema_pr.source_file = os.path.basename(pdf_path)
+                schema_pr.layout_type = layout_info.get("layout_type")
+                schema_pr.layout_info = layout_info
+                schema_pr.extraction_metadata = extracted.get("metadata", {})
+                schema_pr.parsing_warnings = parser.warnings or []
+                schema_pr.failed_rows = parser.failed_rows or []
+
+                for ev in events_accum:
+                    sev = SchemaEvent()
+                    sev.event_name = getattr(ev, "event_name", None)
+                    sev.round = getattr(ev, "round", None)
+                    sev.raw_headers = getattr(ev, "raw_data", {}) or {}
+                    for r in getattr(ev, "results", []):
+                        athlete_name = None
+                        if hasattr(r, "athletes"):
+                            athletes = getattr(r, "athletes") or []
+                            if athletes:
+                                athlete_name = getattr(athletes[0], "raw_name", str(athletes[0]))
+                        elif hasattr(r, "athlete") and getattr(r, "athlete"):
+                            athlete_name = getattr(r, "athlete").raw_name
+
+                        sachlete = SchemaAthlete(raw_name=athlete_name) if athlete_name else None
+
+                        sres = SchemaResult()
+                        sres.position = getattr(r, "position", None)
+                        sres.athlete = sachlete
+                        sres.club = getattr(r, "club", None)
+                        sres.time = getattr(r, "time", None)
+                        sres.lane = getattr(r, "lane", None)
+                        sres.raw_data = getattr(r, "raw_data", {}) or {}
+                        sres.warnings = getattr(r, "warnings", []) or []
+
+                        sev.results.append(sres)
+
+                    schema_pr.events.append(sev)
+
+                parse_result = schema_pr
+
+            else:
+                parse_result = parser.parse(extracted, layout_info)
+
+            # Convert parser-specific lightweight ParseResult into Schema ParseResult
+            if not isinstance(parse_result, SchemaParseResult):
+                schema_pr = SchemaParseResult()
+                schema_pr.source_file = os.path.basename(pdf_path)
+                schema_pr.layout_type = layout_info.get("layout_type")
+                schema_pr.layout_info = layout_info
+                schema_pr.extraction_metadata = extracted.get("metadata", {})
+
+                # copy warnings/failed rows if available
+                schema_pr.parsing_warnings = getattr(parse_result, "parsing_warnings", []) or []
+                schema_pr.failed_rows = getattr(parse_result, "failed_rows", []) or []
+
+                for ev in getattr(parse_result, "events", []):
+                    sev = SchemaEvent()
+                    sev.event_name = getattr(ev, "event_name", None)
+                    sev.round = getattr(ev, "round", None)
+                    sev.raw_headers = getattr(ev, "raw_data", {}) or {}
+                    for r in getattr(ev, "results", []):
+                        # handle crew boats (list) or single athlete
+                        athlete_name = None
+                        if hasattr(r, "athletes"):
+                            athletes = getattr(r, "athletes") or []
+                            if athletes:
+                                athlete_name = getattr(athletes[0], "raw_name", str(athletes[0]))
+                        elif hasattr(r, "athlete") and getattr(r, "athlete"):
+                            athlete_name = getattr(r, "athlete").raw_name
+
+                        sachlete = SchemaAthlete(raw_name=athlete_name) if athlete_name else None
+
+                        sres = SchemaResult()
+                        sres.position = getattr(r, "position", None)
+                        sres.athlete = sachlete
+                        sres.club = getattr(r, "club", None)
+                        sres.time = getattr(r, "time", None)
+                        sres.lane = getattr(r, "lane", None)
+                        sres.raw_data = getattr(r, "raw_data", {}) or {}
+                        # ensure warnings list exists
+                        sres.warnings = getattr(r, "warnings", []) or []
+
+                        sev.results.append(sres)
+
+                    schema_pr.events.append(sev)
+
+                parse_result = schema_pr
         except Exception as e:
             msg = f"Parser error: {e}"
             logger.error(msg)

@@ -10,15 +10,27 @@
   },
   "layout_info": {
     "layout_type": "layout_c",
-    "confidence": 0.0,
+    "confidence": 1.0,
     "table_index": null,
     "all_scores": {
-      "layout_a": 0.0,
-      "layout_b": 0.0,
-      "layout_c": 0.0,
-      "layout_d": 0.0
+      "layout_a": {
+        "signature": 0.0,
+        "parse": 0.0
+      },
+      "layout_b": {
+        "signature": 0.0,
+        "parse": 0.0
+      },
+      "layout_c": {
+        "signature": 0.0,
+        "parse": 1.0
+      },
+      "layout_d": {
+        "signature": 0.0,
+        "parse": 0.0
+      }
     },
-    "method": "manual"
+    "method": "parse"
   },
   "parsing_warnings": [
     "Potential duplicates detected: 70 pairs"
@@ -8631,7 +8643,7 @@
     }
   ],
   "_export_metadata": {
-    "exported_at": "2026-05-23T14:18:20.845609",
+    "exported_at": "2026-05-23T14:46:19.636370",
     "exporter_version": "1.0.0",
     "schema_version": "1.0.0",
     "original_path": "input\\Prov M16 J2 2025.pdf"

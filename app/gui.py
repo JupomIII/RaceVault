@@ -29,6 +29,7 @@ from PySide6.QtWidgets import (
     QTableWidget,
     QTableWidgetItem,
     QHeaderView,
+    QSplitter,
     QCheckBox,
     QProgressBar,
     QDialog,
@@ -143,12 +144,21 @@ class RaceVaultGUI(QWidget):
         parser_layout.addWidget(parser_label)
         parser_layout.addWidget(self.parser_selector)
         parser_layout.addWidget(self.layout_preview_panel)
+        # Pages-per-chunk control
+        chunk_label = QLabel("Pages per chunk:")
+        self.pages_per_chunk_spin = QSpinBox()
+        self.pages_per_chunk_spin.setMinimum(1)
+        self.pages_per_chunk_spin.setMaximum(10)
+        self.pages_per_chunk_spin.setValue(2)
+        parser_layout.addWidget(chunk_label)
+        parser_layout.addWidget(self.pages_per_chunk_spin)
         parser_layout.addStretch()
         layout.addLayout(parser_layout)
 
         # --- Tableau et prévisualisation côte à côte ---
-        table_preview_layout = QHBoxLayout()
-        
+        table_preview_splitter = QSplitter(Qt.Horizontal)
+        table_preview_splitter.setChildrenCollapsible(False)
+
         # Tableau à gauche
         table_container = QWidget()
         table_layout = QVBoxLayout(table_container)
@@ -156,13 +166,16 @@ class RaceVaultGUI(QWidget):
         table_layout.addWidget(table_label)
         self.input_table = QTableWidget(0, 3)
         self.input_table.setHorizontalHeaderLabels(["Competition", "Year", "Status"])
-        self.input_table.horizontalHeader().setSectionResizeMode(QHeaderView.Stretch)
+        input_header = self.input_table.horizontalHeader()
+        input_header.setSectionResizeMode(QHeaderView.Interactive)
+        input_header.setSectionsMovable(True)
+        input_header.setStretchLastSection(True)
         self.input_table.setEditTriggers(QTableWidget.NoEditTriggers)
         self.input_table.setSelectionBehavior(QTableWidget.SelectRows)
         self.input_table.selectionModel().selectionChanged.connect(self.on_pdf_selection_changed)
         table_layout.addWidget(self.input_table)
-        table_preview_layout.addWidget(table_container, 2)  # 2 parts for table
-        
+        table_preview_splitter.addWidget(table_container)
+
         # Prévisualisation à droite
         preview_container = QWidget()
         preview_layout = QVBoxLayout(preview_container)
@@ -177,9 +190,10 @@ class RaceVaultGUI(QWidget):
         self.pdf_preview_label.setStyleSheet("background-color: #f0f0f0;")
         self.pdf_preview_scroll.setWidget(self.pdf_preview_label)
         preview_layout.addWidget(self.pdf_preview_scroll)
-        table_preview_layout.addWidget(preview_container, 1)  # 1 part for preview
-        
-        layout.addLayout(table_preview_layout)
+        table_preview_splitter.addWidget(preview_container)
+
+        table_preview_splitter.setSizes([620, 260])
+        layout.addWidget(table_preview_splitter)
 
         # Barre de progression
         self.parsing_progress = QProgressBar()
@@ -391,7 +405,12 @@ class RaceVaultGUI(QWidget):
 
             try:
                 effective_move = move_parsed if move_parsed is not None else False
-                result = self.pipeline.process_file(pdf, layout_override=layout_override, move_parsed=effective_move)
+                result = self.pipeline.process_file(
+                    pdf,
+                    layout_override=layout_override,
+                    move_parsed=effective_move,
+                    pages_per_chunk=self.pages_per_chunk_spin.value(),
+                )
                 status = "Parsed" if result.get("output_path") else "Error"
             except Exception as exc:
                 logger.exception(f"Error parsing {pdf}")
@@ -488,7 +507,11 @@ class RaceVaultGUI(QWidget):
             "Position",
             "Date",
         ])
-        self.search_table.horizontalHeader().setSectionResizeMode(QHeaderView.Stretch)
+        header = self.search_table.horizontalHeader()
+        header.setSectionResizeMode(QHeaderView.Interactive)
+        header.setSectionsMovable(True)
+        header.setStretchLastSection(True)
+        self.search_table.setWordWrap(True)
         self.search_table.setEditTriggers(QTableWidget.NoEditTriggers)
         self.search_table.setSelectionBehavior(QTableWidget.SelectRows)
         self.search_table.setSelectionMode(QAbstractItemView.ExtendedSelection)
@@ -523,7 +546,10 @@ class RaceVaultGUI(QWidget):
             "Position",
             "Date",
         ])
-        self.report_selection_table.horizontalHeader().setSectionResizeMode(QHeaderView.Stretch)
+        report_header = self.report_selection_table.horizontalHeader()
+        report_header.setSectionResizeMode(QHeaderView.Interactive)
+        report_header.setSectionsMovable(True)
+        report_header.setStretchLastSection(True)
         self.report_selection_table.setEditTriggers(QTableWidget.NoEditTriggers)
         self.report_selection_table.setSelectionBehavior(QTableWidget.SelectRows)
         self.report_selection_table.setSelectionMode(QAbstractItemView.ExtendedSelection)
@@ -550,7 +576,10 @@ class RaceVaultGUI(QWidget):
 
         self.json_table = QTableWidget(0, 4)
         self.json_table.setHorizontalHeaderLabels(["Filename", "Size", "Modified", "Path"])
-        self.json_table.horizontalHeader().setSectionResizeMode(QHeaderView.Stretch)
+        json_header = self.json_table.horizontalHeader()
+        json_header.setSectionResizeMode(QHeaderView.Interactive)
+        json_header.setSectionsMovable(True)
+        json_header.setStretchLastSection(True)
         self.json_table.setEditTriggers(QTableWidget.NoEditTriggers)
         self.json_table.setSelectionBehavior(QTableWidget.SelectRows)
         self.json_table.setSelectionMode(QTableWidget.ExtendedSelection)
@@ -587,7 +616,10 @@ class RaceVaultGUI(QWidget):
         # Athletes table
         self.athletes_table = QTableWidget(0, 3)
         self.athletes_table.setHorizontalHeaderLabels(["Athlete Name", "Birth Date", "Age"])
-        self.athletes_table.horizontalHeader().setSectionResizeMode(QHeaderView.Stretch)
+        athletes_header = self.athletes_table.horizontalHeader()
+        athletes_header.setSectionResizeMode(QHeaderView.Interactive)
+        athletes_header.setSectionsMovable(True)
+        athletes_header.setStretchLastSection(True)
         self.athletes_table.setEditTriggers(QTableWidget.NoEditTriggers)
         self.athletes_table.setSelectionBehavior(QTableWidget.SelectRows)
         self.athletes_table.itemSelectionChanged.connect(self.on_athlete_selected)
@@ -604,7 +636,10 @@ class RaceVaultGUI(QWidget):
         # Structured table for best times (better formatting than plain text)
         self.athlete_times_table = QTableWidget(0, 6)
         self.athlete_times_table.setHorizontalHeaderLabels(["Distance", "Boat Class", "Category", "Time", "Date", "Source File"])
-        self.athlete_times_table.horizontalHeader().setSectionResizeMode(QHeaderView.Stretch)
+        athlete_times_header = self.athlete_times_table.horizontalHeader()
+        athlete_times_header.setSectionResizeMode(QHeaderView.Interactive)
+        athlete_times_header.setSectionsMovable(True)
+        athlete_times_header.setStretchLastSection(True)
         self.athlete_times_table.setEditTriggers(QTableWidget.NoEditTriggers)
         self.athlete_times_table.setSelectionBehavior(QTableWidget.SelectRows)
         times_layout.addWidget(self.athlete_times_table)
@@ -780,6 +815,7 @@ class RaceVaultGUI(QWidget):
                 layout_override=layout_override,
                 extracted=extracted,
                 move_parsed=effective_move,
+                pages_per_chunk=self.pages_per_chunk_spin.value(),
             )
             self.display_result(pdf_path, result)
             self.refresh_search_index()
@@ -1049,16 +1085,17 @@ class RaceVaultGUI(QWidget):
             comp_item = QTableWidgetItem(row.get("source_file", ""))
             comp_item.setData(Qt.UserRole, row)
             self.search_table.setItem(row_index, 0, comp_item)
-        self.search_table.setItem(row_index, 1, QTableWidgetItem(row.get("event_name", "")))
-        self.search_table.setItem(row_index, 2, QTableWidgetItem(row.get("distance", "")))
-        self.search_table.setItem(row_index, 3, QTableWidgetItem(row.get("boat_class", "")))
-        self.search_table.setItem(row_index, 4, QTableWidgetItem(row.get("athlete_name", "")))
-        self.search_table.setItem(row_index, 5, QTableWidgetItem(row.get("time", "")))
-        pos = row.get("position", "")
-        self.search_table.setItem(row_index, 6, QTableWidgetItem(str(pos) if pos is not None else ""))
-        self.search_table.setItem(row_index, 7, QTableWidgetItem(row.get("date", "")))
+            self.search_table.setItem(row_index, 1, QTableWidgetItem(row.get("event_name", "")))
+            self.search_table.setItem(row_index, 2, QTableWidgetItem(row.get("distance", "")))
+            self.search_table.setItem(row_index, 3, QTableWidgetItem(row.get("boat_class", "")))
+            self.search_table.setItem(row_index, 4, QTableWidgetItem(row.get("athlete_name", "")))
+            self.search_table.setItem(row_index, 5, QTableWidgetItem(row.get("time", "")))
+            pos = row.get("position", "")
+            self.search_table.setItem(row_index, 6, QTableWidgetItem(str(pos) if pos is not None else ""))
+            self.search_table.setItem(row_index, 7, QTableWidgetItem(row.get("date", "")))
 
         self.search_table.setSortingEnabled(True)
+        self.search_table.resizeRowsToContents()
 
     def _build_report_row(self, row: dict) -> list[QTableWidgetItem]:
         return [

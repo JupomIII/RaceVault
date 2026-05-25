@@ -1,12 +1,36 @@
-2026-05-23 14:18:18,610 | main | INFO | Processing: Prov M16 J3 2025.pdf
-Detected 87 potential duplicate athletes
-2026-05-23 14:18:19,631 | main | INFO | Successfully processed Prov M16 J3 2025.pdf -> output\Prov M16 J3 2025.json (confidence: 0.84)
-2026-05-23 14:18:19,633 | main | INFO | Processing: Prov M16 J2 2025.pdf
-Detected 70 potential duplicate athletes
-2026-05-23 14:18:20,854 | main | INFO | Successfully processed Prov M16 J2 2025.pdf -> output\Prov M16 J2 2025.json (confidence: 0.85)
-2026-05-23 14:18:20,856 | main | INFO | Processing: Prov M16 J1 2025.pdf
-Detected 450 potential duplicate athletes
-2026-05-23 14:18:22,089 | main | INFO | Successfully processed Prov M16 J1 2025.pdf -> output\Prov M16 J1 2025.json (confidence: 0.89)
-2026-05-23 14:18:22,091 | main | INFO | Processing: Prov M14 2025.pdf
-Detected 1106 potential duplicate athletes
-2026-05-23 14:18:27,486 | main | INFO | Successfully processed Prov M14 2025.pdf -> output\Prov M14 2025.json (confidence: 0.87)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\julie\Desktop\RaceVault\app\gui.py", line 44, in <module>
+    from .main import Pipeline
+  File "C:\Users\julie\Desktop\RaceVault\app\main.py", line 17, in <module>
+    from app.layout_detector import LayoutDetector
+  File "C:\Users\julie\Desktop\RaceVault\app\layout_detector.py", line 7, in <module>
+    from app.parsers import PARSER_REGISTRY, get_parser
+  File "C:\Users\julie\Desktop\RaceVault\app\parsers\__init__.py", line 6, in <module>
+    from .layout_b import LayoutBParser
+  File "C:\Users\julie\Desktop\RaceVault\app\parsers\layout_b.py", line 130, in <module>
+    class LayoutNationalTrialsParser(BaseParser):
+  File "C:\Users\julie\Desktop\RaceVault\app\parsers\layout_b.py", line 229, in LayoutNationalTrialsParser
+    RACE_INFO_RE = re.compile(
+                   ^^^^^^^^^^^
+  File "C:\Users\julie\AppData\Local\Programs\Python\Python311\Lib\re\__init__.py", line 227, in compile
+    return _compile(pattern, flags)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\julie\AppData\Local\Programs\Python\Python311\Lib\re\__init__.py", line 294, in _compile
+    p = _compiler.compile(pattern, flags)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\julie\AppData\Local\Programs\Python\Python311\Lib\re\_compiler.py", line 745, in compile
+    p = _parser.parse(p, flags)
+        ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\julie\AppData\Local\Programs\Python\Python311\Lib\re\_parser.py", line 989, in parse
+    p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\julie\AppData\Local\Programs\Python\Python311\Lib\re\_parser.py", line 464, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\julie\AppData\Local\Programs\Python\Python311\Lib\re\_parser.py", line 730, in _parse
+    source.checkgroupname(name, 1, nested)
+  File "C:\Users\julie\AppData\Local\Programs\Python\Python311\Lib\re\_parser.py", line 307, in checkgroupname
+    raise self.error(msg, len(name) + offset)
+re.error: bad character in group name '<time' at position 4
