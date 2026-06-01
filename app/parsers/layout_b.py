@@ -5,6 +5,8 @@ import pandas as pd
 import re
 import logging
 
+from ..name_cleaner import NameCleaner
+
 logger = logging.getLogger(__name__)
 
 
@@ -251,6 +253,8 @@ class LayoutNationalTrialsParser(BaseParser):
             ]
         # Pre-compile club patterns for faster lookup
         self._club_pattern = "|".join(re.escape(club) for club in self.KNOWN_CLUBS)
+        # Name cleaner for consistent athlete name normalization
+        self.name_cleaner = NameCleaner()
 
     # ========================================================
     # MAIN PARSE
@@ -617,7 +621,27 @@ class LayoutNationalTrialsParser(BaseParser):
         if not athlete_names:
             return None
 
-        athletes = [Athlete(name) for name in athlete_names]
+        # Normalize athlete names (e.g. FULL CAPS -> Title Case)
+        athletes = []
+        for name in athlete_names:
+            try:
+                normalized, _, _, _ = self.name_cleaner.normalize(name)
+            except Exception:
+                normalized = None
+
+            final_name = normalized if normalized else name
+
+            # If any name part remains in ALL CAPS, title-case that part
+            parts = final_name.split()
+            fixed_parts = []
+            for p in parts:
+                if re.search(r"[A-ZÀ-ÖØ-Þ]{2,}", p):
+                    fixed_parts.append(p.title())
+                else:
+                    fixed_parts.append(p)
+            final_name = " ".join(fixed_parts)
+
+            athletes.append(Athlete(final_name))
 
         return Result(
             position=position,
